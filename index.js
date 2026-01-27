@@ -1,0 +1,73 @@
+const express = require('express')
+const fs = require('fs')
+const axios = require('axios')
+const settings = require('../mango/config/settings.json')
+const collections = require('../mango/config/.collections.json')
+
+let port = settings.frontPort
+let metaComment = '<!-- Inject Meta -->'
+let appPlaceholder = '<!--SSR-->'
+
+let serve = async function (req, res) {
+	let index = fs.readFileSync('./index.html', 'utf8')
+
+	// Cookies
+	let cookies
+	const {
+		headers: { cookie },
+	} = req
+	if (cookie) {
+		const values = cookie.split(';').reduce((res, item) => {
+			const data = item.trim().split('=')
+			return { ...res, [data[0]]: data[1] }
+		}, {})
+		cookies = values
+	}
+
+	// User Data Injection
+	let authorization = req?.query?.token || cookies?.Authorization
+	if (authorization) {
+		let userId = authorization.split(':')[1]
+		console.log('authorization', authorization)
+		console.log('userId', userId)
+		let user = await axios.get(`http://localhost:${settings.port}/members/${userId}`, { headers: { authorization }, timeout: 3000 })
+		user = user?.data?.response
+		console.log('user', user)
+		if (user) index = index.replace('window.user = null;', `window.user = ${JSON.stringify(user)};`)
+	}
+
+	// Define the collection and ID
+	let collection = req.path.split('/')[1]
+	let id = req.path.split('/')[2] ? req.path.split('/')[2] : null
+
+	// console.log('collection', collection)
+	// console.log('id', id)
+
+	let entry
+	try {
+		entry = (await axios.get(`http://localhost:${settings.port}/${collection}/${id}`, { timeout: 3000 }))?.data?.response
+	} catch (e) {
+		// Collection/entry not found or API error - just serve the page
+	}
+
+	if (!entry) return res.send(index)
+
+	// Main Content Injection
+	try {
+		index = index.replace('window.mainEntry = null;', `window.mainEntry = ${JSON.stringify(entry)};`)
+	} catch (e) {
+		console.log(e)
+	}
+
+	return res.send(index)
+}
+
+const app = express()
+
+app.get(['/index.html', '/'], serve)
+app.use(express.static('./'))
+app.get('/*', serve)
+
+app.listen(port, () => {
+	console.log(`Example app listening at http://localhost:${port}`)
+})

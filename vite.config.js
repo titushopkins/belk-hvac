@@ -1,0 +1,76 @@
+import { defineConfig } from 'vite'
+import vue from '@vitejs/plugin-vue'
+// import { VitePWA } from 'vite-plugin-pwa'
+import path from 'path'
+import fs from 'fs'
+
+// Determine project root based on config directory location
+let projectRoot = process.cwd()
+let configPath = path.resolve(projectRoot, 'mango')
+
+// If config doesn't exist in current directory, check parent
+if (!fs.existsSync(configPath)) {
+	projectRoot = path.resolve(projectRoot, '..')
+	configPath = path.resolve(projectRoot, 'mango')
+
+	// If config still doesn't exist, throw error
+	if (!fs.existsSync(configPath)) {
+		throw new Error('Mango folder not found. Please ensure your mango folder exists either in the current directory or parent directory.')
+	}
+}
+
+const collectionsPath = path.resolve(configPath, 'config/.collections.json')
+const endpointsPath = path.resolve(configPath, 'config/.endpoints.json')
+
+// https://vitejs.dev/config/
+export default defineConfig({
+	plugins: [
+		vue(),
+		// VitePWA({
+		//     registerType: 'autoUpdate',
+		//     includeAssets: ['images/*.jpg'],
+		//     // devOptions: {
+		//     //     enabled: true,
+		//     // },
+		//     workbox: {
+		//         importScripts: [
+		//             '/swBustCache.js',
+		//             '/swNetworkFirst.js?v=6'
+		//         ],
+		//         // globPatterns: ['**/*.{js,css,html,ico,png,svg,vue,jpg,jpeg}']
+		//     }
+		// }),
+		{
+			name: 'watch-collections-and-endpoints',
+			configureServer(server) {
+				server.watcher.add(collectionsPath)
+				server.watcher.add(endpointsPath)
+				server.watcher.on('change', (file) => {
+					if (file === collectionsPath || file === endpointsPath) {
+						server.ws.send({
+							type: 'full-reload',
+						})
+					}
+				})
+			},
+		},
+	],
+	server: {
+		host: '0.0.0.0',
+	},
+	resolve: {
+		alias: {
+			'@config': configPath,
+			'@mango': configPath,
+			'@settings': path.resolve(configPath, 'config/settings.json'),
+			'@collections': path.resolve(configPath, 'config/.collections.json'),
+			'@endpoints': path.resolve(configPath, 'config/.endpoints.json'),
+			'@plugins': path.resolve(configPath, 'plugins'),
+			vue: path.resolve(__dirname, 'node_modules/vue'),
+		},
+	},
+	optimizeDeps: {
+		include: ['debug'],
+		exclude: ['vue', '@collections', '@settings', '@endpoints'], // Prevent Vite from optimizing Vue separately
+	},
+})
