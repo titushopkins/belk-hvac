@@ -70,7 +70,16 @@ export default defineConfig({
 		},
 	},
 	optimizeDeps: {
-		include: ['debug'],
-		exclude: ['vue', '@collections', '@settings', '@endpoints'], // Prevent Vite from optimizing Vue separately
-	},
+      include: ['debug'],
+      exclude: ['vue'],
+      esbuildOptions: {
+        alias: {
+          '@collections': collectionsPath,
+          '@endpoints': endpointsPath,
+          '@settings': path.resolve(configPath, 'config/settings.json'),
+          '@config': configPath,
+          '@mango': configPath,
+        },
+      },
+    },
 })
