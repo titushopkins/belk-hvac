@@ -43,13 +43,13 @@
                     <Spinner v-else class="border-t-family-at-church-orange w-4 h-4 my-1" :small="true" color="border-t-white/50" />
                 </button>
 
-                <button v-if="store.user?.member?.id" @click="logout" class="text-xs text-gray-400 hover:underline">Logout</button>
+                <button v-if="store.user?.member?.id" @click="logout" class="text-xs text-gray-300 hover:underline">Logout</button>
 
                 <div class="text-center select-none" >
-                    <button v-if="!creatingAccount"     @click="creatingAccount = true; guest = false; forgotPassword = false" class="text-xs text-gray-400 hover:underline">Create Account</button>
-                    <button v-if="creatingAccount || resettingPassword"      @click="creatingAccount = false; guest = false; forgotPassword = false" class="text-xs text-gray-400 hover:underline" :class="{'ml-2 pl-2 border-l dark:border-gray-500': resettingPassword}">{{ resettingPassword || (allowGuest && !guest) ? 'Login' : 'Have an account? Login instead.' }}</button>
-                    <button v-if="allowGuest && !guest" @click="creatingAccount = true; guest = true; forgotPassword = false" class="text-xs text-gray-400 hover:underline ml-2 pl-2 border-l dark:border-gray-500">Continue as Guest</button>
-                    <button v-if="!creatingAccount && !resettingPassword"     @click="creatingAccount = false; guest = false; forgotPassword = true" class="text-xs text-gray-400 hover:underline ml-2 pl-2 border-l dark:border-gray-500">Forgot Password?</button>
+                    <button v-if="!creatingAccount"     @click="creatingAccount = true; guest = false; forgotPassword = false" class="text-xs text-gray-300 hover:underline">Create Account</button>
+                    <button v-if="creatingAccount || resettingPassword"      @click="creatingAccount = false; guest = false; forgotPassword = false" class="text-xs text-gray-300 hover:underline" :class="{'ml-2 pl-2 border-l dark:border-gray-500': resettingPassword}">{{ resettingPassword || (allowGuest && !guest) ? 'Login' : 'Have an account? Login instead.' }}</button>
+                    <button v-if="allowGuest && !guest" @click="creatingAccount = true; guest = true; forgotPassword = false" class="text-xs text-gray-300 hover:underline ml-2 pl-2 border-l dark:border-gray-500">Continue as Guest</button>
+                    <button v-if="!creatingAccount && !resettingPassword"     @click="creatingAccount = false; guest = false; forgotPassword = true" class="text-xs text-gray-300 hover:underline ml-2 pl-2 border-l dark:border-gray-500">Forgot Password?</button>
                 </div>
             </form>
         </slot>

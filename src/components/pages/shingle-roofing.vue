@@ -1,6 +1,6 @@
 
     <template>
-  <main class="w-full bg-white">
+  <main class="w-full bg-gray-900">
     <!-- HERO -->
     <div class="relative w-full h-screen max-h-[60vh] bg-[url('/images/coverage-warranty.jpg')] bg-cover bg-center">
       <div class="absolute inset-0 bg-black/50 backdrop-blur-sm" />
@@ -19,7 +19,7 @@
     <section class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
       <!-- Intro -->
       <div class="space-y-6">
-        <h2 class="text-2xl sm:text-3xl font-bold text-roofing-dark-gray">
+        <h2 class="text-2xl sm:text-3xl font-bold text-white">
           Jay Lott Roofing Inc. — Your Local GAF Master Elite® Contractor
         </h2>
 
@@ -30,7 +30,7 @@
 
       <!-- What Does Master Elite Mean -->
       <div class="mt-10 space-y-6">
-        <h3 class="text-xl sm:text-2xl font-bold text-roofing-dark-gray">
+        <h3 class="text-xl sm:text-2xl font-bold text-white">
           What Does “GAF Master Elite®” Mean?
         </h3>
 
@@ -46,7 +46,7 @@
 
       <!-- Why It's Important -->
       <div class="mt-10 space-y-6">
-        <h3 class="text-xl sm:text-2xl font-bold text-roofing-dark-gray">
+        <h3 class="text-xl sm:text-2xl font-bold text-white">
           Why It’s Important to You
         </h3>
 
@@ -82,7 +82,7 @@
 
       <!-- What It Takes -->
       <div class="mt-10 space-y-6">
-        <h3 class="text-xl sm:text-2xl font-bold text-roofing-dark-gray">
+        <h3 class="text-xl sm:text-2xl font-bold text-white">
           What It Takes to Become Master Elite®
         </h3>
 
@@ -114,7 +114,7 @@
 
       <!-- How Rare -->
       <div class="mt-10 space-y-6">
-        <h3 class="text-xl sm:text-2xl font-bold text-roofing-dark-gray">
+        <h3 class="text-xl sm:text-2xl font-bold text-white">
           How Rare Is the Master Elite® Certification?
         </h3>
 
@@ -127,7 +127,7 @@
 
       <!-- Golden Pledge -->
       <div class="mt-14 space-y-6">
-        <h2 class="text-2xl sm:text-3xl font-bold text-roofing-dark-gray">
+        <h2 class="text-2xl sm:text-3xl font-bold text-white">
           The Best Roof Warranty in the Industry — The GAF Golden Pledge® Warranty
         </h2>
 
@@ -141,7 +141,7 @@
         </div>
 
         <div class="rounded-b-2xl p-6 bg-gradient-to-b from-transparent to-white shadow-lg space-y-4">
-          <h3 class="text-xl font-bold text-roofing-dark-gray">
+          <h3 class="text-xl font-bold text-white">
             What Is the GAF Golden Pledge® Warranty?
           </h3>
 
@@ -174,7 +174,7 @@
         </div>
 
         <div class="rounded-b-2xl p-6 bg-gradient-to-b from-transparent to-white shadow-lg space-y-4">
-          <h3 class="text-xl font-bold text-roofing-dark-gray">
+          <h3 class="text-xl font-bold text-white">
             What Makes It Different From Other Warranties
           </h3>
 
@@ -246,7 +246,7 @@
       <!-- Process (numbered boxes like your code) -->
       <div class="mt-14 space-y-6">
         <div class="space-y-2">
-          <h2 class="text-2xl sm:text-3xl font-bold text-roofing-dark-gray">
+          <h2 class="text-2xl sm:text-3xl font-bold text-white">
             Our Step-by-Step Shingle Roof Installation Process
           </h2>
           <p>
@@ -263,7 +263,7 @@
               </div>
 
               <div class="space-y-3">
-                <h3 class="text-lg font-bold text-roofing-dark-gray">
+                <h3 class="text-lg font-bold text-white">
                   Protecting Your Home with the Catch-All Roof Net System
                 </h3>
 
@@ -301,7 +301,7 @@
               </div>
 
               <div class="space-y-3">
-                <h3 class="text-lg font-bold text-roofing-dark-gray">
+                <h3 class="text-lg font-bold text-white">
                   Careful Tear-Off & Roof Deck Inspection
                 </h3>
 
@@ -339,7 +339,7 @@
               </div>
 
               <div class="space-y-3">
-                <h3 class="text-lg font-bold text-roofing-dark-gray">
+                <h3 class="text-lg font-bold text-white">
                   Installing GAF StormGuard® Leak Barrier
                 </h3>
 
@@ -377,7 +377,7 @@
               </div>
 
               <div class="space-y-3">
-                <h3 class="text-lg font-bold text-roofing-dark-gray">
+                <h3 class="text-lg font-bold text-white">
                   Installing GAF FeltBuster® Synthetic Underlayment
                 </h3>
 
@@ -415,7 +415,7 @@
               </div>
 
               <div class="space-y-3">
-                <h3 class="text-lg font-bold text-roofing-dark-gray">
+                <h3 class="text-lg font-bold text-white">
                   Installing Drip Edge & GAF Pro-Start® Starter Strip Shingles
                 </h3>
 
@@ -461,7 +461,7 @@
               </div>
 
               <div class="space-y-3">
-                <h3 class="text-lg font-bold text-roofing-dark-gray">
+                <h3 class="text-lg font-bold text-white">
                   Installing Your Chosen GAF Shingles
                 </h3>
 
@@ -499,7 +499,7 @@
               </div>
 
               <div class="space-y-3">
-                <h3 class="text-lg font-bold text-roofing-dark-gray">
+                <h3 class="text-lg font-bold text-white">
                   Reflashing & Upgrading Plumbing Vents with Bullet Boots
                 </h3>
 
@@ -564,7 +564,7 @@
               </div>
 
               <div class="space-y-3">
-                <h3 class="text-lg font-bold text-roofing-dark-gray">
+                <h3 class="text-lg font-bold text-white">
                   Finishing with GAF Seal-A-Ridge® Hip & Ridge Shingles
                 </h3>
 
@@ -614,7 +614,7 @@
               </div>
 
               <div class="space-y-3">
-                <h3 class="text-lg font-bold text-roofing-dark-gray">
+                <h3 class="text-lg font-bold text-white">
                   Installing Cobra® Ridge Vent
                 </h3>
 
@@ -652,7 +652,7 @@
               </div>
 
               <div class="space-y-3">
-                <h3 class="text-lg font-bold text-roofing-dark-gray">
+                <h3 class="text-lg font-bold text-white">
                   Detailed Cleanup & Final Walkthrough
                 </h3>
 
@@ -686,7 +686,7 @@
 
       <!-- Good / Better / Best -->
       <div class="mt-14 space-y-6">
-        <h2 class="text-2xl sm:text-3xl font-bold text-roofing-dark-gray">
+        <h2 class="text-2xl sm:text-3xl font-bold text-white">
           Good / Better / Best — Your GAF Shingle Options
         </h2>
 
@@ -698,7 +698,7 @@
 
         <div class="space-y-6">
           <div class="rounded-b-2xl p-6 bg-gradient-to-b from-transparent to-white shadow-lg space-y-4">
-            <h3 class="text-xl font-bold text-roofing-dark-gray">
+            <h3 class="text-xl font-bold text-white">
               GOOD — GAF Natural Shadow®
             </h3>
             <p>
@@ -733,7 +733,7 @@
           </div>
 
           <div class="rounded-b-2xl p-6 bg-gradient-to-b from-transparent to-white shadow-lg space-y-4">
-            <h3 class="text-xl font-bold text-roofing-dark-gray">
+            <h3 class="text-xl font-bold text-white">
               BETTER — GAF Timberline HDZ®
             </h3>
             <p>
@@ -772,7 +772,7 @@
           </div>
 
           <div class="rounded-b-2xl p-6 bg-gradient-to-b from-transparent to-white shadow-lg space-y-4">
-            <h3 class="text-xl font-bold text-roofing-dark-gray">
+            <h3 class="text-xl font-bold text-white">
               BEST — GAF ArmorShield™ II (Impact-Resistant / Class 4)
             </h3>
             <p>
@@ -815,7 +815,7 @@
       <!-- Closing emphasis -->
       <div class="mt-14 space-y-6">
         <div class="p-6">
-          <h3 class="text-xl sm:text-2xl font-bold text-roofing-dark-gray">
+          <h3 class="text-xl sm:text-2xl font-bold text-white">
             Your Home Deserves the Best—Trust Jay Lott Roofing Inc.
           </h3>
           <p class="mt-2">
@@ -835,7 +835,7 @@
 
       <!-- CTA -->
       <div class="mt-16 space-y-6">
-        <h2 class="text-2xl sm:text-3xl font-bold text-roofing-dark-gray">
+        <h2 class="text-2xl sm:text-3xl font-bold text-white">
           Ready for a Shingle Roof?
         </h2>
         <p>
@@ -851,7 +851,7 @@
           </a>
           <a
             href="tel:+1XXXXXXXXXX"
-            class="inline-flex items-center justify-center rounded-full bg-roofing-light-gray px-8 py-4 text-roofing-dark-gray font-semibold tracking-wide hover:bg-roofing-gray/60 transition"
+            class="inline-flex items-center justify-center rounded-full bg-roofing-light-gray px-8 py-4 text-white font-semibold tracking-wide hover:bg-roofing-gray/60 transition"
           >
             Call Now
           </a>
@@ -864,6 +864,6 @@
 <style scoped>
 p,
 li {
-  @apply text-roofing-dark-gray;
+  @apply text-white;
 }
 </style>

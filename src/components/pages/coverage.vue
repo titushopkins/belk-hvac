@@ -1,6 +1,6 @@
  <template>
      <section
-       class="relative w-full bg-white overflow-hidden
+       class="relative w-full bg-gray-900 overflow-hidden
               px-6 sm:px-10 lg:px-24
               py-20 md:py-32"
      >
@@ -23,7 +23,7 @@
            <h2
              class="font-lobster italic font-semibold
                     text-2xl sm:text-4xl
-                    leading-tight text-roofing-dark-gray
+                    leading-tight text-white
                     max-w-xs sm:max-w-none"
            >
              We've got you covered.
@@ -59,12 +59,12 @@
 
                <!-- Content -->
                <div class="mt-4 space-y-2">
-                 <h3 class="text-base font-bold text-roofing-dark-gray">
+                 <h3 class="text-base font-bold text-white">
                    {{ cover.title }}
                  </h3>
 
                  <p
-                   class="text-xs sm:text-sm text-roofing-dark-gray/70
+                   class="text-xs sm:text-sm text-white/70
                           leading-5 sm:leading-6"
                  >
                    {{ cover.description }}

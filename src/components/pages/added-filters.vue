@@ -1,18 +1,18 @@
 <template>
 	<div class="w-full tracking-wide pl-2 pr-6 space-y-4">
-		<div class="lg:hidden text-lg font-semibold text-roofing-dark-gray m-auto whitespace-nowrap">Gallery Categories</div>
+		<div class="lg:hidden text-lg font-semibold text-white m-auto whitespace-nowrap">Gallery Categories</div>
 
 		<!-- Gallery Categories -->
 		<div class="-translate-y-2">
 			<div v-for="category in galleryCategories" :key="category.key">
 				<button type="button" @click="selectCategory(category.key)" :class="selectedGalleryCategory === category.key ? 'border-b border-roofing-teal' : 'border-b border-roofing-light-gray/60'" class="w-full flex items-center justify-between py-3 text-left">
 					<!-- Name -->
-					<span class="text-sm" :class="selectedGalleryCategory === category.key ? 'text-roofing-teal font-semibold' : 'text-black/70 font-medium hover:text-black'">
+					<span class="text-sm" :class="selectedGalleryCategory === category.key ? 'text-roofing-teal font-semibold' : 'text-gray-300/70 font-medium hover:text-gray-300'">
 						{{ category.label }}
 					</span>
 
 					<!-- Count pill -->
-					<span class="min-w-[52px] text-center text-xs font-semibold rounded-full px-3 py-1" :class="selectedGalleryCategory === category.key ? 'bg-roofing-teal text-white' : 'bg-roofing-light-gray/60 text-black/70'">
+					<span class="min-w-[52px] text-center text-xs font-semibold rounded-full px-3 py-1" :class="selectedGalleryCategory === category.key ? 'bg-roofing-teal text-white' : 'bg-roofing-light-gray/60 text-gray-300/70'">
 						{{ category.count }}
 					</span>
 				</button>
@@ -21,7 +21,7 @@
 
 		<!-- Sticky footer -->
 		<div class="flex w-full bottom-0 z-20">
-			<div class="bg-white py-8 px-6 w-full rounded-t-xl">
+			<div class="bg-gray-900 py-8 px-6 w-full rounded-t-xl">
 				<button type="button" @click="resetFilters" :disabled="!isFilterActive" class="flex items-center justify-center text-sm py-3 uppercase tracking-widest px-4 w-full rounded-md transition duration-300" :class="isFilterActive ? 'bg-roofing-red hover:bg-roofing-teal/50 text-white cursor-pointer' : 'bg-transparent opacity-50 text-roofing-gray cursor-not-allowed border border-roofing-gray'">Reset Filters</button>
 			</div>
 		</div>

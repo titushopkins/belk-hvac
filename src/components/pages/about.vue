@@ -12,7 +12,7 @@
     </div>
 
     <!-- Partner Logos Section -->
-    <section class="flex w-full justify-center items-center bg-white md:p-16 px-0">
+    <section class="flex w-full justify-center items-center bg-gray-900 md:p-16 px-0">
       <div class="w-full max-w-8xl">
         <div class="flex flex-col md:flex-row w-full justify-center px-8 py-12 sm:p-12">
           <div class="flex flex-col w-full gap-y-8">
@@ -20,7 +20,7 @@
               Our Story
             </div>
 
-            <div class="text-base text-roofing-dark-gray leading-6 space-y-4">
+            <div class="text-base text-white leading-6 space-y-4">
               <div>
                 Jay Lott Roofing was founded in <span class="font-semibold">1986 by Hershel “Jay” Lott</span> and his wife, <span class="font-semibold">Gladys,</span> with a simple
                 but powerful goal: do honest work, use quality materials, and treat people the right way.
@@ -73,7 +73,7 @@
               A New Chapter Built on the Same Foundation
             </div>
 
-            <div class="text-base text-roofing-dark-gray leading-6 space-y-4">
+            <div class="text-base text-white leading-6 space-y-4">
               <div>
                 At the beginning of <span class="font-semibold">2025, Jay Lott Roofing</span> merged with <span class="font-semibold">Deep East Texas Roofing,</span> a company
                 founded and owned by <span class="font-semibold">Justin Schlichter.</span> This merger brought together two trusted East Texas roofing companies that share the
@@ -129,19 +129,19 @@
               </div>
 
               <ul class="space-y-3 list-disc ml-12">
-                <li class="flex gap-3 text-roofing-dark-gray/80">
+                <li class="flex gap-3 text-white/80">
                   <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
                   <span class="font-semibold">The same honesty, quality, and faith-driven values that built Jay Lott Roofing’s reputation</span>
                 </li>
-                <li class="flex gap-3 text-roofing-dark-gray/80">
+                <li class="flex gap-3 text-white/80">
                   <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
                   <span class="font-semibold">More resources, better processes, and expanded capabilities to serve you efficiently</span>
                 </li>
-                <li class="flex gap-3 text-roofing-dark-gray/80">
+                <li class="flex gap-3 text-white/80">
                   <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
                   <span>Leadership involvement from both Jay Lott and Justin Schlichter</span>
                 </li>
-                <li class="flex gap-3 text-roofing-dark-gray/80">
+                <li class="flex gap-3 text-white/80">
                   <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
                   <span class="font-semibold">Work that is still personally inspected and held to a higher standard</span>
                 </li>
@@ -247,6 +247,6 @@ export default {
 <style scoped>
 p,
 li {
-  @apply leading-7 text-roofing-dark-gray;
+  @apply leading-7 text-white;
 }
 </style>

@@ -28,7 +28,7 @@
 									<a href="sms:4093827186" class="flex m-auto items-center gap-x-4">
 										<img class="w-16" src="/images/justin-teal-phone.svg" />
 										<div class="flex flex-col">
-											<div class="text-start font-semibold text-2xl pb-2 text-roofing-dark-gray tracking-wide">Call or Text Us</div>
+											<div class="text-start font-semibold text-2xl pb-2 text-white tracking-wide">Call or Text Us</div>
 											<div>(409) 382-7186</div>
 										</div>
 									</a>
@@ -36,7 +36,7 @@
 									<a href="mailto:jaylottroofing@gmail.com" class="flex m-auto items-center gap-x-4">
 										<img class="w-16" src="/images/justin-teal-email.svg" />
 										<div class="flex flex-col">
-											<div class="text-start font-semibold text-2xl pb-2 text-roofing-dark-gray tracking-wide">Send us an email</div>
+											<div class="text-start font-semibold text-2xl pb-2 text-white tracking-wide">Send us an email</div>
 											<div>jaylottroofing@gmail.com</div>
 										</div>
 									</a>
@@ -44,7 +44,7 @@
 									<a href="https://maps.google.com/?q=720+S+Wheeler+St,+Suite+5,+Jasper,+TX+75951" target="_blank" rel="noopener noreferrer" class="flex m-auto items-center gap-x-4">
 										<img class="w-16" src="/images/justin-teal-map.svg" />
 										<div class="flex flex-col">
-											<div class="text-start font-semibold text-2xl pb-2 text-roofing-dark-gray tracking-wide">Visit Us</div>
+											<div class="text-start font-semibold text-2xl pb-2 text-white tracking-wide">Visit Us</div>
 											<div>720 S Wheeler St, Suite 5, Jasper, TX 75951</div>
 										</div>
 									</a>
@@ -54,9 +54,9 @@
 					</div>
 
 					<!-- Tabs & Form/Calendar -->
-					<div class="w-full md:w-3/5 lg:max-w-xl bg-white rounded-2xl p-2 sm:p-6 shadow-xl shadow md:-translate-y-16">
+					<div class="w-full md:w-3/5 lg:max-w-xl bg-gray-900 rounded-2xl p-2 sm:p-6 shadow-xl shadow md:-translate-y-16">
 						<div class="flex flex-col w-full justify-start space-y-4">
-							<div class="text-start font-semibold text-2xl text-roofing-dark-gray tracking-wide">Contact Us</div>
+							<div class="text-start font-semibold text-2xl text-white tracking-wide">Contact Us</div>
 							<div class="text-sm leading-6">
 								Complete this form and we will get back with you as soon as possible.<br />
 								If you would like to request a free estimate, please select that option below and include your job location.
@@ -65,9 +65,9 @@
 
 						<div class="pt-8">
 							<div class="flex w-fit space-x-4 text-sm font-bold text-hp-gray-600 bg-stone-300/40 py-1 sm:py-2 px-2 sm:px-4 rounded-xl">
-								<button @click="store.activeTab = 'quote'" class="px-5 py-3 rounded-xl transition-all text-xs sm:text-sm" :class="store.activeTab === 'quote' ? 'bg-white font-semibold text-roofing-teal shadow' : 'bg-transparent'">Request a Free Quote</button>
+								<button @click="store.activeTab = 'quote'" class="px-5 py-3 rounded-xl transition-all text-xs sm:text-sm" :class="store.activeTab === 'quote' ? 'bg-gray-900 font-semibold text-roofing-teal shadow' : 'bg-transparent'">Request a Free Quote</button>
 
-								<button @click="store.activeTab = 'message'" class="px-5 py-3 rounded-xl transition-all text-xs sm:text-sm" :class="store.activeTab === 'message' ? 'bg-white font-semibold text-roofing-teal shadow' : 'bg-transparent'">Send a Message</button>
+								<button @click="store.activeTab = 'message'" class="px-5 py-3 rounded-xl transition-all text-xs sm:text-sm" :class="store.activeTab === 'message' ? 'bg-gray-900 font-semibold text-roofing-teal shadow' : 'bg-transparent'">Send a Message</button>
 							</div>
 
 							<!-- Form Area -->
@@ -238,7 +238,7 @@ export default {
 }
 
 .input-title {
-	@apply text-sm font-semibold text-roofing-dark-gray;
+	@apply text-sm font-semibold text-white;
 }
 
 .input-css {
@@ -248,7 +248,7 @@ export default {
 
 <style lang="postcss">
 .pac-container {
-	@apply bg-white rounded-lg shadow-lg border border-gray-200 mt-1 font-sans;
+	@apply bg-gray-900 rounded-lg shadow-lg border border-gray-200 mt-1 font-sans;
 }
 
 .pac-item {
@@ -265,7 +265,7 @@ export default {
 }
 
 .pac-item-query {
-	@apply text-roofing-dark-gray font-semibold;
+	@apply text-white font-semibold;
 }
 
 .pac-matched {

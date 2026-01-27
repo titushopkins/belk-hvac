@@ -11,8 +11,8 @@
 						<div v-else class="w-full h-full max-h-[350px] sm:max-w-[494px] sm:max-h-[494px] rounded-lg bg-roofing-light-gray border border-roofing-light-gray/40 shadow-sm flex">
 							<div class="flex w-full gap-2 pt-4">
 								<div class="pl-4 space-y-4">
-									<h3 class="text-3xl font-semibold text-black">Want this roof on your house?</h3>
-									<p class="text-sm text-roofing-dark-gray">Contact us now to make arrangements for roofing services!</p>
+									<h3 class="text-3xl font-semibold text-gray-300">Want this roof on your house?</h3>
+									<p class="text-sm text-white">Contact us now to make arrangements for roofing services!</p>
 									<a href="/contact" class="text-xs text-white bg-roofing-red rounded-full px-4 py-2"> Request a Free Quote </a>
 									<div class="flex w-full justify-start items-start flex w-full h-auto md:items-end bottom-0 gap-4 pt-2">
 										<div class="flex flex-col gap-[1px]">
@@ -27,7 +27,7 @@
 								</div>
 
 								<div class="flex w-full justify-end items-end bottom-0">
-									<img src="/images/justin-Illustration.svg" alt="" class="w-auto h-full max-h-80 sm:max-h-[400px] rounded-tl-[80px]" />
+									<img src="/images/belk-cartoon.svg" alt="" class="w-auto h-full max-h-80 sm:max-h-[400px] rounded-tl-[80px]" />
 								</div>
 							</div>
 						</div>
@@ -37,7 +37,7 @@
 		</div>
 
 		<div v-if="hasMoreImages" class="mb-1 mt-12 flex justify-center items-end">
-			<button @click="loadMore" class="px-3 py-2 rounded-md bg-roofing-light-gray text-roofing-dark-gray/80 text-sm font-semibold">Load More</button>
+			<button @click="loadMore" class="px-3 py-2 rounded-md bg-roofing-light-gray text-white/80 text-sm font-semibold">Load More</button>
 		</div>
 	</div>
 </template>

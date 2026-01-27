@@ -1,5 +1,5 @@
 <template>
-  <main class="w-full bg-white">
+  <main class="w-full bg-gray-900">
     <div
       class="relative w-full h-screen max-h-[60vh] bg-[url('/images/flat-roof-jay-lott.jpg')] bg-no-repeat bg-cover backdrop-blur-lg bg-center"
     >
@@ -19,7 +19,7 @@
     <section class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
       <!-- Commercial Roofing -->
       <div class="space-y-6">
-        <h2 class="text-2xl sm:text-3xl font-bold text-roofing-dark-gray">
+        <h2 class="text-2xl sm:text-3xl font-bold text-white">
           Commercial Roofing & Mule-Hide Certified Systems
         </h2>
 
@@ -34,7 +34,7 @@
           As a certified installer, we follow approved installation methods that help ensure your roof performs as designed and qualifies for manufacturer-backed warranties.
         </p>
 
-        <h2 class="text-2xl sm:text-3xl font-bold text-roofing-dark-gray">
+        <h2 class="text-2xl sm:text-3xl font-bold text-white">
           TPO Commercial Roofing Systems
         </h2>
 
@@ -43,7 +43,7 @@
           resistance to UV exposure, heat, and weathering—making it well suited for Texas conditions.
         </p>
 
-        <h3 class="text-xl sm:text-2xl font-bold text-roofing-dark-gray">
+        <h3 class="text-xl sm:text-2xl font-bold text-white">
           Benefits of TPO Roofing
         </h3>
 
@@ -75,10 +75,10 @@
       <!-- Commercial Roof Coating Systems -->
       <div class="mt-10 space-y-6">
         <div class="space-y-2">
-          <h2 class="text-2xl sm:text-3xl font-bold text-roofing-dark-gray">
+          <h2 class="text-2xl sm:text-3xl font-bold text-white">
             Commercial Roof Coating Systems
           </h2>
-          <h3 class="text-xl font-bold text-roofing-dark-gray">
+          <h3 class="text-xl font-bold text-white">
             A True Renewable Roofing Solution
           </h3>
         </div>
@@ -93,7 +93,7 @@
           significantly delaying tear-off and reducing long-term ownership costs.
         </p>
 
-        <h3 class="text-xl sm:text-2xl font-bold text-roofing-dark-gray">
+        <h3 class="text-xl sm:text-2xl font-bold text-white">
           Benefits of Commercial Roof Coatings
         </h3>
 
@@ -127,7 +127,7 @@
 
       <!-- Why Commercial Clients Choose -->
       <div class="mt-10 space-y-6">
-        <h3 class="text-xl sm:text-2xl font-bold text-roofing-dark-gray">
+        <h3 class="text-xl sm:text-2xl font-bold text-white">
           Why Commercial Clients Choose Jay Lott Roofing
         </h3>
 
@@ -158,7 +158,7 @@
           We help building owners and property managers make informed decisions that protect their investment today and into the future.
         </p>
 
-        <h3 class="text-xl sm:text-2xl font-bold text-roofing-dark-gray">
+        <h3 class="text-xl sm:text-2xl font-bold text-white">
           Schedule a Commercial Roof Evaluation
         </h3>
 
@@ -170,7 +170,7 @@
 
       <!-- Closing CTA -->
       <div class="mt-16 space-y-6">
-        <h2 class="text-2xl sm:text-3xl font-bold text-roofing-dark-gray">
+        <h2 class="text-2xl sm:text-3xl font-bold text-white">
           Ready to Talk Flat Roofing?
         </h2>
 
@@ -188,7 +188,7 @@
           </a>
           <a
             href="tel:+1XXXXXXXXXX"
-            class="inline-flex items-center justify-center rounded-full bg-roofing-light-gray/60 px-8 py-4 text-roofing-dark-gray font-semibold tracking-wide hover:bg-roofing-light-gray transition"
+            class="inline-flex items-center justify-center rounded-full bg-roofing-light-gray/60 px-8 py-4 text-white font-semibold tracking-wide hover:bg-roofing-light-gray transition"
           >
             Call Now
           </a>
@@ -201,6 +201,6 @@
 <style scoped>
 p,
 li {
-  @apply leading-7 text-roofing-dark-gray;
+  @apply leading-7 text-white;
 }
 </style>

@@ -15,7 +15,7 @@
 				<div class="absolute left-[80%] top-1/2 -translate-y-1/2 w-4 h-4 bg-roofing-orange border-2 border-white rounded-full"></div>
 			</div>
 
-			<div class="flex justify-between mt-3 text-xs text-roofing-dark-gray font-semibold">
+			<div class="flex justify-between mt-3 text-xs text-white font-semibold">
 				<span>$150</span>
 				<span>$800</span>
 			</div>

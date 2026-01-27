@@ -1,5 +1,5 @@
 <template>
-  <main class="w-full bg-white">
+  <main class="w-full bg-gray-900">
     <div
       class="relative w-full h-screen max-h-[60vh] bg-[url('/images/roof-repair.jpg')] bg-no-repeat bg-cover backdrop-blur-lg bg-center"
     >
@@ -19,7 +19,7 @@
     <section class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
       <!-- Intro -->
       <div class="space-y-6">
-        <h2 class="text-2xl sm:text-3xl font-bold text-roofing-dark-gray">
+        <h2 class="text-2xl sm:text-3xl font-bold text-white">
           Roof Repair & Emergency Services
         </h2>
 
@@ -32,7 +32,7 @@
 
       <!-- Complete Roof Repair Services -->
       <div class="mt-10 space-y-6">
-        <h3 class="text-xl sm:text-2xl font-bold text-roofing-dark-gray">
+        <h3 class="text-xl sm:text-2xl font-bold text-white">
           Complete Roof Repair Services
         </h3>
 
@@ -73,7 +73,7 @@
 
       <!-- Siding & Fascia Repairs -->
       <div class="mt-10 space-y-6">
-        <h3 class="text-xl sm:text-2xl font-bold text-roofing-dark-gray">
+        <h3 class="text-xl sm:text-2xl font-bold text-white">
           Siding & Fascia Repairs
         </h3>
 
@@ -103,7 +103,7 @@
 
       <!-- Residential & Commercial Repairs -->
       <div class="mt-10 space-y-6">
-        <h3 class="text-xl sm:text-2xl font-bold text-roofing-dark-gray">
+        <h3 class="text-xl sm:text-2xl font-bold text-white">
           Residential & Commercial Repairs
         </h3>
 
@@ -115,7 +115,7 @@
 
       <!-- Emergency & After-Hours Service -->
       <div class="mt-12 space-y-6">
-        <h3 class="text-xl sm:text-2xl font-bold text-roofing-dark-gray">
+        <h3 class="text-xl sm:text-2xl font-bold text-white">
           Emergency & After-Hours Service
         </h3>
 
@@ -149,7 +149,7 @@
 
       <!-- Why Jay Lott Roofing -->
       <div class="mt-10 space-y-6">
-        <h3 class="text-xl sm:text-2xl font-bold text-roofing-dark-gray">
+        <h3 class="text-xl sm:text-2xl font-bold text-white">
           Why Jay Lott Roofing?
         </h3>
 
@@ -183,7 +183,7 @@
 
       <!-- Closing CTA -->
       <div class="mt-16 space-y-6">
-        <h2 class="text-2xl sm:text-3xl font-bold text-roofing-dark-gray">
+        <h2 class="text-2xl sm:text-3xl font-bold text-white">
           Need Roof Repairs or Emergency Help?
         </h2>
 
@@ -202,7 +202,7 @@
           </a>
           <a
             href="tel:+1XXXXXXXXXX"
-            class="inline-flex items-center justify-center rounded-full bg-roofing-light-gray/60 px-8 py-4 text-roofing-dark-gray font-semibold tracking-wide hover:bg-roofing-light-gray transition"
+            class="inline-flex items-center justify-center rounded-full bg-roofing-light-gray/60 px-8 py-4 text-white font-semibold tracking-wide hover:bg-roofing-light-gray transition"
           >
             Call Now
           </a>
@@ -215,6 +215,6 @@
 <style scoped>
 p,
 li {
-  @apply leading-7 text-roofing-dark-gray;
+  @apply leading-7 text-white;
 }
 </style>

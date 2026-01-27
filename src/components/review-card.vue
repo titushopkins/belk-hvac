@@ -19,10 +19,10 @@
 
 		<!-- Full Review Modal -->
 		<div v-if="showFullReview" class="fixed inset-0 z-50 flex items-center justify-center bg-black/50" @click.self="showFullReview = false">
-			<div class="bg-white rounded-lg p-6 w-full max-w-lg mx-4 shadow-xl max-h-[80vh] overflow-y-auto">
+			<div class="bg-gray-900 rounded-lg p-6 w-full max-w-lg mx-4 shadow-xl max-h-[80vh] overflow-y-auto">
 				<div class="flex justify-between items-start mb-4">
 					<h3 class="text-lg font-semibold text-gray-900">{{ author }}</h3>
-					<button @click="showFullReview = false" class="text-gray-400 hover:text-gray-600 text-xl">&times;</button>
+					<button @click="showFullReview = false" class="text-gray-300 hover:text-gray-600 text-xl">&times;</button>
 				</div>
 				<div class="flex items-center gap-1 mb-4">
 					<img v-for="i in 5" :key="i" src="/images/icon-star.svg" alt="" class="w-4 h-4" />

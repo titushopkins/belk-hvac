@@ -1,5 +1,5 @@
 <template>
-	<section class="relative w-full bg-white overflow-hidden px-6 sm:px-10 lg:px-24 py-20 md:py-32">
+	<section class="relative w-full bg-gray-900 overflow-hidden px-6 sm:px-10 lg:px-24 py-20 md:py-32">
 		<!-- Background Decorative Icon -->
 		<div class="absolute -top-20 sm:-top-28 right-0 w-44 h-44 sm:w-96 sm:h-96 lg:w-[32rem] lg:h-[32rem] object-contain opacity-10 pointer-events-none select-none">
 			<img src="/images/icon-large-hammar.svg" alt="" class="w-full h-full object-contain" />
@@ -8,7 +8,7 @@
 		<div class="relative max-w-7xl mx-auto">
 			<!-- Title -->
 			<div class="flex items-start justify-between gap-4">
-				<h2 class="font-lobster italic font-semibold text-2xl sm:text-4xl leading-tight text-black max-w-xs sm:max-w-none">Experts in Roofing, Home Renovation and Construction.</h2>
+				<h2 class="font-lobster italic font-semibold text-2xl sm:text-4xl leading-tight text-gray-300 max-w-xs sm:max-w-none">Experts in Roofing, Home Renovation and Construction.</h2>
 
 				<img src="/images/icon-hammar.svg" alt="" class="w-9 h-9 sm:w-12 sm:h-12 shrink-0 opacity-80 mt-1" />
 			</div>
@@ -24,11 +24,11 @@
 
 						<!-- Content -->
 						<div class="mt-4 space-y-2">
-							<h3 class="text-base font-bold text-black">
+							<h3 class="text-base font-bold text-gray-300">
 								{{ service.title }}
 							</h3>
 
-							<p class="text-xs sm:text-sm text-black/70 leading-5 sm:leading-6">
+							<p class="text-xs sm:text-sm text-gray-300/70 leading-5 sm:leading-6">
 								{{ service.description }}
 							</p>
 

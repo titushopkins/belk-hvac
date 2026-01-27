@@ -13,15 +13,15 @@
 
 			<div class="flex items-center gap-3 text-xs sm:text-sm text-white/90">
 				<span>{{ reviewMeta?.rating || 5 }} stars on Google</span>
-				<span class="w-1 h-1 rounded-full bg-white/30"></span>
+				<span class="w-1 h-1 rounded-full bg-gray-900/30"></span>
 				<a href="https://www.google.com/search?q=jay+lott+roofing#lrd=0x86399f82a9736a65:0x691feea0c74b27,1" target="_blank" class="underline underline-offset-4 hover:no-underline">See More on Google</a>
-				<!-- <span class="w-1 h-1 rounded-full bg-white/30"></span>
+				<!-- <span class="w-1 h-1 rounded-full bg-gray-900/30"></span>
 				<button @click="showReviewForm = true" class="underline underline-offset-4 hover:no-underline">Leave a Review</button> -->
 			</div>
 
 			<!-- Review Form Modal -->
 			<div v-if="showReviewForm" class="fixed inset-0 z-50 flex items-center justify-center bg-black/50" @click.self="showReviewForm = false">
-				<div class="bg-white rounded-lg p-6 w-full max-w-md mx-4 shadow-xl">
+				<div class="bg-gray-900 rounded-lg p-6 w-full max-w-md mx-4 shadow-xl">
 					<h3 class="text-xl font-semibold text-gray-900 mb-4">Leave a Review</h3>
 					<form @submit.prevent="submitReview">
 						<div class="mb-4">

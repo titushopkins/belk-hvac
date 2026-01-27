@@ -13,7 +13,7 @@
 		<div
 			ref="modalContent"
 			@click.stop
-			class="shadow-card rounded w-full p-4 md:p-8 m-2 dark:bg-gray-800 bg-white relative border dark:border-gray-700 space-y-4 md:space-y-8 max-h-[75vh]"
+			class="shadow-card rounded w-full p-4 md:p-8 m-2 dark:bg-gray-800 bg-gray-900 relative border dark:border-gray-700 space-y-4 md:space-y-8 max-h-[75vh]"
 			:class="[dialogClasses, maxWidth, allowOverflow ? 'overflow-visible' : 'overflow-y-scroll']"
 		>
 			<slot :close="close" />

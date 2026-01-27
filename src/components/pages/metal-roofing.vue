@@ -1,5 +1,5 @@
 <template>
-  <main class="w-full bg-white">
+  <main class="w-full bg-gray-900">
     <!-- HERO -->
     <div class="relative w-full h-screen max-h-[60vh] bg-[url('/images/frame-2-large.png')] bg-cover bg-center">
       <div class="absolute inset-0 bg-black/50 backdrop-blur-sm" />
@@ -18,7 +18,7 @@
     <section class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
       <!-- Intro -->
       <div class="space-y-6">
-        <h2 class="text-2xl sm:text-3xl font-bold text-roofing-dark-gray">
+        <h2 class="text-2xl sm:text-3xl font-bold text-white">
           Why Metal Roofing Is a Smart Investment in Texas
         </h2>
 
@@ -37,7 +37,7 @@
 
       <!-- Galvalume vs Painted -->
       <div class="mt-10 space-y-6">
-        <h3 class="text-xl sm:text-2xl font-bold text-roofing-dark-gray">
+        <h3 class="text-xl sm:text-2xl font-bold text-white">
           Galvalume vs. Painted Metal: Understanding the Difference
         </h3>
 
@@ -46,14 +46,14 @@
         </p>
 
         <div class="rounded-b-2xl p-6 bg-gradient-to-b from-transparent to-white shadow-lg p-6 space-y-4">
-          <h4 class="font-bold text-roofing-dark-gray text-lg">
+          <h4 class="font-bold text-white text-lg">
             Galvalume (Unpainted)
           </h4>
           <p>
             <span class="font-semibold">Galvalume metal</span> is coated with a blend of aluminum and zinc, which provides exceptional corrosion resistance and durability. It has a natural metallic finish and is often chosen for its strength, longevity, and lower cost compared to painted options. Galvalume is a great choice for homeowners who prioritize performance and a more industrial or classic metal look.
           </p>
 
-          <h4 class="font-bold text-roofing-dark-gray text-lg">
+          <h4 class="font-bold text-white text-lg">
             Painted Metal
           </h4>
           <p>
@@ -67,7 +67,7 @@
 
       <!-- Mueller Warranties -->
       <div class="mt-10 space-y-6">
-        <h3 class="text-xl sm:text-2xl font-bold text-roofing-dark-gray">
+        <h3 class="text-xl sm:text-2xl font-bold text-white">
           Mueller Warranties: Built-In Confidence
         </h3>
 
@@ -76,7 +76,7 @@
         </p>
 
         <div class="rounded-b-2xl p-6 bg-gradient-to-b from-transparent to-white shadow-lg p-6 space-y-4">
-          <h4 class="font-bold text-roofing-dark-gray text-lg">
+          <h4 class="font-bold text-white text-lg">
             Galvalume (Unpainted) Warranty
           </h4>
           <p>
@@ -87,7 +87,7 @@
           </p>
 
           <div class="pt-6">
-          <h4 class="font-bold text-roofing-dark-gray text-lg">
+          <h4 class="font-bold text-white text-lg">
             Painted Metal Warranty
           </h4>
           <p>
@@ -108,7 +108,7 @@
 
       <!-- Types of Metal Roofing -->
       <div class="mt-14 space-y-6">
-        <h2 class="text-2xl sm:text-3xl font-bold text-roofing-dark-gray">
+        <h2 class="text-2xl sm:text-3xl font-bold text-white">
           The Three Main Types of Metal Roofing We Install
         </h2>
 
@@ -122,7 +122,7 @@
 
         <div class="space-y-6">
           <div class="relative rounded-b-2xl p-6 bg-gradient-to-b from-transparent to-white shadow-lg">
-            <h3 class="text-xl font-bold text-roofing-dark-gray">
+            <h3 class="text-xl font-bold text-white">
               R-Panel (Exposed Fastener Metal Roofing)
             </h3>
             <p class="mt-2">
@@ -143,7 +143,7 @@
           </div>
 
             <div class="pt-6">
-            <h3 class="text-xl font-bold text-roofing-dark-gray">
+            <h3 class="text-xl font-bold text-white">
               Concealed Fastener Panel (Hidden Fastener Metal Roofing)
             </h3>
             <p class="mt-2">
@@ -165,7 +165,7 @@
 
 
           <div class="rounded-b-2xl p-6 bg-gradient-to-b from-transparent to-white shadow-lg">
-            <h3 class="text-xl font-bold text-roofing-dark-gray">
+            <h3 class="text-xl font-bold text-white">
               Mueller Snap-Lok Standing Seam (Premium Metal Roofing)
             </h3>
             <p class="mt-2">
@@ -181,7 +181,7 @@
               This system offers the cleanest appearance, the best durability, and the longest lifespan—making it the ideal choice for homeowners who want a premium, worry-free metal roof.
             </p>
             <div class="pt-6">
-                <h4 class="font-bold text-roofing-dark-gray text-lg">
+                <h4 class="font-bold text-white text-lg">
               Choosing the Right Metal Roofing System
             </h4>
             <p class="mt-2">
@@ -195,10 +195,10 @@
       <!-- Process (numbered boxes like your code) -->
       <div class="mt-14 space-y-6">
         <div class="space-y-2">
-          <h2 class="text-2xl sm:text-3xl font-bold text-roofing-dark-gray">
+          <h2 class="text-2xl sm:text-3xl font-bold text-white">
             Our Metal Roof Installation Process
           </h2>
-          <h3 class="text-xl font-bold text-roofing-dark-gray">
+          <h3 class="text-xl font-bold text-white">
             System-Specific Installation With Precision Flashing at Every Step
           </h3>
           <p>
@@ -215,7 +215,7 @@
               </div>
 
               <div class="space-y-3">
-                <h3 class="text-lg font-bold text-roofing-dark-gray">
+                <h3 class="text-lg font-bold text-white">
                   Roof Prep & Surface Preparation
                 </h3>
 
@@ -253,7 +253,7 @@
               </div>
 
               <div class="space-y-3">
-                <h3 class="text-lg font-bold text-roofing-dark-gray">
+                <h3 class="text-lg font-bold text-white">
                   Eave & Rake (Perimeter) Flashing
                 </h3>
 
@@ -280,7 +280,7 @@
               </div>
 
               <div class="space-y-3">
-                <h3 class="text-lg font-bold text-roofing-dark-gray">
+                <h3 class="text-lg font-bold text-white">
                   Valley Flashing Installation
                 </h3>
 
@@ -334,7 +334,7 @@
               </div>
 
               <div class="space-y-3">
-                <h3 class="text-lg font-bold text-roofing-dark-gray">
+                <h3 class="text-lg font-bold text-white">
                   Panel Installation
                 </h3>
 
@@ -380,7 +380,7 @@
               </div>
 
               <div class="space-y-3">
-                <h3 class="text-lg font-bold text-roofing-dark-gray">
+                <h3 class="text-lg font-bold text-white">
                   Transitions & Pitch Changes
                 </h3>
 
@@ -422,7 +422,7 @@
               </div>
 
               <div class="space-y-3">
-                <h3 class="text-lg font-bold text-roofing-dark-gray">
+                <h3 class="text-lg font-bold text-white">
                   Sidewalls & Endwalls
                 </h3>
 
@@ -460,7 +460,7 @@
               </div>
 
               <div class="space-y-3">
-                <h3 class="text-lg font-bold text-roofing-dark-gray">
+                <h3 class="text-lg font-bold text-white">
                   Chimneys & Roof Penetrations
                 </h3>
 
@@ -494,7 +494,7 @@
               </div>
 
               <div class="space-y-3">
-                <h3 class="text-lg font-bold text-roofing-dark-gray">
+                <h3 class="text-lg font-bold text-white">
                   Hip & Ridge Flashing
                 </h3>
 
@@ -565,7 +565,7 @@
               </div>
 
               <div class="space-y-3">
-                <h3 class="text-lg font-bold text-roofing-dark-gray">
+                <h3 class="text-lg font-bold text-white">
                   Final Cleanup & Walkthrough
                 </h3>
 
@@ -583,7 +583,7 @@
 
         <!-- Closing emphasis -->
         <div class="p-6">
-          <h3 class="text-xl sm:text-2xl font-bold text-roofing-dark-gray">
+          <h3 class="text-xl sm:text-2xl font-bold text-white">
             Installed Right. Finished Clean. Built to Last.
           </h3>
           <p class="mt-2">
@@ -594,7 +594,7 @@
 
       <!-- CTA -->
       <div class="mt-16 space-y-6">
-        <h2 class="text-2xl sm:text-3xl font-bold text-roofing-dark-gray">
+        <h2 class="text-2xl sm:text-3xl font-bold text-white">
           Ready for a Metal Roof?
         </h2>
         <p>
@@ -610,7 +610,7 @@
           </a>
           <a
             href="tel:+1XXXXXXXXXX"
-            class="inline-flex items-center justify-center rounded-full bg-roofing-light-gray px-8 py-4 text-roofing-dark-gray font-semibold tracking-wide hover:bg-roofing-gray/60 transition"
+            class="inline-flex items-center justify-center rounded-full bg-roofing-light-gray px-8 py-4 text-white font-semibold tracking-wide hover:bg-roofing-gray/60 transition"
           >
             Call Now
           </a>
@@ -623,6 +623,6 @@
 <style scoped>
 p,
 li {
-  @apply text-roofing-dark-gray;
+  @apply text-white;
 }
 </style>

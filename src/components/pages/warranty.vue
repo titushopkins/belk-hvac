@@ -1,5 +1,5 @@
 <template>
-  <main class="w-full bg-white">
+  <main class="w-full bg-gray-900">
     <!-- HERO -->
     <div class="relative w-full h-screen max-h-[60vh] bg-[url('/images/coverage-2.png')] bg-cover bg-center">
       <div class="absolute inset-0 bg-black/50 backdrop-blur-sm" />
@@ -18,7 +18,7 @@
     <section class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-12 sm:py-16 space-y-14">
       <!-- Five-Year Workmanship Warranty -->
       <div class="space-y-6">
-        <h2 class="text-2xl sm:text-3xl font-bold text-roofing-dark-gray">
+        <h2 class="text-2xl sm:text-3xl font-bold text-gray-300">
           Five-Year Workmanship Warranty on Installations
         </h2>
 
@@ -53,7 +53,7 @@
 
       <!-- GAF Gold Pledge -->
       <div class="space-y-6">
-        <h2 class="text-2xl sm:text-3xl font-bold text-roofing-dark-gray">
+        <h2 class="text-2xl sm:text-3xl font-bold text-gray-300">
           GAF Gold Pledge® Warranty on Shingle Roofs
         </h2>
 
@@ -90,7 +90,7 @@
 
       <!-- Mueller Metal Paint Warranties -->
       <div class="space-y-6">
-        <h2 class="text-2xl sm:text-3xl font-bold text-roofing-dark-gray">
+        <h2 class="text-2xl sm:text-3xl font-bold text-gray-300">
           Mueller® Metal Roof Paint Warranties
         </h2>
 
@@ -126,7 +126,7 @@
 
       <!-- Why Our Warranties Matter -->
       <div class="space-y-6">
-        <h2 class="text-2xl sm:text-3xl font-bold text-roofing-dark-gray">
+        <h2 class="text-2xl sm:text-3xl font-bold text-gray-300">
           Why Our Warranties Matter
         </h2>
 
@@ -161,6 +161,6 @@
 <style scoped>
 p,
 li {
-  @apply leading-7 text-roofing-dark-gray;
+  @apply leading-7 text-gray-300;
 }
 </style>

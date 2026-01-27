@@ -1,6 +1,6 @@
 <template>
     <div :class="{'dark':false}">
-        <div class="relative from-white to-slate-50 bg-gradient-to-b dark:from-black dark:to-gray-700 dark:selection:bg-gray-400 dark:text-gray-400 w-full min-h-screen">
+        <div class="relative from-white to-slate-50 bg-gradient-to-b dark:from-black dark:to-gray-700 dark:selection:bg-gray-300 dark:text-gray-300 w-full min-h-screen">
 
             <RoofingNavigation />
 

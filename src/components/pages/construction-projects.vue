@@ -1,5 +1,5 @@
 <template>
-  <main class="w-full bg-white">
+  <main class="w-full bg-gray-900">
     <div
       class="relative w-full h-screen max-h-[60vh] bg-[url('/images/construction-projects.png')] bg-cover bg-center"
     >
@@ -20,10 +20,10 @@
       <!-- Interior Construction -->
       <div class="space-y-6">
         <div class="space-y-2">
-          <h2 class="text-2xl sm:text-3xl font-bold text-roofing-dark-gray">
+          <h2 class="text-2xl sm:text-3xl font-bold text-white">
             More Than Roofing — Complete Remodel & Construction Services
           </h2>
-          <h3 class="text-xl font-semibold text-roofing-dark-gray">
+          <h3 class="text-xl font-semibold text-white">
             Interior Remodeling Services
           </h3>
         </div>
@@ -100,7 +100,7 @@
           </li>
         </ul>
 
-        <h3 class="text-xl sm:text-2xl font-bold text-roofing-dark-gray">
+        <h3 class="text-xl sm:text-2xl font-bold text-white">
           See Our Work & Schedule a Free Estimate
         </h3>
 
@@ -121,7 +121,7 @@
 
       <!-- Exterior Construction -->
       <div class="mt-14 space-y-6">
-        <h3 class="text-xl sm:text-2xl font-bold text-roofing-dark-gray">
+        <h3 class="text-xl sm:text-2xl font-bold text-white">
           Exterior Construction Services
         </h3>
 
@@ -204,7 +204,7 @@
           </li>
         </ul>
 
-        <h3 class="text-xl sm:text-2xl font-bold text-roofing-dark-gray">
+        <h3 class="text-xl sm:text-2xl font-bold text-white">
           See Our Work & Schedule a Free Estimate
         </h3>
 
@@ -231,7 +231,7 @@
           </a>
           <a
             href="tel:+1XXXXXXXXXX"
-            class="inline-flex items-center justify-center rounded-full bg-roofing-light-gray/60 px-8 py-4 text-roofing-dark-gray font-semibold tracking-wide hover:bg-roofing-light-gray transition"
+            class="inline-flex items-center justify-center rounded-full bg-roofing-light-gray/60 px-8 py-4 text-white font-semibold tracking-wide hover:bg-roofing-light-gray transition"
           >
             Call Now
           </a>
@@ -244,6 +244,6 @@
 <style scoped>
 p,
 li {
-  @apply leading-7 text-roofing-dark-gray;
+  @apply leading-7 text-white;
 }
 </style>

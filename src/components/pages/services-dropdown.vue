@@ -6,7 +6,7 @@
 			class="transition-all duration-300 ease-in-out"
 		/>
 		<div
-			class="select-none  w-full justify-center sm:max-w-[352px] transition-all transform-gpu duration-700 bg-white sm:rounded-xl shadow-lg shadow-roofing-light-brown sm:shadow-black h-[440px] relative z-[60]"
+			class="select-none  w-full justify-center sm:max-w-[352px] transition-all transform-gpu duration-700 bg-gray-900 sm:rounded-xl shadow-lg shadow-roofing-light-brown sm:shadow-black h-[440px] relative z-[60]"
 			:class="serviceImage ? '' : 'opacity-0 -translate-y-full'"
 			@click.stop
 		>
@@ -17,8 +17,8 @@
                   <div class="flex space-x-4">
                     <img class="w-[64px] h-[80px] rounded-lg translate-y-1" :src="service.img" />
                     <div class="flex flex-col text-start space-y-1">
-                      <div class="text-black text-2xl font-lobster font-semibold">{{ service.title }}</div>
-                      <div class="text-xs text-black">{{ service.description }}</div>
+                      <div class="text-gray-300 text-2xl font-lobster font-semibold">{{ service.title }}</div>
+                      <div class="text-xs text-gray-300">{{ service.description }}</div>
                     </div>
                   </div>
 	            </div>
@@ -40,7 +40,7 @@
 			<div class="bg-red-500 shadow-roofing px-1 sm:pl-2">
 			  <div class="flex py-1 gap-x-1">
 			    <button
-			    	class="h-10 px-4 rounded-full hover:bg-gray-100 transition-colors text-black"
+			    	class="h-10 px-4 rounded-full hover:bg-gray-100 transition-colors text-gray-300"
 			    	@click.stop="serviceImage = !serviceImage"
 			    >
 			    	Services

@@ -4,11 +4,11 @@
 			<!-- Top controls -->
 			<div class="flex flex-col md:flex-row space-y-4 md:space-y-0 w-full justify-between my-6">
 				<!-- Sort By -->
-				<div class="flex w-full text-lg font-semibold text-roofing-dark-gray mr-4 m-auto whitespace-nowrap">Gallery Categories</div>
+				<div class="flex w-full text-lg font-semibold text-white mr-4 m-auto whitespace-nowrap">Gallery Categories</div>
 
 				<!-- Mobile Filters Button -->
 				<div id="filters-button" class="flex w-full max-w-xs lg:hidden">
-					<button class="group flex-row w-full m-auto items-center justify-center text-center text-sm font-semibold text-roofing-dark-gray hover:text-white border-4 border-roofing-teal px-4 py-3 rounded-lg hover:bg-roofing-teal duration-100" @click="showFilters = true" type="button">
+					<button class="group flex-row w-full m-auto items-center justify-center text-center text-sm font-semibold text-white hover:text-white border-4 border-roofing-teal px-4 py-3 rounded-lg hover:bg-roofing-teal duration-100" @click="showFilters = true" type="button">
 						<div class="inline-flex items-center m-auto gap-x-3 mt-1.5">
 							<svg class="w-5 font-bold fill-roofing-dark-gray group-hover:fill-white rotate-90" viewBox="0 0 1024 1024">
 								<path d="M640 288a64 64 0 1 1 0.032-128.032A64 64 0 0 1 640 288z m123.456-96c-14.304-55.04-64-96-123.456-96s-109.152 40.96-123.456 96H128v64h388.544c14.304 55.04 64 96 123.456 96s109.152-40.96 123.456-96H896V192h-132.544zM640 864a64 64 0 1 1 0.032-128.032A64 64 0 0 1 640 864m0-192c-59.456 0-109.152 40.96-123.456 96H128v64h388.544c14.304 55.04 64 96 123.456 96s109.152-40.96 123.456-96H896v-64h-132.544c-14.304-55.04-64-96-123.456-96M384 576a64 64 0 1 1 0.032-128.032A64 64 0 0 1 384 576m0-192c-59.456 0-109.152 40.96-123.456 96H128v64h132.544c14.304 55.04 64 96 123.456 96s109.152-40.96 123.456-96H896v-64H507.456c-14.304-55.04-64-96-123.456-96" />
@@ -22,7 +22,7 @@
 			<!-- Mobile overlay + slide-in panel -->
 			<div class="h-screen fixed top-0 left-0 z-50 select-none w-full bg-roofing-dark-gray/60 backdrop-blur-sm transform transition-transform duration-300 -translate-y-6" :class="showFilters ? 'translate-x-0' : '-translate-x-full'" @click="showFilters = false">
 				<div class="flex w-full justify-start h-full">
-					<div class="w-full max-w-[360px] bg-white xs:rounded-r-xl flex flex-col rounded-r-lg" @click.stop>
+					<div class="w-full max-w-[360px] bg-gray-900 xs:rounded-r-xl flex flex-col rounded-r-lg" @click.stop>
 						<!-- Header -->
 						<div class="flex w-full p-6 bg-roofing-gray items-center sticky top-0">
 							<button class="text-white flex w-full justify-start text-start text-base" @click="showFilters = false" type="button">Back</button>
@@ -30,8 +30,8 @@
 							<div class="flex w-full justify-end">
 								<button @click="showFilters = false" class="group w-4 h-4 justify-around flex text-xl py-4 rounded-full" type="button">
 									<div class="m-auto items-center flex w-full justify-center">
-										<div class="rotate-45 absolute bg-white py-px rounded px-2"></div>
-										<div class="-rotate-45 bg-white py-px rounded px-2"></div>
+										<div class="rotate-45 absolute bg-gray-900 py-px rounded px-2"></div>
+										<div class="-rotate-45 bg-gray-900 py-px rounded px-2"></div>
 									</div>
 								</button>
 							</div>

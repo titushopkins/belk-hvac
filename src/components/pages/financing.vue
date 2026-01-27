@@ -1,5 +1,5 @@
 <template>
-  <main class="w-full bg-white">
+  <main class="w-full bg-gray-900">
 
     <!-- HERO -->
     <div
@@ -17,11 +17,11 @@
     </div>
 
     <!-- BODY -->
-    <section class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-12 sm:py-16 space-y-10 text-roofing-dark-gray">
+    <section class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-12 sm:py-16 space-y-10 text-white">
 
       <!-- Financing Options Made Simple -->
       <div class="space-y-6">
-        <h2 class="text-2xl sm:text-3xl font-bold text-roofing-dark-gray">
+        <h2 class="text-2xl sm:text-3xl font-bold text-white">
           Financing Options Made Simple
         </h2>
 
@@ -33,7 +33,7 @@
 
       <!-- Flexible Financing -->
       <div class="space-y-6">
-        <h3 class="text-xl sm:text-2xl font-bold text-roofing-dark-gray">
+        <h3 class="text-xl sm:text-2xl font-bold text-white">
           Flexible Financing Through GreenSky®
         </h3>
 
@@ -68,7 +68,7 @@
 
       <!-- Fast Approval -->
       <div class="space-y-6 rounded-2xl border border-roofing-light-gray/60 bg-roofing-light-gray/20 p-6">
-        <h3 class="text-xl sm:text-2xl font-bold text-roofing-dark-gray">
+        <h3 class="text-xl sm:text-2xl font-bold text-white">
           Fast, Easy Approval Process
         </h3>
 
@@ -84,7 +84,7 @@
 
       <!-- Invest With Confidence -->
       <div class="space-y-6">
-        <h3 class="text-xl sm:text-2xl font-bold text-roofing-dark-gray">
+        <h3 class="text-xl sm:text-2xl font-bold text-white">
           Invest in Your Home With Confidence
         </h3>
 
@@ -112,6 +112,6 @@
 <style scoped>
 p,
 li {
-  @apply leading-7 text-roofing-dark-gray;
+  @apply leading-7 text-white;
 }
 </style>

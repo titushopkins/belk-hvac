@@ -4,14 +4,14 @@
 		<div :class="showMenu ? 'fixed w-full h-full inset-0 bg-black/30 z-10 opacity-100' : 'opacity-0'" class="transition-all duration-300 ease-in-out" />
 
 		<!-- Slide-out Menu -->
-		<div class="select-none sm:translate-y-9 w-full justify-center sm:max-w-[352px] min-h-[735px] transition-all transform-gpu duration-500 bg-white rounded-b-2xl sm:rounded-2xl shadow-lg shadow-roofing-light-brown sm:shadow-black absolute right-0 z-[60]" :class="showMenu ? 'sm:-translate-x-12' : 'opacity-0 -translate-y-full sm:translate-x-full'" @click.stop>
+		<div class="select-none sm:translate-y-9 w-full justify-center sm:max-w-[352px] min-h-[735px] transition-all transform-gpu duration-500 bg-gray-900 rounded-b-2xl sm:rounded-2xl shadow-lg shadow-roofing-light-brown sm:shadow-black absolute right-0 z-[60]" :class="showMenu ? 'sm:-translate-x-12' : 'opacity-0 -translate-y-full sm:translate-x-full'" @click.stop>
 			<button class="absolute top-0 right-0 cursor-pointer m-4" @click="showMenu = false">
 				<img src="/images/jay-lott-iron-cross.svg" alt="" />
 			</button>
 
-			<div class="flex flex-col text-xl text-black">
+			<div class="flex flex-col text-xl text-gray-300">
 				<a href="/" class="cursor-pointer p-6">
-					<img class="w-24" src="/images/simple-logo.svg" alt="" />
+					<img class="w-24" src="/images/belk-logo.svg" alt="" />
 				</a>
 
 				<!-- Main links in slide-out -->
@@ -69,7 +69,7 @@
 												alt=""
 											/>
 											<div class="flex flex-col text-start space-y-1">
-												<div class="text-black text-2xl font-lobster font-semibold">
+												<div class="text-gray-300 text-2xl font-lobster font-semibold">
 													{{ service.title }}
 												</div>
 												<div class="text-xs">
@@ -92,7 +92,7 @@
 
 				<div :class="open ? 'hidden' : 'space-y-6'">
 					<div class="flex flex-col space-y-2 pt-2 px-6" @click="showMenu = false">
-						<router-link v-for="link in computedLinks" :key="link.name" :to="link.path" class="hover:opacity-70 duration-300 ease-in-out italic font-lobster font-semibold tracking-wide text-2xl text-black transition-colors" exact-active-class="text-roofing-teal">
+						<router-link v-for="link in computedLinks" :key="link.name" :to="link.path" class="hover:opacity-70 duration-300 ease-in-out italic font-lobster font-semibold tracking-wide text-2xl text-gray-300 transition-colors" exact-active-class="text-roofing-teal">
 							{{ link.name }}
 						</router-link>
 					</div>
@@ -137,7 +137,7 @@
 				</div>
 			</div>
 
-			<div class="px-4 h-auto items-end bottom-0 absolute w-full bg-white rounded-b-2xl">
+			<div class="px-4 h-auto items-end bottom-0 absolute w-full bg-gray-900 rounded-b-2xl">
 				<div class="flex flex-col w-full bottom-0 h-auto items-end bg-gradient-to-b from-roofing-light-gray to-transparent rounded-xl space-y-6 px-5 py-3">
 					<div class="flex flex-col w-full justify-start space-y-3 p-2">
 						<p class="text-start text-sm font-bold uppercase" style="letter-spacing: 1.4px">Get In Touch</p>
@@ -165,20 +165,20 @@
 
 		<!-- NEW NAV (replaces old header bar) -->
 		<div class="flex w-full justify-center">
-			<nav @scroll="handleScroll" v-show="!hidden" :class="showMenu ? 'opacity-70' : 'opacity-100'" class="flex w-full px-6 sm:px-12 py-6 items-center gap-2 text-white z-50 absolute">
+			<nav @scroll="handleScroll" v-show="!hidden" :class="showMenu ? 'opacity-70' : 'opacity-100'" class="flex w-full px-6 sm:px-12 py-6 items-center gap-2 text-white z-50 absolute bg-gradient-to-r from-gray-900 via-50% via-transparent to-gray-900 ">
 				<!-- Logo -->
-				<router-link class="h-[88px] w-[160px] shrink-0 flex items-center" to="/">
-					<img src="/images/logo.svg" alt="Jay Lott Roofing Inc." class="w-full h-auto" />
+				<router-link class="w-24 shrink-0 flex items-center" to="/">
+					<img src="/images/belk-logo.svg" alt="Jay Lott Roofing Inc." class="w-full h-auto" />
 				</router-link>
 
 				<!-- Spacer -->
 				<div class="flex-1"></div>
 
 				<!-- Nav Container (white pill) -->
-				<div class="bg-white rounded-full shadow-roofing flex items-center px-1 sm:pl-2 h-[48px] relative">
+				<div class="bg-gray-900 rounded-full shadow-roofing flex items-center px-1 sm:pl-2 h-[48px] relative">
 					<!-- Nav Links (desktop) -->
 					<div class="hidden lg:flex items-center gap-3 px-6 text-sm">
-						<button @click.stop="serviceImage = !serviceImage" class="relative inline-flex text-black items-center justify-center h-12 font-semibold hover:opacity-70 transition-opacity before:content-[''] before:absolute before:bottom-1 before:left-0 before:right-0 before:h-1 before:bg-roofing-gray before:rounded-full before:scale-x-0 hover:before:scale-x-100 before:transition-transform before:duration-300 before:origin-center after:content-[''] after:absolute after:bottom-1 after:left-0 after:right-0 after:h-1 after:bg-roofing-teal after:rounded-full after:transition-transform after:duration-300 after:origin-center" :class="serviceImage ? 'after:scale-x-100' : 'after:scale-x-0'">
+						<button @click.stop="serviceImage = !serviceImage" class="relative inline-flex text-gray-300 items-center justify-center h-12 font-semibold hover:opacity-70 transition-opacity before:content-[''] before:absolute before:bottom-1 before:left-0 before:right-0 before:h-1 before:bg-roofing-gray before:rounded-full before:scale-x-0 hover:before:scale-x-100 before:transition-transform before:duration-300 before:origin-center after:content-[''] after:absolute after:bottom-1 after:left-0 after:right-0 after:h-1 after:bg-roofing-teal after:rounded-full after:transition-transform after:duration-300 after:origin-center" :class="serviceImage ? 'after:scale-x-100' : 'after:scale-x-0'">
 							Services
 							<svg class="w-6 h-6 ml-1" fill="currentColor" viewBox="0 0 24 24">
 								<path d="M7 10l5 5 5-5z" />
@@ -199,7 +199,7 @@
                   after:rounded-full
                   after:scale-x-100
                 "
-								class="relative inline-flex items-center justify-center h-12 font-semibold text-black transition-opacity before:content-[''] before:absolute before:bottom-1 before:left-0 before:right-0 before:h-1 before:bg-roofing-gray before:rounded-full before:scale-x-0 hover:before:scale-x-100 before:transition-transform before:duration-300 before:origin-center after:transition-transform after:duration-300 after:origin-center after:scale-x-0"
+								class="relative inline-flex items-center justify-center h-12 font-semibold text-gray-300 transition-opacity before:content-[''] before:absolute before:bottom-1 before:left-0 before:right-0 before:h-1 before:bg-roofing-gray before:rounded-full before:scale-x-0 hover:before:scale-x-100 before:transition-transform before:duration-300 before:origin-center after:transition-transform after:duration-300 after:origin-center after:scale-x-0"
 							>
 								{{ link.name }}
 							</router-link>
@@ -210,7 +210,7 @@
 					<div class="flex items-center py-1 sm:gap-x-1 auto">
 						<roofing-button variant="secondary" text="(409) 382-7186" href="tel:4093827186" class="hidden sm:inline-flex text-sm" />
 						<roofing-button variant="primary" text="Free Quote" href="/contact" class="px-2.5 py-2 sm:px-4 sm:py-2 border-b border-t-0 border-roofing-light-gray text-sm" />
-						<button class="h-10 px-4 rounded-full hover:bg-gray-100 transition-colors text-black flex items-center justify-center" @click.stop="showMenu = !showMenu">
+						<button class="h-10 px-4 rounded-full hover:bg-gray-100 transition-colors text-gray-300 flex items-center justify-center" @click.stop="showMenu = !showMenu">
 							<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
 							</svg>
@@ -223,7 +223,7 @@
 					<!-- Services dropdown (absolute, takes NO space) -->
 					<div class="absolute top-full left-0 pt-3 z-50" @click.stop>
 						<transition @click="(serviceImage, (showMenu = false))" enter-active-class="transition-all duration-700 ease-in-out transform-gpu" enter-from-class="opacity-0 -translate-y-full scale-95" enter-to-class="opacity-100 translate-y-0 scale-100" leave-active-class="transition-all duration-700 ease-in-out transform-gpu" leave-from-class="opacity-100 translate-y-0 scale-100" leave-to-class="opacity-0 -translate-y-full scale-95">
-							<div v-if="serviceImage" class="select-none w-full sm:max-w-[352px] bg-white sm:rounded-xl shadow-lg shadow-roofing-light-brown sm:shadow-black h-auto z-[60] origin-top will-change-transform" @click.stop>
+							<div v-if="serviceImage" class="select-none w-full sm:max-w-[352px] bg-gray-900 sm:rounded-xl shadow-lg shadow-roofing-light-brown sm:shadow-black h-auto z-[60] origin-top will-change-transform" @click.stop>
 								<div class="w-full lg:max-w-xl overflow-x-auto h-auto rounded-2xl">
 									<div class="flex flex-col relative py-8 px-6">
 										<div class="w-full h-full space-y-3">
@@ -231,10 +231,10 @@
 												<a :href="service.link" class="flex space-x-4">
 													<img class="min-w-[64px] min-h-[80px] max-w-[64px] max-h-[80px] rounded-lg translate-y-1" :src="service.img" alt="" />
 													<div class="flex flex-col text-start space-y-1">
-														<div class="text-black text-2xl font-lobster font-semibold">
+														<div class="text-gray-300 text-2xl font-lobster font-semibold">
 															{{ service.title }}
 														</div>
-														<div class="text-xs text-black">
+														<div class="text-xs text-gray-300">
 															{{ service.description }}
 														</div>
 													</div>
