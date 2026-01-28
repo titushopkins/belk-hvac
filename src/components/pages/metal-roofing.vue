@@ -9,7 +9,7 @@
         </h2>
 
         <div class="text-white text-5xl sm:text-6xl font-semibold pt-4">
-          Metal Roofs & Installation
+          Mini Splits
         </div>
       </div>
     </div>
