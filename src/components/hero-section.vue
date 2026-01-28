@@ -46,9 +46,8 @@
           <h1 class="text-3xl xs:text-4xl sm:text-5xl xl:text-7xl leading-tight font-semibold text-shadow-xl max-w-xs sm:max-w-lg md:max-w-none">
             The
             <span class="font-lobster font-semibold px-1 inline">trusted</span>
-            HVAC Teechnician & Plumber
-            <span class="font-lobster font-semibold px-1 inline">39 years</span>
-            on top and still climbing.
+            HVAC Technician for the
+            <span class="font-lobster font-semibold px-1 inline">Hill Country</span>
           </h1>
 
           <a href="/contact"
@@ -84,12 +83,12 @@
           <img
             src="/images/belk-cartoon.svg"
             alt=""
-            class="w-auto h-full xs:h-[500px] min-w-[150px] md:hidden rounded-tl-[80px]"
+            class="w-auto translate-x-16 h-[400px] xs:h-[500px] min-w-[150px] md:hidden rounded-tl-[80px]"
           />
           <img
             src="/images/belk-cartoon-full.svg"
             alt=""
-            class="w-auto h-full xs:h-[500px] xl:h-[600px] min-w-[400px] xl:min-w-[590px] hidden md:block rounded-tl-[80px]"
+            class="w-auto h-20 xs:h-[500px] xl:h-[600px] min-w-[400px] xl:min-w-[590px] hidden md:block rounded-tl-[80px]"
           />
         </div>
 

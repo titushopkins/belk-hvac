@@ -11,7 +11,7 @@
 
 			<div class="flex flex-col text-xl text-gray-300">
 				<a href="/" class="cursor-pointer p-6">
-					<img class="w-24" src="/images/belk-logo.svg" alt="" />
+					<img class="w-24" src="/images/belk-official-full-logo.svg" alt="" />
 				</a>
 
 				<!-- Main links in slide-out -->
@@ -165,10 +165,10 @@
 
 		<!-- NEW NAV (replaces old header bar) -->
 		<div class="flex w-full justify-center">
-			<nav @scroll="handleScroll" v-show="!hidden" :class="showMenu ? 'opacity-70' : 'opacity-100'" class="flex w-full px-6 sm:px-12 py-6 items-center gap-2 text-white z-50 absolute bg-gradient-to-r from-gray-900 via-50% via-transparent to-gray-900 ">
+			<nav @scroll="handleScroll" v-show="!hidden" :class="showMenu ? 'opacity-70' : 'opacity-100'" class="flex w-full px-6 sm:px-12 py-6 items-center gap-2 text-white z-50 absolute">
 				<!-- Logo -->
-				<router-link class="w-24 shrink-0 flex items-center" to="/">
-					<img src="/images/belk-logo.svg" alt="Jay Lott Roofing Inc." class="w-full h-auto" />
+				<router-link class="w-60 shrink-0 flex items-center" to="/">
+					<img src="/images/belk-official-full-logo.svg" alt="Jay Lott Roofing Inc." class="w-full h-auto" />
 				</router-link>
 
 				<!-- Spacer -->

@@ -11,7 +11,6 @@
       </div>
     </div>
 
-    <!-- Partner Logos Section -->
     <section class="flex w-full justify-center items-center bg-gray-900 md:p-16 px-0">
       <div class="w-full max-w-8xl">
         <div class="flex flex-col md:flex-row w-full justify-center px-8 py-12 sm:p-12">
@@ -226,18 +225,14 @@ export default {
   data() {
     return {
       logos: [
-        '/images/home-advisor-screened.svg',
-        '/images/preffered-contractor.svg',
-        '/images/angelas-list.svg',
-        '/images/accredited-business.svg',
-        '/images/angelas-list-super-service.svg',
-        '/images/home-advisor-top-rated.svg',
-        '/images/home-advisor-screened.svg',
-        '/images/home-advisor-elite-service.svg',
-        '/images/home-advisor-best-of.svg',
-        '/images/Mueller.png',
-        '/images/Mule-Hide-Certified-Vector-Logo.png',
-        '/images/master-elite.png',
+        '/images/mitsibushi-partner.svg',
+        '/images/rudd-partner.svg',
+        '/images/bryant-partner.svg',
+        '/images/trane-partner.svg',
+        '/images/as-partner.svg',
+        '/images/carrier-partner.svg',
+        '/images/trane-special-partner.svg',
+        '/images/bosch-partner.svg',
       ],
     }
   },

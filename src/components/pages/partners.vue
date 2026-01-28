@@ -27,18 +27,14 @@ export default {
 
     return {
       logos: [
-        '/images/home-advisor-screened.svg',
-        '/images/preffered-contractor.svg',
-        '/images/home-advisor-elite-service.svg',
-        '/images/home-advisor-best-of.svg',
-        '/images/accredited-business.svg',
-        '/images/angelas-list.svg',
-        '/images/angelas-list-super-service.svg',
-        '/images/home-advisor-top-rated.svg',
-        '/images/home-advisor-screened.svg',
-'/images/Mueller.png',
-        '/images/Mule-Hide-Certified-Vector-Logo.png',
-        '/images/master-elite.png',
+        '/images/mitsibushi-partner.svg',
+        '/images/rudd-partner.svg',
+        '/images/bryant-partner.svg',
+        '/images/trane-partner.svg',
+        '/images/as-partner.svg',
+        '/images/carrier-partner.svg',
+        '/images/trane-special-partner.svg',
+        '/images/bosch-partner.svg',
       ],
     }
   },
