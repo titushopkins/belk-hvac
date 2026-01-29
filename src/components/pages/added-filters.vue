@@ -38,7 +38,7 @@
 					@click="resetFilters"
 					:disabled="!isFilterActive"
 					class="flex items-center justify-center text-sm py-3 uppercase tracking-widest px-4 w-full rounded-md transition duration-300"
-					:class="isFilterActive ? 'bg-roofing-red hover:bg-belk-teal/50 text-white cursor-pointer' : 'bg-transparent opacity-50 text-belk-gray cursor-not-allowed border border-belk-gray'"
+					:class="isFilterActive ? 'bg-belk-red hover:bg-belk-teal/50 text-white cursor-pointer' : 'bg-transparent opacity-50 text-belk-gray cursor-not-allowed border border-belk-gray'"
 				>
 					Reset Filters
 				</button>

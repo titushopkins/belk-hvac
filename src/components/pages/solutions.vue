@@ -92,11 +92,11 @@
 
       <div class="mt-10 flex flex-col lg:flex-row lg:items-center lg:justify-between gap-6">
         <p class="text-lg sm:text-2xl font-semibold leading-tight text-white max-w-2xl">
-          Upgrade your comfort with Belk Heating & Cooling—get started today!
+          Upgrade your comfort with <span class="font-lobster font-bold">Belk Heating & Cooling</span>—get started today!
         </p>
 
         <div class="flex items-center gap-2">
-          <RoofingButton href="/gallery" class="px-4 py-3" variant="tertiary" text="View Our Work" />
+          <RoofingButton href="/gallery" class="px-4 py-3 bg-belk-cream-2 hover:bg-transparent hover:border-4 hover:border-belk-cream" variant="tertiary" text="View Our Work" />
           <RoofingButton href="/contact" class="px-4 py-3" variant="primary" text="Request a Free Estimate" />
         </div>
       </div>
@@ -117,20 +117,30 @@ export default {
     return {
       currentIndex: 0,
       galleryImages: [
-        '/images/nick-side.jpg',
         '/images/nick-back.jpg',
+        '/images/belk-1.png',
+        '/images/belk-2.png',
+        // '/images/belk-3.png',
+        // '/images/belk-4.png',
+        '/images/nick-side.jpg',
+        '/images/belk-5.png',
+        '/images/belk-7.png',
+        '/images/belk-8.png',
+        '/images/belk-10.png',
+        '/images/belk-11.png',
+        '/images/belk-12.png',
+        // '/images/belk-25.png',
+        '/images/belk-17.png',
+        '/images/belk-20.png',
+        '/images/belk-24.png',
         '/images/noah-back.jpg',
-        '/images/frame-4-large.png',
-        '/images/frame-5.png',
-        '/images/frame-6.png',
-        '/images/frame-7.png',
-        '/images/frame-2-large.png',
-        '/images/frame-3.png',
-        '/images/frame-4-small.png',
-        '/images/gallery-image-13.jpg',
-        '/images/frame-2-large.png',
-        '/images/coverage-warranty.jpg',
-        '/images/coverage-insured.jpg',
+        '/images/belk-26.png',
+        '/images/belk-27.png',
+        '/images/belk-29.png',
+        '/images/belk-30.png',
+        '/images/belk-31.png',
+        '/images/belk-32.png',
+        '/images/belk-33.png',
       ],
 
       touchStartX: 0,

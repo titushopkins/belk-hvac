@@ -1,9 +1,9 @@
 <template>
-	<div class="flex flex-col w-full justify-center">
-		<div class="relative w-full h-screen max-h-[60vh] bg-[url('/images/frame-2-large.png')] bg-cover bg-center">
+	<div class="flex flex-col w-full justify-center bg-gray-900">
+		<div class="relative w-full h-screen max-h-[60vh] bg-[url('/images/belk-11.png')] bg-cover bg-center">
 			<div class="absolute inset-0 bg-black/50 backdrop-blur-sm" />
 			<div class="relative z-10 flex flex-col w-full h-full items-center justify-center text-center">
-				<h2 class="text-white text-2xl sm:text-[32px] font-semibold font-lobster italic">Contact Jay Lott</h2>
+				<h2 class="text-white text-2xl sm:text-[32px] font-semibold font-lobster italic">Contact Belk Heating & Cooling</h2>
 
 				<div class="text-white text-5xl sm:text-6xl font-semibold pt-4">We'd love to help you.</div>
 			</div>
@@ -17,7 +17,7 @@
 					<!-- Contact Info -->
 					<div class="flex flex-col md:flex-row w-full md:w-2/5 justify-center py-12">
 						<div class="flex flex-col w-full space-y-10">
-							<div class="text-start font-bold text-3xl text-hp-gray-800 leading-[3rem] font-lobster">We look forward to hearing from you!</div>
+							<div class="text-start font-bold text-3xl text-belk-light-gray leading-[3rem] font-lobster">We look forward to hearing from you!</div>
 
 							<div class="flex w-full justify-start overflow-hidden sm:overflow-auto">
 								<img class="w-full flex min-w-[60vh]" src="/images/gray-line-flames.svg" />
@@ -29,23 +29,23 @@
 										<img class="w-16" src="/images/justin-teal-phone.svg" />
 										<div class="flex flex-col">
 											<div class="text-start font-semibold text-2xl pb-2 text-white tracking-wide">Call or Text Us</div>
-											<div>(737) 251-3394</div>
+											<div class="text-white/50">(737) 251-3394</div>
 										</div>
 									</a>
 
-									<a href="mailto:jaylottroofing@gmail.com" class="flex m-auto items-center gap-x-4">
+									<a href="mailto:belkheatingandcooling@gmail.com" class="flex m-auto items-center gap-x-4">
 										<img class="w-16" src="/images/justin-teal-email.svg" />
 										<div class="flex flex-col">
 											<div class="text-start font-semibold text-2xl pb-2 text-white tracking-wide">Send us an email</div>
-											<div>jaylottroofing@gmail.com</div>
+											<div class="text-white/50">belkheatingandcooling@gmail.com</div>
 										</div>
 									</a>
 
-									<a href="https://maps.google.com/?q=720+S+Wheeler+St,+Suite+5,+Jasper,+TX+75951" target="_blank" rel="noopener noreferrer" class="flex m-auto items-center gap-x-4">
+									<a href="/service-areas" target="_blank" rel="noopener noreferrer" class="flex m-auto items-center gap-x-4">
 										<img class="w-16" src="/images/justin-teal-map.svg" />
 										<div class="flex flex-col">
-											<div class="text-start font-semibold text-2xl pb-2 text-white tracking-wide">Visit Us</div>
-											<div>720 S Wheeler St, Suite 5, Jasper, TX 75951</div>
+											<div class="text-start font-semibold text-2xl pb-2 text-white tracking-wide">Service Areas</div>
+											<div class="text-white/50">Servicing Burnet County & Surrounding Areas</div>
 										</div>
 									</a>
 								</div>
@@ -54,10 +54,46 @@
 					</div>
 
 					<!-- Tabs & Form/Calendar -->
-					<div class="w-full md:w-3/5 lg:max-w-xl bg-gray-900 rounded-2xl p-2 sm:p-6 shadow-xl shadow md:-translate-y-16">
+
+                    <div class="w-full md:w-3/5 lg:max-w-xl bg-gray-800 rounded-2xl p-2 sm:p-6 shadow-xl shadow md:-translate-y-16">
+                        <div class="flex flex-col w-full justify-start space-y-4">
+							<div class="text-start font-semibold text-2xl text-white tracking-wide">Contact Us Form</div>
+							<div class="text-sm leading-6 text-white/80">
+								The Contact Form is unavailable at the moment but will be added soon.<br />
+								Feel free to call/email/text Belk Heating & Cooling at:
+							</div>
+                            <div class="flex flex-col text-hp-gray-900 space-y-6">
+								<div class="space-y-8">
+									<a href="sms:7372513394" class="flex m-auto items-center gap-x-4">
+										<img class="w-16" src="/images/justin-teal-phone.svg" />
+										<div class="flex flex-col">
+											<div class="text-start font-semibold text-2xl pb-2 text-white tracking-wide">737) 251-3394</div>
+											<div class="text-white/50">Call or Text Us</div>
+										</div>
+									</a>
+
+									<a href="mailto:belkheatingandcooling@gmail.com" class="flex m-auto items-center gap-x-4">
+										<img class="w-16" src="/images/justin-teal-email.svg" />
+										<div class="flex flex-col">
+											<div class="text-start font-semibold text-2xl pb-2 text-white tracking-wide">belkheatingandcooling@gmail.com</div>
+											<div class="text-white/50">Send us an email</div>
+										</div>
+									</a>
+
+									<a href="/service-areas" target="_blank" rel="noopener noreferrer" class="flex m-auto items-center gap-x-4">
+										<img class="w-16" src="/images/justin-teal-map.svg" />
+										<div class="flex flex-col">
+											<div class="text-start font-semibold text-2xl pb-2 text-white tracking-wide">Service Areas</div>
+											<div class="text-white/50">View Our Service Areas</div>
+										</div>
+									</a>
+								</div>
+							</div>
+						</div>
+                        <div class="hidden">
 						<div class="flex flex-col w-full justify-start space-y-4">
 							<div class="text-start font-semibold text-2xl text-white tracking-wide">Contact Us</div>
-							<div class="text-sm leading-6">
+							<div class="text-sm leading-6 text-white/80">
 								Complete this form and we will get back with you as soon as possible.<br />
 								If you would like to request a free estimate, please select that option below and include your job location.
 							</div>
@@ -104,7 +140,7 @@
 											<textarea v-model="quote" rows="8" class="placeholder:text-sm placeholder:text-hp-gray-500 input-css" />
 										</div>
 
-										<button :disabled="sending" type="submit" class="px-5 py-3 bg-roofing-red text-white text-base font-semibold rounded-full shadow hover:bg-hp-gray-500 border-2 border-hp-gray-800 disabled:opacity-60 disabled:cursor-not-allowed">
+										<button :disabled="sending" type="submit" class="px-5 py-3 bg-belk-red text-white text-base font-semibold rounded-full shadow hover:bg-hp-gray-500 border-2 border-hp-gray-800 disabled:opacity-60 disabled:cursor-not-allowed">
 											{{ store.activeTab === 'quote' ? 'Get Your Quote' : 'Send Message' }}
 										</button>
 									</form>
@@ -114,6 +150,7 @@
 						</div>
 					</div>
 				</div>
+                </div>
 			</div>
 		</div>
 	</div>

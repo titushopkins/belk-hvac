@@ -604,7 +604,7 @@
         <div class="flex flex-col sm:flex-row gap-3 pt-2">
           <a
             href="/contact"
-            class="inline-flex items-center justify-center rounded-full bg-roofing-red px-8 py-4 text-white font-semibold tracking-wide hover:bg-roofing-red/60 transition"
+            class="inline-flex items-center justify-center rounded-full bg-belk-red px-8 py-4 text-white font-semibold tracking-wide hover:bg-belk-red/60 transition"
           >
             Request Your Free Quote Today
           </a>

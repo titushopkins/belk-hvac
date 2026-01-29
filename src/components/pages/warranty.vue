@@ -1,29 +1,30 @@
 <template>
   <main class="w-full bg-gray-900">
     <!-- HERO -->
-    <div class="relative w-full h-screen max-h-[60vh] bg-[url('/images/coverage-2.png')] bg-cover bg-center">
-      <div class="absolute inset-0 bg-black/50 backdrop-blur-sm" />
+    <div class="relative w-full h-screen max-h-[60vh] bg-[url('/images/belk-6.png')] bg-cover bg-center">
+      <div class="absolute inset-0 bg-black/50 backdrop-blur" />
       <div class="relative z-10 flex flex-col w-full h-full items-center justify-center text-center">
         <h2 class="text-white text-2xl sm:text-[32px] font-semibold font-lobster italic">
           Backed by Real Coverage
         </h2>
 
         <div class="text-white text-5xl sm:text-6xl font-semibold pt-4">
-          Warranty
+          HVAC Warranties
         </div>
       </div>
     </div>
 
     <!-- BODY -->
     <section class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-12 sm:py-16 space-y-14">
-      <!-- Five-Year Workmanship Warranty -->
+      <!-- Workmanship Warranty -->
       <div class="space-y-6">
         <h2 class="text-2xl sm:text-3xl font-bold text-gray-300">
-          Five-Year Workmanship Warranty on Installations
+          Workmanship Warranty on HVAC Installations
         </h2>
 
         <p>
-          Every full roof installation we complete is backed by a <span class="font-semibold">5-Year Labor Warranty.</span>
+          Every full HVAC system installation we complete is backed by a <span class="font-semibold">written workmanship warranty</span> from
+          Belk Heating &amp; Cooling.
         </p>
 
         <p class="font-semibold">
@@ -33,126 +34,130 @@
         <ul class="space-y-3 list-disc ml-12">
           <li class="flex gap-3">
             <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
-            <p><span class="font-semibold">We guarantee our installation craftsmanship</span></p>
+            <p><span class="font-semibold">We stand behind our installation craftsmanship</span></p>
           </li>
           <li class="flex gap-3">
             <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
-            <p><span class="font-semibold">If an installation-related issue arises, we make it right</span></p>
+            <p><span class="font-semibold">If an installation-related issue comes up, we make it right</span></p>
           </li>
           <li class="flex gap-3">
             <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
-            <p><span class="font-semibold">No runaround, no excuses—just accountability</span></p>
+            <p><span class="font-semibold">No runaround—just accountability and clear communication</span></p>
           </li>
         </ul>
 
         <p>
-          This workmanship warranty reflects our commitment to doing the job right the first time and standing behind it long after the final
-          inspection.
+          Our workmanship coverage reflects our commitment to doing the job right the first time—and standing behind it long after the final
+          startup and walkthrough.
         </p>
       </div>
 
-      <!-- GAF Gold Pledge -->
+      <!-- Manufacturer Warranty -->
       <div class="space-y-6">
         <h2 class="text-2xl sm:text-3xl font-bold text-gray-300">
-          GAF Gold Pledge® Warranty on Shingle Roofs
+          Manufacturer Warranties on New HVAC Equipment
         </h2>
 
         <p>
-          Because we are a <span class="font-semibold">GAF Master Elite® Contractor</span>—a distinction held by
-          <span class="font-semibold">less than 2% of roofing contractors nationwide</span>—we are able to offer the
-          <span class="font-semibold">GAF Gold Pledge® Warranty</span> on all qualifying shingle roof installations.
+          When you purchase a new system through Belk Heating &amp; Cooling, your equipment is typically protected by
+          <span class="font-semibold">manufacturer-backed parts coverage</span> (terms vary by brand and model).
         </p>
 
         <p class="leading-7 font-semibold">
-          What the Gold Pledge® Warranty Includes:
+          Common coverage may include:
         </p>
 
         <ul class="space-y-3 list-disc ml-12">
           <li class="flex gap-3">
             <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
-            <p><span class="font-semibold">50-year non-prorated material coverage</span> (on qualifying GAF shingles)</p>
+            <p><span class="font-semibold">Parts warranty on major components</span> (compressor, coil, control boards—varies by system)</p>
           </li>
           <li class="flex gap-3">
             <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
-            <p><span class="font-semibold">25-year workmanship coverage</span> backed directly by GAF</p>
+            <p><span class="font-semibold">Registered warranty coverage</span> when the system is registered properly after installation</p>
           </li>
           <li class="flex gap-3">
             <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
-            <p><span class="font-semibold">Coverage for materials AND labor</span>—not just shingles</p>
+            <p><span class="font-semibold">Optional extended coverage</span> available on select equipment</p>
           </li>
         </ul>
 
         <p>
-          Unlike standard manufacturer warranties, the <span class="font-semibold">Gold Pledge®</span> protects you if there is ever an issue
-          with either the materials or the installation—giving you one of the strongest roofing warranties available in the industry.
+          We’ll walk you through what your specific system includes, help ensure registration is completed correctly, and explain what’s covered
+          and what’s not—before you ever sign off.
         </p>
       </div>
 
-      <!-- Mueller Metal Paint Warranties -->
+      <!-- Labor + Service Coverage -->
       <div class="space-y-6">
         <h2 class="text-2xl sm:text-3xl font-bold text-gray-300">
-          Mueller® Metal Roof Paint Warranties
+          Labor Coverage &amp; Service Support
         </h2>
 
         <p>
-          For metal roof installations, we proudly use <span class="font-semibold">Mueller® metal roofing systems,</span> known for their
-          durability, performance, and long-term finish protection.
+          A warranty is only as good as the company standing behind it. If something goes wrong, you need a team that answers the phone, shows up,
+          and gets it fixed.
         </p>
 
         <p class="font-semibold">
-          Mueller’s factory-applied paint systems include:
+          With Belk Heating &amp; Cooling, you can expect:
         </p>
 
         <ul class="space-y-3 list-disc ml-12">
           <li class="flex gap-3">
             <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
-            <p><span class="font-semibold">Up to a 45-year paint finish warranty</span> (depending on product selection)</p>
+            <p><span class="font-semibold">Straightforward diagnostics and honest recommendations</span></p>
           </li>
           <li class="flex gap-3">
             <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
-            <p><span class="font-semibold">Protection against cracking, peeling, chipping, and excessive fading</span></p>
+            <p><span class="font-semibold">Clear documentation for warranty-related service</span> (so claims don’t get delayed)</p>
           </li>
           <li class="flex gap-3">
             <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
-            <p><span class="font-semibold">Engineered coatings designed to withstand harsh Texas heat and weather</span></p>
+            <p><span class="font-semibold">Reliable repair support</span> from a local team that stands behind its work</p>
           </li>
         </ul>
 
         <p>
-          When paired with proper installation, Mueller metal roofing provides a long-lasting, low-maintenance roofing solution built to perform
-          for decades.
+          If a repair involves manufacturer coverage, we’ll help coordinate the right parts and make the process as smooth as possible.
         </p>
       </div>
 
-      <!-- Why Our Warranties Matter -->
+      <!-- Areas We Serve -->
       <div class="space-y-6">
         <h2 class="text-2xl sm:text-3xl font-bold text-gray-300">
-          Why Our Warranties Matter
+          Local HVAC Coverage You Can Count On
         </h2>
 
         <p>
-          Many contractors talk about warranties—but very few can actually offer them at this level. Our certifications, materials, and workmanship
-          allow us to protect your investment with <span class="font-semibold">real, written coverage,</span> not empty promises.
+          We’re a local Texas team providing HVAC service and installation across
+          <span class="font-semibold">Burnet, Marble Falls, Leander</span> and surrounding areas throughout
+          <span class="font-semibold">Burnet, Travis, Bell, Coryell, and Williamson Counties</span>.
         </p>
 
         <p class="leading-7 font-semibold">
-          When you choose Jay Lott Roofing, you’re choosing:
+          When you choose Belk Heating &amp; Cooling, you’re choosing:
         </p>
 
         <ul class="space-y-3 list-disc ml-12">
           <li class="flex gap-3">
             <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
-            <p><span class="font-semibold">Proven craftsmanship</span></p>
+            <p><span class="font-semibold">Proven HVAC craftsmanship</span></p>
           </li>
           <li class="flex gap-3">
             <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
-            <p><span class="font-semibold">Manufacturer-backed protection</span></p>
+            <p><span class="font-semibold">Equipment protection backed by real documentation</span></p>
           </li>
           <li class="flex gap-3">
             <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
             <p><span class="font-semibold">A company that answers the phone and stands behind its work</span></p>
           </li>
         </ul>
+
+        <p>
+          Need help choosing the right system or want warranty details for a specific install? We’ll explain your options clearly and help you make
+          the best decision for your home.
+        </p>
       </div>
     </section>
   </main>

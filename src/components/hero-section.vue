@@ -117,8 +117,11 @@ const props = defineProps({
 // ✅ Put your 3 images or gifs here
 const heroBackgrounds = [
   '/images/nick-back.jpg',
+  '/images/belk-7.png',
   '/images/nick-side.jpg',
-  '/images/noah-back.jpg'
+  '/images/noah-back.jpg',
+  '/images/belk-26.png',
+  '/images/belk-33.png',
 ]
 
 // We use TWO layers so we can crossfade while each one zooms (Ken Burns style)

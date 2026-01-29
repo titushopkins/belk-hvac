@@ -4,7 +4,7 @@
 		<div :class="showMenu ? 'fixed w-full h-full inset-0 bg-black/30 z-10 opacity-100' : 'opacity-0'" class="transition-all duration-300 ease-in-out" />
 
 		<!-- Slide-out Menu -->
-		<div class="select-none sm:translate-y-9 w-full justify-center sm:max-w-[352px] min-h-[735px] transition-all transform-gpu duration-500 bg-gray-900 rounded-b-2xl sm:rounded-2xl shadow-lg shadow-belk-light-brown sm:shadow-black absolute right-0 z-[60]" :class="showMenu ? 'sm:-translate-x-12' : 'opacity-0 -translate-y-full sm:translate-x-full'" @click.stop>
+		<div class="select-none sm:translate-y-9 w-full justify-center sm:max-w-[352px] min-h-[735px] transition-all transform-gpu duration-500 bg-belk-dark-blue rounded-b-2xl sm:rounded-2xl shadow-lg shadow-belk-light-brown sm:shadow-black absolute right-0 z-[60]" :class="showMenu ? 'sm:-translate-x-12' : 'opacity-0 -translate-y-full sm:translate-x-full'" @click.stop>
 			<button class="absolute top-0 right-0 cursor-pointer m-4" @click="showMenu = false">
 				<img src="/images/jay-lott-iron-cross.svg" alt="" />
 			</button>
@@ -27,7 +27,7 @@
 						<div class="min-h-0">
 							<!-- Toggle Button -->
 							<div class="flex w-fit text-sm font-bold text-hp-gray-600">
-								<button @click="slide" class="transition-colors text-2xl relative inline-flex font-lobster font-semibold">
+								<button @click="slide" class="transition-colors text-2xl relative inline-flex font-lobster font-semibold hidden">
 									<div
 										class="flex w-full items-center text-start justify-start gap-x-2"
 										:class="!open ? '' : 'border-belk-teal flex-row-reverse uppercase text-sm font-sans border-b-2'"
@@ -137,7 +137,7 @@
 				</div>
 			</div>
 
-			<div class="px-4 h-auto items-end bottom-0 absolute w-full bg-gray-900 rounded-b-2xl">
+			<div class="px-4 h-auto items-end bottom-0 absolute w-full bg-belk-dark-blue rounded-b-2xl">
 				<div class="flex flex-col w-full bottom-0 h-auto items-end bg-gradient-to-b from-belk-light-gray to-transparent rounded-xl space-y-6 px-5 py-3">
 					<div class="flex flex-col w-full justify-start space-y-3 p-2">
 						<p class="text-start text-sm font-bold uppercase" style="letter-spacing: 1.4px">Get In Touch</p>
@@ -175,15 +175,15 @@
 				<div class="flex-1"></div>
 
 				<!-- Nav Container (white pill) -->
-				<div class="bg-gray-900 rounded-full shadow-roofing flex items-center px-1 sm:pl-2 h-[48px] relative">
+				<div class="bg-belk-dark-blue rounded-full shadow-roofing flex items-center px-1 sm:pl-2 h-[48px] relative">
 					<!-- Nav Links (desktop) -->
 					<div class="hidden lg:flex items-center gap-3 px-6 text-sm">
-						<button @click.stop="serviceImage = !serviceImage" class="relative inline-flex text-gray-300 items-center justify-center h-12 font-semibold hover:opacity-70 transition-opacity before:content-[''] before:absolute before:bottom-1 before:left-0 before:right-0 before:h-1 before:bg-belk-gray before:rounded-full before:scale-x-0 hover:before:scale-x-100 before:transition-transform before:duration-300 before:origin-center after:content-[''] after:absolute after:bottom-1 after:left-0 after:right-0 after:h-1 after:bg-belk-teal after:rounded-full after:transition-transform after:duration-300 after:origin-center" :class="serviceImage ? 'after:scale-x-100' : 'after:scale-x-0'">
+						<!-- <button @click.stop="serviceImage = !serviceImage" class="relative inline-flex text-gray-300 items-center justify-center h-12 font-semibold hover:opacity-70 transition-opacity before:content-[''] before:absolute before:bottom-1 before:left-0 before:right-0 before:h-1 before:bg-belk-gray before:rounded-full before:scale-x-0 hover:before:scale-x-100 before:transition-transform before:duration-300 before:origin-center after:content-[''] after:absolute after:bottom-1 after:left-0 after:right-0 after:h-1 after:bg-belk-teal after:rounded-full after:transition-transform after:duration-300 after:origin-center" :class="serviceImage ? 'after:scale-x-100' : 'after:scale-x-0'">
 							Services
 							<svg class="w-6 h-6 ml-1" fill="currentColor" viewBox="0 0 24 24">
 								<path d="M7 10l5 5 5-5z" />
 							</svg>
-						</button>
+						</button> -->
 
 						<template v-for="link in computedLinks" :key="link.name">
 							<router-link
@@ -208,7 +208,7 @@
 
 					<!-- Action Buttons + Hamburger -->
 					<div class="flex items-center py-1 sm:gap-x-1 auto">
-						<roofing-button variant="secondary" text="(737) 251-3394" href="tel:7372513394" class="hidden sm:inline-flex text-sm" />
+						<roofing-button variant="secondary" text="(737) 251-3394" href="tel:7372513394" class="hidden sm:inline-flex text-sm bg-belk-gray" />
 						<roofing-button variant="primary" text="Free Quote" href="/contact" class="px-2.5 py-2 sm:px-4 sm:py-2 border-b border-t-0 border-belk-light-gray text-sm" />
 						<button class="h-10 px-4 rounded-full hover:bg-gray-100 transition-colors text-gray-300 flex items-center justify-center" @click.stop="showMenu = !showMenu">
 							<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -223,7 +223,7 @@
 					<!-- Services dropdown (absolute, takes NO space) -->
 					<div class="absolute top-full left-0 pt-3 z-50" @click.stop>
 						<transition @click="(serviceImage, (showMenu = false))" enter-active-class="transition-all duration-700 ease-in-out transform-gpu" enter-from-class="opacity-0 -translate-y-full scale-95" enter-to-class="opacity-100 translate-y-0 scale-100" leave-active-class="transition-all duration-700 ease-in-out transform-gpu" leave-from-class="opacity-100 translate-y-0 scale-100" leave-to-class="opacity-0 -translate-y-full scale-95">
-							<div v-if="serviceImage" class="select-none w-full sm:max-w-[352px] bg-gray-900 sm:rounded-xl shadow-lg shadow-belk-light-brown sm:shadow-black h-auto z-[60] origin-top will-change-transform" @click.stop>
+							<div v-if="serviceImage" class="select-none w-full sm:max-w-[352px] bg-belk-dark-blue sm:rounded-xl shadow-lg shadow-belk-light-brown sm:shadow-black h-auto z-[60] origin-top will-change-transform" @click.stop>
 								<div class="w-full lg:max-w-xl overflow-x-auto h-auto rounded-2xl">
 									<div class="flex flex-col relative py-8 px-6">
 										<div class="w-full h-full space-y-3">
@@ -271,8 +271,10 @@ export default {
 			showMenu: false,
 			showLoginModal: false,
 			links: [
+				{ name: 'Service Areas', path: '/service-areas' },
+				{ name: 'About', path: '/About' },
 				{ name: 'Gallery', path: '/gallery' },
-				{ name: 'Financing', path: '/financing' },
+				// { name: 'Financing', path: '/financing' },
 			],
             services: [
               {

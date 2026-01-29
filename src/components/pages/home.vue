@@ -6,7 +6,7 @@
     <Solutions />
     <Reviews />
     <!-- <HeatMap /> -->
-    <Coverage />
+    <!-- <Coverage /> -->
   </div>
 </template>
 

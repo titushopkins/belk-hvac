@@ -26,6 +26,7 @@ module.exports = {
                 'belk-light-brown': '#412514',
                 'belk-dark-brown': '#3d2417',
                 'belk-teal': '#117F82',
+                'belk-dark-blue': '#0b1423',
             },
             fontSize: {
                 '3xs': '.45rem',

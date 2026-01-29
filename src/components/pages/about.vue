@@ -1,12 +1,21 @@
 <template>
-  <div class="w-full">
-    <div class="w-full h-screen max-h-[60vh] bg-[url('/images/jay-lott-ab.png')] bg-cover bg-center bg-black">
-      <div class="flex flex-col w-full justify-center h-full items-center text-center">
-        <h2 class="text-white text-2xl sm:text-[32px] font-semibold relative z-10 font-lobster font-semibold italic">
-          About Jay Lott
+    <div class="w-full">
+        <div class="relative w-full h-screen max-h-[60vh] overflow-hidden">
+      <!-- Background image -->
+      <div
+        class="absolute inset-0 bg-[url('/images/belk-26.png')] bg-cover bg-center blur-sm scale-105"
+      ></div>
+
+      <!-- Dark overlay -->
+      <div class="absolute inset-0 bg-black/50"></div>
+
+      <!-- Content -->
+      <div class="relative z-10 flex flex-col w-full justify-center h-full items-center text-center px-4">
+        <h2 class="text-white text-2xl sm:text-[32px] font-lobster font-semibold italic">
+          About Belk Heating &amp; Cooling
         </h2>
         <div class="flex w-full justify-center items-center text-center text-5xl sm:text-6xl font-semibold text-white">
-          Roofing since 1986
+          Serving the Hill Country for 10+ Years
         </div>
       </div>
     </div>
@@ -15,51 +24,50 @@
       <div class="w-full max-w-8xl">
         <div class="flex flex-col md:flex-row w-full justify-center px-8 py-12 sm:p-12">
           <div class="flex flex-col w-full gap-y-8">
-            <div class="text-3xl font-semibold">
+            <div class="text-3xl font-semibold text-white">
               Our Story
             </div>
 
             <div class="text-base text-white leading-6 space-y-4">
               <div>
-                Jay Lott Roofing was founded in <span class="font-semibold">1986 by Hershel “Jay” Lott</span> and his wife, <span class="font-semibold">Gladys,</span> with a simple
-                but powerful goal: do honest work, use quality materials, and treat people the right way.
+                Belk Heating &amp; Cooling was built on a simple mission: <span class="font-semibold">serve our neighbors with honest work, clear communication, and quality craftsmanship</span>.
+                What started as a local, hands-on HVAC company has grown through one thing above all—<span class="font-semibold">doing the job right and treating people the right way</span>.
               </div>
 
               <div>
-                As a <span class="font-semibold">born-again believer,</span> Mr. Jay Lott built his company on biblical principles of
-                <span class="font-semibold">integrity, hard work, and accountability.</span> From the very beginning, he believed that if you tell the truth, stand behind your
-                work, and take care of your customers, success will follow. That belief became the foundation of how Jay Lott Roofing operates—and it
-                still guides the company today.
+                Our owner, <span class="font-semibold">Noah Hopkins</span>, has <span class="font-semibold">over 10 years of HVAC experience</span> and has spent his career working on
+                everything from <span class="font-semibold">AC repairs and system replacements</span> to <span class="font-semibold">heating diagnostics, airflow issues, and indoor comfort upgrades</span>.
+                He believes customers deserve straight answers, fair pricing, and work they can trust.
               </div>
 
               <div>
-                Through decades of dedication, consistency, and craftsmanship, Mr. Lott earned a reputation as one of the
-                <span class="font-semibold">most trusted and respected roofers in Jasper, Woodville, and the surrounding East Texas counties.</span> Homeowners know that when Jay
-                Lott Roofing is on the job, the work will be done right the first time, with no shortcuts and no surprises.
+                We’ve earned a reputation for dependable service across the <span class="font-semibold">Texas Hill Country</span> because we don’t cut corners.
+                Whether it’s a simple tune-up or a full system install, we focus on what matters most:
+                <span class="font-semibold">comfort, safety, efficiency, and long-term reliability</span>.
               </div>
 
               <div>
-                Outside of roofing, Mr. Lott lives the same values he works by. He prefers a <span class="font-semibold">simple, honest way of life,</span> spending his spare
-                time <span class="font-semibold">bow hunting and training mules,</span> pursuits that reflect patience, discipline, and respect for tradition—much like the way
-                he has run his business for nearly four decades.
+                Belk Heating &amp; Cooling is proud to serve families and businesses throughout the area with a practical approach:
+                <span class="font-semibold">show up on time, diagnose accurately, explain options clearly, and deliver quality work</span>.
+                When you call us, you’re not getting a sales pitch—you’re getting a team that cares about doing it right.
               </div>
 
               <div>
-                Today, Jay Lott Roofing continues to carry forward the legacy that Jay and Gladys started:
-                <span class="font-semibold">faith-driven values, quality workmanship, and treating every customer like family.</span>
+                Today, we continue to grow while keeping the same foundation:
+                <span class="font-semibold">honesty, craftsmanship, and treating every customer like family</span>.
               </div>
             </div>
 
             <div class="flex flex-col sm:flex-row w-full justify-between items-start gap-6 sm:items-center p-6 bg-gray-100 rounded-xl">
               <div class="text-xl md:text-2xl font-semibold">
-                Contact us now to make arrangements for roofing services!
+                Contact us now to schedule HVAC service in the Hill Country!
               </div>
               <div class="text-white text-base md:text-lg w-full max-w-[15rem]">
                 <a
                   href="/contact"
                   class="bg-belk-red p-3 sm:p-4 rounded-full font-semibold w-full shadow-sm shadow-belk-gray"
                 >
-                  Request a Free Quote
+                  Request Service
                 </a>
               </div>
             </div>
@@ -68,59 +76,39 @@
               <img class="w-full flex min-w-[82vh]" src="/images/gray-line-flames.svg" />
             </div>
 
-            <div class="text-3xl font-semibold">
-              A New Chapter Built on the Same Foundation
+            <div class="text-3xl font-semibold text-white">
+              Built for Texas Heat (and Hill Country Winters)
             </div>
 
             <div class="text-base text-white leading-6 space-y-4">
               <div>
-                At the beginning of <span class="font-semibold">2025, Jay Lott Roofing</span> merged with <span class="font-semibold">Deep East Texas Roofing,</span> a company
-                founded and owned by <span class="font-semibold">Justin Schlichter.</span> This merger brought together two trusted East Texas roofing companies that share the
-                same core values: <span class="font-semibold">faith, integrity, hard work, and doing what’s right for the customer.</span>
+                In the Hill Country, your HVAC system has to handle <span class="font-semibold">extreme summer heat</span>, sudden cold snaps, humidity swings, and constant run-time.
+                That’s why we focus on solutions that actually work here—proper sizing, airflow, duct performance, and equipment that’s built to last.
               </div>
 
               <div>
-                Justin Schlichter started his roofing career long before owning a company. <span class="font-semibold">He grew up around construction and real estate,</span>
-                gaining hands-on exposure to how quality work and honest business are done. Wanting a deeper understanding of homes from the inside out,
-                Justin went to school to earn his <span class="font-semibold">Professional Home Inspector license,</span> then went on to work as a
-                <span class="font-semibold">Project Manager for a custom home builder in Houston,</span> where attention to detail and high standards were non-negotiable.
+                From <span class="font-semibold">AC repairs</span> and <span class="font-semibold">system replacements</span> to <span class="font-semibold">heating service</span> and
+                <span class="font-semibold">preventative maintenance</span>, our goal is to help you get reliable comfort without surprise breakdowns.
               </div>
 
               <div>
-                In <span class="font-semibold">2015,</span> Justin founded <span class="font-semibold">Deep East Texas Roofing & Construction, LLC in Lufkin, Texas,</span> with a
-                focus on quality craftsmanship, clear communication, and long-term customer relationships. Like Mr. Jay Lott, Justin is
-                <span class="font-semibold">a man of faith</span>who believes that strong Christian values and a solid work ethic should guide every decision—on and off the roof.
-              </div>
-
-              <div>
-                The merger of these two companies strengthened operations, expanded resources, and positioned the business for continued growth—while
-                staying true to the principles that built its reputation. It has also allowed <span class="font-semibold">Mr. Jay Lott to step more fully into a leadership and mentorship role,</span> passing down decades of experience to the next generation.
-              </div>
-
-              <div>
-                <span class="font-semibold">That said, Jay hasn’t gone anywhere.</span> He can still be found dropping in on job sites, checking on crews, and making sure the work
-                meets the standard his name was built on.
-              </div>
-
-              <div>
-                Together, this partnership represents the best of both worlds:
-                <span class="font-semibold">decades of trusted craftsmanship combined with modern systems, expanded capabilities, and a shared commitment to serving East Texas with excellence.</span>
+                We also take the time to explain what we’re seeing and what your options are—so you can make the best decision for your home, your budget,
+                and your long-term comfort.
               </div>
             </div>
 
-            <div class="text-3xl font-semibold">
+            <div class="text-3xl font-semibold text-white">
               What This Means for Our Customers
             </div>
 
-            <div class="text-base leading-6 space-y-4">
+            <div class="text-base leading-6 space-y-4 text-white">
               <div>
-                <span class="font-semibold">For our customers, this merger means more strength behind the same trusted name.</span>
+                <span class="font-semibold">For our customers, it means you get a local HVAC team you can actually rely on.</span>
               </div>
 
               <div>
-                By combining the decades-long experience and integrity of <span class="font-semibold">Jay Lott Roofing</span> with the systems, growth, and modern expertise of
-                <span class="font-semibold">Deep East Texas Roofing,</span> customers receive the <span class="font-semibold">best of both worlds</span>—time-tested craftsmanship
-                and improved efficiency without sacrificing personal service.
+                We’re not here for one quick job—we’re here to become the company you call for the next repair, the next tune-up, and the next system when it’s time.
+                That’s why we focus on <span class="font-semibold">honesty, quality workmanship, and clear communication</span> every step of the way.
               </div>
 
               <div>
@@ -130,24 +118,25 @@
               <ul class="space-y-3 list-disc ml-12">
                 <li class="flex gap-3 text-white/80">
                   <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
-                  <span class="font-semibold">The same honesty, quality, and faith-driven values that built Jay Lott Roofing’s reputation</span>
+                  <span class="font-semibold">Accurate diagnostics and straightforward recommendations</span>
                 </li>
                 <li class="flex gap-3 text-white/80">
                   <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
-                  <span class="font-semibold">More resources, better processes, and expanded capabilities to serve you efficiently</span>
+                  <span class="font-semibold">Repairs and installs done right—no shortcuts</span>
                 </li>
                 <li class="flex gap-3 text-white/80">
                   <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
-                  <span>Leadership involvement from both Jay Lott and Justin Schlichter</span>
+                  <span class="font-semibold">A local team that answers the phone and shows up</span>
                 </li>
                 <li class="flex gap-3 text-white/80">
                   <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
-                  <span class="font-semibold">Work that is still personally inspected and held to a higher standard</span>
+                  <span class="font-semibold">Service focused on comfort, efficiency, and long-term reliability</span>
                 </li>
               </ul>
 
               <div>
-                Most importantly, this merger allows us to continue doing what we’ve always done—<span class="font-semibold">taking care of our customers and standing behind our work</span>—while ensuring we can serve East Texas families for many years to come.
+                Most importantly, we’re committed to doing what we’ve always done—
+                <span class="font-semibold">taking care of our customers and standing behind our work</span>.
               </div>
             </div>
           </div>
@@ -158,33 +147,29 @@
     <!-- Partner Logos Section -->
     <section class="bg-belk-cream md:p-16 px-0">
       <div class="w-full">
-        <!-- <p class="text-center text-sm font-bold uppercase mb-10" style="letter-spacing: 1.4px;">
-          Recognized by leading organizations
-        </p> -->
         <div class="flex flex-col md:flex-row w-full justify-center p-12">
           <div class="flex flex-col md:flex-row w-full flex max-w-8xl justify-between gap-y-12 md:gap-y-none md:gap-x-12 text-center overflow-hidden w-full text-[#2c2824]">
             <div class="w-fit flex flex-col items-center gap-4">
               <img src="/images/settings-jay-lott.svg" alt="Partner logo" class="w-auto max-w-60 mix-blend-luminosity" />
               <div class="text-xl sm:text-3xl font-semibold">Professional</div>
               <div class="text-sm">
-                We strive for high standards in a safe, clean work environment. We use only the highest quality installation materials and the best
-                installation methods.
+                We work with high standards in a safe, clean environment. We use quality parts and proven installation methods for reliable results.
               </div>
             </div>
             <div class="w-fit flex flex-col items-center gap-y-4">
               <img src="/images/thumbs-up-jay-lott.svg" alt="Partner logo" class="w-auto max-w-60 mix-blend-luminosity" />
               <div class="text-xl sm:text-3xl font-semibold">Affordable</div>
-              <div class="text-sm">We work hard to maintain competitive, reasonable prices for our customers. Don’t pay thought the roof for our service!</div>
+              <div class="text-sm">
+                We maintain competitive, reasonable pricing and provide clear options—so you can choose what fits your home and budget.
+              </div>
             </div>
             <div class="w-fit flex flex-col items-center gap-4">
               <img src="/images/calendar-jay-lott.svg" alt="Partner logo" class="w-auto max-w-60 mix-blend-luminosity" />
               <div class="text-xl sm:text-3xl font-semibold">Dependable</div>
               <div class="text-sm">
-                We are committed to dependability. We keep our word and will not be satisfied until you are. We work hard to maintain our reputation with
-                each job we perform.
+                We keep our word and stand behind our work. From the first call to the final test, we’re committed to getting it right.
               </div>
             </div>
-            <!-- <img src="/images/logo-image-4.png" alt="Partner logo" class="w-auto mix-blend-luminosity" /> -->
           </div>
         </div>
       </div>
@@ -192,7 +177,7 @@
 
     <section class="w-full py-10">
       <div class="mx-auto">
-        <div class="text-center font-semibold font-lobster text-3xl mb-8">Our awards</div>
+        <div class="text-center font-semibold font-lobster text-3xl mb-8">Our trusted brands</div>
         <div class="flex flex-wrap justify-center gap-8 p-4">
           <img
             v-for="(logo, index) in logos"

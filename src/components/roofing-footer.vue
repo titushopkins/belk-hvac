@@ -1,5 +1,5 @@
 <template>
-	<footer class="bg-belk-light-brown">
+	<footer class="bg-belk-dark-blue">
 		<CallUs />
 
 		<!-- Main Footer Content -->
@@ -69,7 +69,7 @@
 								<li class="text-white/70 text-base">
 									<a class="flex gap-x-2 items-center" href="/service-areas" rel="noopener noreferrer">
 										<img class="w-6 h-6" src="/images/jay-lott-map.svg" />
-										Servicing Burnet County and Surrounding Areas
+										Services Burnet & Surrounding Areas
 									</a>
 								</li>
 								<li class="text-white/70 text-base">
@@ -110,18 +110,18 @@
 			<div class="mt-12 pt-8 pr-4 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between">
 				<div class="flex flex-col md:flex-row w-full justify-between md:items-center gap-4 sm:gap-6 text-white/50 text-xs sm:text-sm">
 					<div class="flex flex-wrap gap-2">
-						<div>© 2024 Deep East Texas Roofing & Construction, LLC</div>
+						<div>© 2025 Belk Heating & Cooling, LLC</div>
 						<div class="space-x-2">
 							<span class="hidden lg:inline">•</span>
-							<a href="#" class="hover:text-white">Bonded and Insured</a>
+							<a class="hover:text-white">Bonded and Insured</a>
 							<span>•</span>
-							<a href="#" class="hover:text-white">Privacy Policy</a>
+							<a class="hover:text-white">Privacy Policy</a>
 						</div>
 					</div>
 
 					<div class="flex gap-4">
-						<img src="/images/preffered-contractor.svg" alt="Certification" class="h-8" />
-						<img src="/images/accredited-business.svg" alt="Certification" class="h-8" />
+						<img src="/images/mitsibushi-partner.svg" alt="Certification" class="h-8 bg-white rounded-md p-1" />
+						<img src="/images/rudd-partner.svg" alt="Certification" class="h-8 bg-white rounded-md p-1" />
 					</div>
 				</div>
 			</div>
