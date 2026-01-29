@@ -208,7 +208,7 @@
 
 					<!-- Action Buttons + Hamburger -->
 					<div class="flex items-center py-1 sm:gap-x-1 auto">
-						<roofing-button variant="secondary" text="(737) 251-3394" href="tel:7372513394" class="hidden sm:inline-flex text-sm bg-belk-gray" />
+						<roofing-button variant="secondary" text="(737) 251-3394" href="tel:7372513394" class="hidden sm:inline-flex text-sm bg-gray-700 hover:bg-belk-gray" />
 						<roofing-button variant="primary" text="Free Quote" href="/contact" class="px-2.5 py-2 sm:px-4 sm:py-2 border-b border-t-0 border-belk-light-gray text-sm" />
 						<button class="h-10 px-4 rounded-full hover:bg-gray-100 transition-colors text-gray-300 flex items-center justify-center" @click.stop="showMenu = !showMenu">
 							<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
