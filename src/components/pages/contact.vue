@@ -25,11 +25,11 @@
 
 							<div class="flex flex-col text-hp-gray-900 space-y-6">
 								<div class="space-y-8">
-									<a href="sms:4093827186" class="flex m-auto items-center gap-x-4">
+									<a href="sms:7372513394" class="flex m-auto items-center gap-x-4">
 										<img class="w-16" src="/images/justin-teal-phone.svg" />
 										<div class="flex flex-col">
 											<div class="text-start font-semibold text-2xl pb-2 text-white tracking-wide">Call or Text Us</div>
-											<div>(409) 382-7186</div>
+											<div>(737) 251-3394</div>
 										</div>
 									</a>
 

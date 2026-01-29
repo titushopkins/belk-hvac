@@ -2,18 +2,34 @@
 	<div class="w-full lg:-translate-y-32">
 		<div class="w-full rounded-xl">
 			<div class="space-y-4 sm:space-y-6">
-				<div v-for="(row, rowIndex) in groupedRows" :key="rowIndex" class="grid gap-6" :class="row.length === 1 ? 'grid-cols-1' : 'grid-cols-1 sm:grid-cols-2'">
+				<div
+					v-for="(row, rowIndex) in groupedRows"
+					:key="rowIndex"
+					class="grid gap-6"
+					:class="row.length === 1 ? 'grid-cols-1' : 'grid-cols-1 sm:grid-cols-2'"
+				>
 					<div v-for="(item, itemIndex) in row" :key="`${rowIndex}-${itemIndex}`" class="overflow-hidden rounded-lg">
 						<!-- IMAGE TILE -->
-						<img v-if="item.type !== 'content'" :src="item.src" alt="" class="relative rounded-lg bg-center bg-no-repeat bg-cover" :class="item.class" />
+						<img
+							v-if="item.type !== 'content'"
+							:src="item.src"
+							alt=""
+							class="relative rounded-lg bg-center bg-no-repeat bg-cover"
+							:class="item.class"
+						/>
 
 						<!-- CONTENT TILE (ONLY ONCE, NEXT TO 7TH IMAGE) -->
-						<div v-else class="w-full h-full max-h-[350px] sm:max-w-[494px] sm:max-h-[494px] rounded-lg bg-roofing-light-gray border border-roofing-light-gray/40 shadow-sm flex">
+						<div
+							v-else
+							class="w-full h-full max-h-[350px] sm:max-w-[494px] sm:max-h-[494px] rounded-lg bg-roofing-light-gray border border-roofing-light-gray/40 shadow-sm flex"
+						>
 							<div class="flex w-full gap-2 pt-4">
 								<div class="pl-4 space-y-4">
 									<h3 class="text-3xl font-semibold text-gray-300">Want this roof on your house?</h3>
 									<p class="text-sm text-white">Contact us now to make arrangements for roofing services!</p>
-									<a href="/contact" class="text-xs text-white bg-roofing-red rounded-full px-4 py-2"> Request a Free Quote </a>
+									<a href="/contact" class="text-xs text-white bg-roofing-red rounded-full px-4 py-2">
+										Request a Free Quote
+									</a>
 									<div class="flex w-full justify-start items-start flex w-full h-auto md:items-end bottom-0 gap-4 pt-2">
 										<div class="flex flex-col gap-[1px]">
 											<img src="/images/stars.svg" class="w-[85px]" />
@@ -37,7 +53,9 @@
 		</div>
 
 		<div v-if="hasMoreImages" class="mb-1 mt-12 flex justify-center items-end">
-			<button @click="loadMore" class="px-3 py-2 rounded-md bg-roofing-light-gray text-white/80 text-sm font-semibold">Load More</button>
+			<button @click="loadMore" class="px-3 py-2 rounded-md bg-roofing-light-gray text-white/80 text-sm font-semibold">
+				Load More
+			</button>
 		</div>
 	</div>
 </template>
@@ -65,9 +83,22 @@ export default {
 			return this.displayLimit < this.photos.length
 		},
 		images() {
-			const sizeClasses = ['w-full h-full max-h-[350px] sm:max-w-[1040px] sm:max-h-[584.48px]', 'w-full h-full max-h-[350px] sm:max-w-[494px] sm:max-h-[494px]', 'w-full h-full max-h-[350px] sm:max-w-[494px] sm:max-h-[494px]', 'w-full h-full max-h-[350px] sm:max-w-[1040px] sm:max-h-[584.48px]', 'w-full h-full max-h-[350px] sm:max-w-[494px] sm:max-h-[494px]', 'w-full h-full max-h-[350px] sm:max-w-[494px] sm:max-h-[494px]', 'w-full h-full max-h-[350px] sm:max-w-[494px] sm:max-h-[494px]', 'w-full h-full max-h-[350px] sm:max-w-[1040px] sm:max-h-[584.48px]', 'w-full h-full max-h-[350px] sm:max-w-[494px] sm:max-h-[494px]', 'w-full h-full max-h-[350px] sm:max-w-[494px] sm:max-h-[494px]']
+			const sizeClasses = [
+				'object-center object-cover w-full h-full max-h-[350px] sm:max-w-[1040px] sm:max-h-[584.48px]',
+				'object-center object-cover w-full h-full max-h-[350px] sm:max-w-[494px] sm:max-h-[494px]',
+				'object-center object-cover w-full h-full max-h-[350px] sm:max-w-[494px] sm:max-h-[494px]',
+				'object-center object-cover w-full h-full max-h-[350px] sm:max-w-[1040px] sm:max-h-[584.48px]',
+				'object-center object-cover w-full h-full max-h-[350px] sm:max-w-[494px] sm:max-h-[494px]',
+				'object-center object-cover w-full h-full max-h-[350px] sm:max-w-[494px] sm:max-h-[494px]',
+				'object-center object-cover w-full h-full max-h-[350px] sm:max-w-[494px] sm:max-h-[494px]',
+				'object-center object-cover w-full h-full max-h-[350px] sm:max-w-[1040px] sm:max-h-[584.48px]',
+				'object-center object-cover w-full h-full max-h-[350px] sm:max-w-[494px] sm:max-h-[494px]',
+				'object-center object-cover w-full h-full max-h-[350px] sm:max-w-[494px] sm:max-h-[494px]',
+			]
+
 			return this.photos.slice(0, this.displayLimit).map((photo, index) => ({
-				src: photo.url,
+				// ✅ EDIT: make src robust to different API field names
+				src: photo.url || photo.src || photo.image || photo.imageUrl || photo.photoUrl || photo.path || photo.file?.url || '',
 				class: sizeClasses[index % sizeClasses.length],
 			}))
 		},

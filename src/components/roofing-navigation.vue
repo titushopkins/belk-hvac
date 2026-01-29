@@ -142,19 +142,19 @@
 					<div class="flex flex-col w-full justify-start space-y-3 p-2">
 						<p class="text-start text-sm font-bold uppercase" style="letter-spacing: 1.4px">Get In Touch</p>
 
-						<a href="tel:4093827186" class="text-sm flex items-center gap-2 hover:underline">
+						<a href="tel:7372513394" class="text-sm flex items-center gap-2 hover:underline">
 							<img class="w-4 h-4" src="/images/jay-lott-call.svg" alt="" />
-							(409) 382-7186
+							(737) 251-3394
 						</a>
 
-						<a href="mailto:jaylott@gmail.com" class="text-sm flex items-center gap-2 hover:underline">
+						<a href="mailto:belkheatingandcooling@gmail.com" class="text-sm flex items-center gap-2 hover:underline">
 							<img class="w-4 h-4" src="/images/jay-lott-email-icon.svg" alt="" />
-							jaylott@gmail.com
+							belkheatingandcooling@gmail.com
 						</a>
 
-						<a href="https://maps.google.com/?q=720+S+Wheeler+St,+Suite+5,+Jasper,+TX+75951" target="_blank" rel="noopener noreferrer" class="text-sm flex items-center gap-2 hover:underline">
+						<a href="/service-areas" rel="noopener noreferrer" class="text-sm flex items-center gap-2 hover:underline">
 							<img class="w-4 h-4" src="/images/jay-lott-map-icon.svg" alt="" />
-							720 S Wheeler St, Suite 5, Jasper, TX 75951
+							Servicing Burnet County and Surrounding Areas
 						</a>
 					</div>
 
@@ -208,7 +208,7 @@
 
 					<!-- Action Buttons + Hamburger -->
 					<div class="flex items-center py-1 sm:gap-x-1 auto">
-						<roofing-button variant="secondary" text="(409) 382-7186" href="tel:4093827186" class="hidden sm:inline-flex text-sm" />
+						<roofing-button variant="secondary" text="(737) 251-3394" href="tel:7372513394" class="hidden sm:inline-flex text-sm" />
 						<roofing-button variant="primary" text="Free Quote" href="/contact" class="px-2.5 py-2 sm:px-4 sm:py-2 border-b border-t-0 border-roofing-light-gray text-sm" />
 						<button class="h-10 px-4 rounded-full hover:bg-gray-100 transition-colors text-gray-300 flex items-center justify-center" @click.stop="showMenu = !showMenu">
 							<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">

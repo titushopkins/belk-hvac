@@ -61,21 +61,21 @@
 							<h3 class="text-white font-bold text-sm uppercase mb-6 tracking-wider">Get In Touch</h3>
 							<ul class="space-y-4">
 								<li class="text-white/70 text-base">
-									<a class="flex gap-x-2 items-center" href="tel:+14093827186">
+									<a class="flex gap-x-2 items-center" href="tel:+7372513394">
 										<img class="w-6 h-6" src="/images/jay-lott-phone.svg" />
-										(409) 382-7186
+										(737) 251-3394
 									</a>
 								</li>
 								<li class="text-white/70 text-base">
-									<a class="flex gap-x-2 items-center" href="https://maps.google.com/?q=720+S+Wheeler+St,+Suite+5,+Jasper,+TX+75951" target="_blank" rel="noopener noreferrer">
+									<a class="flex gap-x-2 items-center" href="/service-areas" rel="noopener noreferrer">
 										<img class="w-6 h-6" src="/images/jay-lott-map.svg" />
-										720 S Wheeler St, Suite 5, Jasper, TX 75951
+										Servicing Burnet County and Surrounding Areas
 									</a>
 								</li>
 								<li class="text-white/70 text-base">
-									<a class="flex gap-x-2 items-center" href="mailto:jaylott@gmail.com">
+									<a class="flex gap-x-2 items-center" href="mailto:belkheatingandcooling@gmail.com">
 										<img class="w-6 h-6" src="/images/jay-lott-email.svg" />
-										jaylott@gmail.com
+										belkheatingandcooling@gmail.com
 									</a>
 								</li>
 							</ul>

@@ -7,7 +7,7 @@
 			</div>
 		</div>
 
-		<section class="px-0 w-full">
+		<section class="px-0 w-full bg-gray-900">
 			<div class="flex w-full justify-center items-center">
 				<FilteredSearch />
 			</div>

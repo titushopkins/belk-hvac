@@ -16,6 +16,7 @@ import FlatRoofRepairs from './components/pages/flat-roof-repairs.vue'
 import HomeRenovation from './components/pages/home-renovation.vue'
 import Construction from './components/pages/construction-projects.vue'
 import Warranty from './components/pages/warranty.vue'
+import ServiceAreas from './components/pages/service-areas.vue'
 import Financing from './components/pages/financing.vue'
 import './index.css'
 
@@ -41,6 +42,7 @@ const routes = [
     { path: '/home-renovation', component: HomeRenovation },
     { path: '/construction-projects', component: Construction },
     { path: '/warranty', component: Warranty },
+    { path: '/service-areas', component: ServiceAreas },
     { path: '/financing', component: Financing },
     { path: '/protectedRoute', component: Home, meta: { protected: true, fallback: '/' } },
 
