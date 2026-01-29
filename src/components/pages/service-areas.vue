@@ -75,113 +75,113 @@
           <!-- Burnet -->
           <div class="card">
             <h3>Burnet</h3>
-            <p>Fast local HVAC service for homes and small businesses.</p>
-            <p class="font-semibold">Common calls: AC repairs • system replacements • summer tune-ups</p>
+            <div class="font-semibold text-gray-300">Fast local HVAC service for homes and small businesses.</div>
+            <p class="">Common calls: AC repairs • system replacements • summer tune-ups</p>
           </div>
 
           <!-- Marble Falls -->
           <div class="card">
             <h3>Marble Falls</h3>
-            <p>Keeping homes cool in summer and warm in winter with reliable service.</p>
-            <p class="font-semibold">Common calls: AC not cooling • heat pump issues • maintenance plans</p>
+            <div class="font-semibold text-gray-300">Keeping homes cool in summer and warm in winter with reliable service.</div>
+            <p class="">Common calls: AC not cooling • heat pump issues • maintenance plans</p>
           </div>
 
           <!-- Austin -->
           <div class="card">
             <h3>Austin</h3>
-            <p>Professional diagnostics and energy-efficient HVAC upgrades.</p>
-            <p class="font-semibold">Common calls: system replacements • thermostat upgrades • airflow issues</p>
+            <div class="font-semibold text-gray-300">Professional diagnostics and energy-efficient HVAC upgrades.</div>
+            <p class="">Common calls: system replacements • thermostat upgrades • airflow issues</p>
           </div>
 
           <!-- Horseshoe Bay -->
           <div class="card">
             <h3>Horseshoe Bay</h3>
-            <p>Lake-area HVAC service built for high heat and humidity.</p>
-            <p class="font-semibold">Common calls: AC tune-ups • capacitor failures • duct issues</p>
+            <div class="font-semibold text-gray-300">Lake-area HVAC service built for high heat and humidity.</div>
+            <p class="">Common calls: AC tune-ups • capacitor failures • duct issues</p>
           </div>
 
           <!-- Cedar Park -->
           <div class="card">
             <h3>Cedar Park</h3>
-            <p>Quick, dependable HVAC repairs with clear communication.</p>
-            <p class="font-semibold">Common calls: refrigerant leaks • blower motor issues • maintenance</p>
+            <div class="font-semibold text-gray-300">Quick, dependable HVAC repairs with clear communication.</div>
+            <p class="">Common calls: refrigerant leaks • blower motor issues • maintenance</p>
           </div>
 
           <!-- Leander -->
           <div class="card">
             <h3>Leander</h3>
-            <p>Full-service heating and cooling for growing neighborhoods.</p>
-            <p class="font-semibold">Common calls: new system installs • AC repairs • zoning issues</p>
+            <div class="font-semibold text-gray-300">Full-service heating and cooling for growing neighborhoods.</div>
+            <p class="">Common calls: new system installs • AC repairs • zoning issues</p>
           </div>
 
           <!-- Liberty Hill -->
           <div class="card">
             <h3>Liberty Hill</h3>
-            <p>Rural and new-build HVAC service you can count on.</p>
-            <p class="font-semibold">Common calls: heat pump installs • ductwork • emergency AC repair</p>
+            <div class="font-semibold text-gray-300">Rural and new-build HVAC service you can count on.</div>
+            <p class="">Common calls: heat pump installs • ductwork • emergency AC repair</p>
           </div>
 
           <!-- Bertram -->
           <div class="card">
             <h3>Bertram</h3>
-            <p>Small-town service with big-time HVAC reliability.</p>
-            <p class="font-semibold">Common calls: no-cool calls • thermostat problems • maintenance</p>
+            <div class="font-semibold text-gray-300">Small-town service with big-time HVAC reliability.</div>
+            <p class="">Common calls: no-cool calls • thermostat problems • maintenance</p>
           </div>
 
           <!-- Lampasas -->
           <div class="card">
             <h3>Lampasas</h3>
-            <p>Dependable heating and cooling solutions for every season.</p>
-            <p class="font-semibold">Common calls: furnace repairs • AC replacements • airflow balancing</p>
+            <div class="font-semibold text-gray-300">Dependable heating and cooling solutions for every season.</div>
+            <p class="">Common calls: furnace repairs • AC replacements • airflow balancing</p>
           </div>
 
           <!-- Granite Shoals -->
           <div class="card">
             <h3>Granite Shoals</h3>
-            <p>HVAC service for lake homes and full-time residents alike.</p>
-            <p class="font-semibold">Common calls: AC repairs • duct sealing • maintenance plans</p>
+            <div class="font-semibold text-gray-300">HVAC service for lake homes and full-time residents alike.</div>
+            <p class="">Common calls: AC repairs • duct sealing • maintenance plans</p>
           </div>
 
           <!-- Meadowlakes -->
           <div class="card">
             <h3>Meadowlakes</h3>
-            <p>Comfort-focused HVAC care with detailed system checks.</p>
-            <p class="font-semibold">Common calls: tune-ups • indoor air quality • filter system upgrades</p>
+            <div class="font-semibold text-gray-300">Comfort-focused HVAC care with detailed system checks.</div>
+            <p class="">Common calls: tune-ups • indoor air quality • filter system upgrades</p>
           </div>
 
           <!-- Georgetown -->
           <div class="card">
             <h3>Georgetown</h3>
-            <p>Efficient scheduling and honest HVAC recommendations.</p>
-            <p class="font-semibold">Common calls: AC not keeping up • system replacements • maintenance</p>
+            <div class="font-semibold text-gray-300">Efficient scheduling and honest HVAC recommendations.</div>
+            <p class="">Common calls: AC not keeping up • system replacements • maintenance</p>
           </div>
 
           <!-- Round Rock -->
           <div class="card">
             <h3>Round Rock</h3>
-            <p>Reliable heating and cooling service with quick turnaround.</p>
-            <p class="font-semibold">Common calls: emergency AC repair • thermostat issues • airflow fixes</p>
+            <div class="font-semibold text-gray-300">Reliable heating and cooling service with quick turnaround.</div>
+            <p class="">Common calls: emergency AC repair • thermostat issues • airflow fixes</p>
           </div>
 
           <!-- Harker Heights -->
           <div class="card">
             <h3>Harker Heights</h3>
-            <p>From diagnostics to installs—comfort you can depend on.</p>
-            <p class="font-semibold">Common calls: AC repair • heating repair • full system replacements</p>
+            <div class="font-semibold text-gray-300">From diagnostics to installs—comfort you can depend on.</div>
+            <p class="">Common calls: AC repair • heating repair • full system replacements</p>
           </div>
 
           <!-- Killeen -->
           <div class="card">
             <h3>Killeen</h3>
-            <p>Fast response for cooling and heating issues year-round.</p>
-            <p class="font-semibold">Common calls: no-cool emergencies • capacitor failures • tune-ups</p>
+            <div class="font-semibold text-gray-300">Fast response for cooling and heating issues year-round.</div>
+            <p class="">Common calls: no-cool emergencies • capacitor failures • tune-ups</p>
           </div>
 
           <!-- Fort Hood -->
           <div class="card">
             <h3>Fort Hood</h3>
-            <p>HVAC service availability for nearby military housing and neighborhoods.</p>
-            <p class="font-semibold">Common calls: AC repair • maintenance • system diagnostics</p>
+            <div class="font-semibold text-gray-300">HVAC service availability for nearby military housing and neighborhoods.</div>
+            <p class="">Common calls: AC repair • maintenance • system diagnostics</p>
           </div>
         </div>
       </div>
@@ -195,15 +195,15 @@
         <ul class="space-y-3 list-disc ml-12">
           <li class="flex gap-3">
             <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
-            <p><span class="font-semibold">Fast scheduling</span> and reliable arrival windows</p>
+            <p><span class="">Fast scheduling</span> and reliable arrival windows</p>
           </li>
           <li class="flex gap-3">
             <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
-            <p><span class="font-semibold">Honest diagnostics</span> with clear repair options</p>
+            <p><span class="">Honest diagnostics</span> with clear repair options</p>
           </li>
           <li class="flex gap-3">
             <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
-            <p><span class="font-semibold">Long-lasting solutions</span> focused on comfort and efficiency</p>
+            <p><span class="">Long-lasting solutions</span> focused on comfort and efficiency</p>
           </li>
         </ul>
 
@@ -219,7 +219,7 @@
 <style scoped>
 p,
 li {
-  @apply leading-7 text-gray-300;
+  @apply leading-7 text-gray-500;
 }
 
 .card {
@@ -227,6 +227,6 @@ li {
 }
 
 .card h3 {
-  @apply text-lg font-semibold text-white;
+  @apply text-xl text-belk-teal font-bold;
 }
 </style>

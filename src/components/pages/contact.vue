@@ -59,8 +59,8 @@
                         <div class="flex flex-col w-full justify-start space-y-4">
 							<div class="text-start font-semibold text-2xl text-white tracking-wide">Contact Us Form</div>
 							<div class="text-sm leading-6 text-white/80">
-								The Contact Form is unavailable at the moment but will be added soon.<br />
-								Feel free to call/email/text Belk Heating & Cooling at:
+								The Contact Form is unavailable at the moment but will be available soon.<br />
+								Feel free to call/text/email Belk Heating & Cooling.
 							</div>
                             <div class="flex flex-col text-hp-gray-900 space-y-6">
 								<div class="space-y-8">

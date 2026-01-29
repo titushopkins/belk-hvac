@@ -14,9 +14,16 @@
 					<div id="services" class="flex flex-nowrap shrink-0 justify-between gap-8">
 						<!-- Services Column -->
 						<div class="w-auto">
-							<h3 class="text-white font-bold text-sm uppercase mb-6 tracking-wider">Services</h3>
+                            <!-- Eventually it will be "Services" -->
+							<h3 class="text-white font-bold text-sm uppercase mb-6 tracking-wider">Pages</h3>
 							<ul class="space-y-4">
 								<li>
+									<a href="/service-areas" class="text-white/70 text-base underline-offset-2 transition-all duration-300 ease-in-out hover:underline decoration-belk-cream-2 decoration-2 hover:underline-offset-4">Service Areas</a>
+								</li>
+								<li>
+									<a href="/gallery" class="text-white/70 text-base underline-offset-2 transition-all duration-300 ease-in-out hover:underline decoration-belk-cream-2 decoration-2 hover:underline-offset-4">Gallery</a>
+								</li>
+								<!-- <li>
 									<a href="/metal-roofing" class="text-white/70 text-base underline-offset-2 transition-all duration-300 ease-in-out hover:underline decoration-belk-cream-2 decoration-2 hover:underline-offset-4"> Metal Roofing </a>
 								</li>
 								<li>
@@ -33,7 +40,7 @@
 								</li>
 								<li>
 									<a href="/construction-projects" class="text-white/70 text-base underline-offset-2 transition-all duration-300 ease-in-out hover:underline decoration-belk-cream-2 decoration-2 hover:underline-offset-4"> Construction Projects </a>
-								</li>
+								</li> -->
 							</ul>
 						</div>
 
@@ -44,9 +51,9 @@
 								<li>
 									<a href="/about-us" class="text-white/70 text-base underline-offset-2 transition-all duration-300 ease-in-out hover:underline decoration-belk-cream-2 decoration-2 hover:underline-offset-4"> About </a>
 								</li>
-								<li>
+								<!-- <li>
 									<a href="/financing" class="text-white/70 text-base underline-offset-2 transition-all duration-300 ease-in-out hover:underline decoration-belk-cream-2 decoration-2 hover:underline-offset-4"> Financing </a>
-								</li>
+								</li> -->
 								<li>
 									<a href="/warranty" class="text-white/70 text-base underline-offset-2 transition-all duration-300 ease-in-out hover:underline decoration-belk-cream-2 decoration-2 hover:underline-offset-4"> Warranty </a>
 								</li>

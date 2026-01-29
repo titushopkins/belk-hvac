@@ -71,8 +71,8 @@
               </div>
 
               <div class="hidden md:flex flex-col gap-[2px]">
-                <p class="text-base font-semibold">2025</p>
-                <p class="text-sm">Founded</p>
+                <p class="text-base font-semibold">10+ YRS</p>
+                <p class="text-sm">Experience</p>
               </div>
             </div>
           </div>
