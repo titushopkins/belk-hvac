@@ -44,7 +44,7 @@
 
         <ul class="space-y-3 list-disc ml-12">
           <li class="flex gap-3">
-            <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+            <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
             <p>
               <span class="font-semibold">Kitchen Remodeling</span><br />
               <span class="font-semibold">Layout updates, cabinet installation, countertops, backsplashes, lighting,</span> and <span class="font-semibold">full kitchen renovations</span> designed for everyday use.
@@ -52,7 +52,7 @@
           </li>
 
           <li class="flex gap-3">
-            <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+            <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
             <p>
               <span class="font-semibold">Bathroom Remodeling</span><br />
               <span class="font-semibold">Tub and shower conversions, tile work, vanities, fixtures,</span> and <span class="font-semibold">complete bathroom remodels</span> completed with durability and function in mind.
@@ -60,7 +60,7 @@
           </li>
 
           <li class="flex gap-3">
-            <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+            <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
             <p>
               <span class="font-semibold">Flooring Installation</span><br />
               <span class="font-semibold">Hardwood, laminate, luxury vinyl plank (LVP), tile,</span> and other flooring options installed with proper preparation for long-lasting performance.
@@ -68,7 +68,7 @@
           </li>
 
           <li class="flex gap-3">
-            <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+            <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
             <p>
               <span class="font-semibold">Drywall & Interior Repairs</span><br />
               <span class="font-semibold">Drywall repair, patching, texturing,</span> and interior wall repairs to restore or update your space.
@@ -76,7 +76,7 @@
           </li>
 
           <li class="flex gap-3">
-            <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+            <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
             <p>
               <span class="font-semibold">Trim & Finish Carpentry</span><br />
               <span class="font-semibold">Baseboards, crown molding, door and window trim,</span> and other finish details that bring a polished look to your home.
@@ -84,7 +84,7 @@
           </li>
 
           <li class="flex gap-3">
-            <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+            <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
             <p>
               <span class="font-semibold">Interior Painting</span><br />
               <span class="font-semibold">Professional surface prep</span> and high-quality interior paint for clean lines and long-lasting results.
@@ -92,7 +92,7 @@
           </li>
 
           <li class="flex gap-3">
-            <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+            <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
             <p>
               <span class="font-semibold">Doors & Interior Updates</span><br />
               <span class="font-semibold">Interior door replacement, hardware upgrades,</span> and general interior improvements that modernize your home.
@@ -106,7 +106,7 @@
 
         <p>
           You can view photos of our interior remodeling projects in the
-          <a href="/gallery" class="font-semibold underline underline-offset-2 hover:text-roofing-gray/80">Photos</a>
+          <a href="/gallery" class="font-semibold underline underline-offset-2 hover:text-belk-gray/80">Photos</a>
           section of our website. We take pride in the details and the finished product.
         </p>
 
@@ -140,7 +140,7 @@
 
         <ul class="space-y-3 list-disc ml-12">
           <li class="flex gap-3">
-            <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+            <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
             <p>
               <span class="font-semibold">Metal Buildings</span><br />
               Custom metal buildings designed for storage, workshops, equipment, and more—built for strength, longevity, and reliability.
@@ -148,7 +148,7 @@
           </li>
 
           <li class="flex gap-3">
-            <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+            <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
             <p>
               <span class="font-semibold">Metal Carports & Porch Covers</span><br />
               Protect vehicles and create shaded outdoor areas with professionally installed metal carports and porch covers that are both functional and attractive.
@@ -156,7 +156,7 @@
           </li>
 
           <li class="flex gap-3">
-            <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+            <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
             <p>
               <span class="font-semibold">Decks</span><br />
               Custom-built decks designed for durability, safety, and outdoor enjoyment, whether you’re entertaining or relaxing with family.
@@ -164,7 +164,7 @@
           </li>
 
           <li class="flex gap-3">
-            <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+            <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
             <p>
               <span class="font-semibold">Pergolas</span><br />
               Add character and shade to your outdoor space with custom pergolas built to complement your home and landscape.
@@ -172,7 +172,7 @@
           </li>
 
           <li class="flex gap-3">
-            <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+            <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
             <p>
               <span class="font-semibold">Siding Installation & Replacement</span><br />
               Improve curb appeal and weather protection with quality siding installed to manufacturer standards.
@@ -180,7 +180,7 @@
           </li>
 
           <li class="flex gap-3">
-            <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+            <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
             <p>
               <span class="font-semibold">Fences</span><br />
               Wood and other fencing solutions that provide privacy, security, and a finished look to your property.
@@ -188,7 +188,7 @@
           </li>
 
           <li class="flex gap-3">
-            <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+            <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
             <p>
               <span class="font-semibold">Fascia & Soffit Replacement</span><br />
               Repair or replace damaged fascia and soffit to improve ventilation, protect roof edges, and prevent moisture intrusion.
@@ -196,7 +196,7 @@
           </li>
 
           <li class="flex gap-3">
-            <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+            <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
             <p>
               <span class="font-semibold">Exterior Painting</span><br />
               Professional preparation and high-quality exterior coatings to protect your home and give it a clean, refreshed appearance.
@@ -210,7 +210,7 @@
 
         <p>
           You can view photos of our exterior construction projects in the
-          <a href="/gallery" class="font-semibold underline underline-offset-2 hover:text-roofing-gray/80">Photos</a>
+          <a href="/gallery" class="font-semibold underline underline-offset-2 hover:text-belk-gray/80">Photos</a>
           section of our website. Our work speaks for itself.
         </p>
 
@@ -231,7 +231,7 @@
           </a>
           <a
             href="tel:+1XXXXXXXXXX"
-            class="inline-flex items-center justify-center rounded-full bg-roofing-light-gray/60 px-8 py-4 text-white font-semibold tracking-wide hover:bg-roofing-light-gray transition"
+            class="inline-flex items-center justify-center rounded-full bg-belk-light-gray/60 px-8 py-4 text-white font-semibold tracking-wide hover:bg-belk-light-gray transition"
           >
             Call Now
           </a>

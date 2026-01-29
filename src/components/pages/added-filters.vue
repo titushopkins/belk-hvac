@@ -8,13 +8,13 @@
 				<button
 					type="button"
 					@click="selectCategory(category.key)"
-					:class="selectedGalleryCategory === category.key ? 'border-b border-roofing-teal' : 'border-b border-roofing-light-gray/60'"
+					:class="selectedGalleryCategory === category.key ? 'border-b border-belk-teal' : 'border-b border-belk-light-gray/60'"
 					class="w-full flex items-center justify-between py-3 text-left"
 				>
 					<!-- Name -->
 					<span
 						class="text-sm"
-						:class="selectedGalleryCategory === category.key ? 'text-roofing-teal font-semibold' : 'text-gray-300/70 font-medium hover:text-gray-300'"
+						:class="selectedGalleryCategory === category.key ? 'text-belk-teal font-semibold' : 'text-gray-300/70 font-medium hover:text-gray-300'"
 					>
 						{{ category.label }}
 					</span>
@@ -22,7 +22,7 @@
 					<!-- Count pill -->
 					<span
 						class="min-w-[52px] text-center text-xs font-semibold rounded-full px-3 py-1"
-						:class="selectedGalleryCategory === category.key ? 'bg-roofing-teal text-white' : 'bg-roofing-light-gray/60 text-gray-300/70'"
+						:class="selectedGalleryCategory === category.key ? 'bg-belk-teal text-white' : 'bg-belk-light-gray/60 text-gray-300/70'"
 					>
 						{{ category.count }}
 					</span>
@@ -38,7 +38,7 @@
 					@click="resetFilters"
 					:disabled="!isFilterActive"
 					class="flex items-center justify-center text-sm py-3 uppercase tracking-widest px-4 w-full rounded-md transition duration-300"
-					:class="isFilterActive ? 'bg-roofing-red hover:bg-roofing-teal/50 text-white cursor-pointer' : 'bg-transparent opacity-50 text-roofing-gray cursor-not-allowed border border-roofing-gray'"
+					:class="isFilterActive ? 'bg-roofing-red hover:bg-belk-teal/50 text-white cursor-pointer' : 'bg-transparent opacity-50 text-belk-gray cursor-not-allowed border border-belk-gray'"
 				>
 					Reset Filters
 				</button>

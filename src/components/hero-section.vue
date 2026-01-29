@@ -51,7 +51,7 @@
           </h1>
 
           <a href="/contact"
-            class="text-base sm:font-semibold text-white bg-roofing-red
+            class="text-base sm:font-semibold text-white bg-belk-red
                    rounded-full px-4 sm:px-8 py-4 w-fit"
           >
             Request a Free Quote

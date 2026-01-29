@@ -33,15 +33,15 @@
 
         <ul class="space-y-3 list-disc ml-12">
           <li class="flex gap-3">
-            <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+            <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
             <p><span class="font-semibold">AC repair & replacement</span> for Texas heat</p>
           </li>
           <li class="flex gap-3">
-            <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+            <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
             <p><span class="font-semibold">Heating system service</span> including furnaces and heat pumps</p>
           </li>
           <li class="flex gap-3">
-            <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+            <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
             <p><span class="font-semibold">Maintenance & tune-ups</span> to keep systems running efficiently</p>
           </li>
         </ul>
@@ -194,15 +194,15 @@
 
         <ul class="space-y-3 list-disc ml-12">
           <li class="flex gap-3">
-            <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+            <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
             <p><span class="font-semibold">Fast scheduling</span> and reliable arrival windows</p>
           </li>
           <li class="flex gap-3">
-            <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+            <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
             <p><span class="font-semibold">Honest diagnostics</span> with clear repair options</p>
           </li>
           <li class="flex gap-3">
-            <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+            <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
             <p><span class="font-semibold">Long-lasting solutions</span> focused on comfort and efficiency</p>
           </li>
         </ul>

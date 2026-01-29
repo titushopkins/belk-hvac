@@ -42,7 +42,7 @@
 
         <ul class="space-y-3 list-disc ml-12">
           <li class="flex gap-3">
-            <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+            <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
             <p>
               <span class="font-semibold">Shingle roof repairs</span><br />
               Missing, lifted, creased, or damaged shingles, nail pops, flashing issues, and active leaks.
@@ -50,7 +50,7 @@
           </li>
 
           <li class="flex gap-3">
-            <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+            <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
             <p>
               <span class="font-semibold">Metal roof repairs</span><br />
               Loose or backed-out fasteners, panel damage, seam issues, flashing failures, and leak investigation.
@@ -58,7 +58,7 @@
           </li>
 
           <li class="flex gap-3">
-            <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+            <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
             <p>
               <span class="font-semibold">Flat roof repairs</span><br />
               TPO, modified bitumen, and other low-slope roofing systems. We address punctures, seam separation, drainage issues, and coating failures.
@@ -83,15 +83,15 @@
 
         <ul class="space-y-3 list-disc ml-12">
           <li class="flex gap-3">
-            <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+            <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
             <p><span class="font-semibold">Siding repairs and replacement</span></p>
           </li>
           <li class="flex gap-3">
-            <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+            <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
             <p><span class="font-semibold">Fascia and trim repairs</span></p>
           </li>
           <li class="flex gap-3">
-            <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+            <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
             <p><span class="font-semibold">Rot repair and water-damaged wood replacement</span></p>
           </li>
         </ul>
@@ -125,19 +125,19 @@
 
         <ul class="space-y-3 list-disc ml-12">
           <li class="flex gap-3">
-            <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+            <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
             <p><span class="font-semibold">24/7 phone support</span></p>
           </li>
           <li class="flex gap-3">
-            <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+            <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
             <p><span class="font-semibold">Emergency tarping services</span></p>
           </li>
           <li class="flex gap-3">
-            <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+            <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
             <p><span class="font-semibold">After-hours and storm response</span></p>
           </li>
           <li class="flex gap-3">
-            <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+            <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
             <p><span class="font-semibold">Ability to dispatch a crew at any hour of the night when necessary</span></p>
           </li>
         </ul>
@@ -155,19 +155,19 @@
 
         <ul class="space-y-3 list-disc ml-12">
           <li class="flex gap-3">
-            <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+            <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
             <p><span class="font-semibold">Fast response times</span></p>
           </li>
           <li class="flex gap-3">
-            <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+            <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
             <p><span class="font-semibold">Honest repair recommendations</span></p>
           </li>
           <li class="flex gap-3">
-            <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+            <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
             <p><span class="font-semibold">Skilled crews trained across multiple roofing systems</span></p>
           </li>
           <li class="flex gap-3">
-            <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+            <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
             <p><span class="font-semibold">Clear communication from the first call to the final inspection</span></p>
           </li>
         </ul>
@@ -202,7 +202,7 @@
           </a>
           <a
             href="tel:+1XXXXXXXXXX"
-            class="inline-flex items-center justify-center rounded-full bg-roofing-light-gray/60 px-8 py-4 text-white font-semibold tracking-wide hover:bg-roofing-light-gray transition"
+            class="inline-flex items-center justify-center rounded-full bg-belk-light-gray/60 px-8 py-4 text-white font-semibold tracking-wide hover:bg-belk-light-gray transition"
           >
             Call Now
           </a>

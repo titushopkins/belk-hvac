@@ -1,5 +1,5 @@
 <template>
-	<footer class="bg-roofing-light-brown">
+	<footer class="bg-belk-light-brown">
 		<CallUs />
 
 		<!-- Main Footer Content -->
@@ -17,22 +17,22 @@
 							<h3 class="text-white font-bold text-sm uppercase mb-6 tracking-wider">Services</h3>
 							<ul class="space-y-4">
 								<li>
-									<a href="/metal-roofing" class="text-white/70 text-base underline-offset-2 transition-all duration-300 ease-in-out hover:underline decoration-roofing-cream-2 decoration-2 hover:underline-offset-4"> Metal Roofing </a>
+									<a href="/metal-roofing" class="text-white/70 text-base underline-offset-2 transition-all duration-300 ease-in-out hover:underline decoration-belk-cream-2 decoration-2 hover:underline-offset-4"> Metal Roofing </a>
 								</li>
 								<li>
-									<a href="/shingle-roofing" class="text-white/70 text-base underline-offset-2 transition-all duration-300 ease-in-out hover:underline decoration-roofing-cream-2 decoration-2 hover:underline-offset-4"> Shingle Roofing </a>
+									<a href="/shingle-roofing" class="text-white/70 text-base underline-offset-2 transition-all duration-300 ease-in-out hover:underline decoration-belk-cream-2 decoration-2 hover:underline-offset-4"> Shingle Roofing </a>
 								</li>
 								<li>
-									<a href="/roof-repairs" class="text-white/70 text-base underline-offset-2 transition-all duration-300 ease-in-out hover:underline decoration-roofing-cream-2 decoration-2 hover:underline-offset-4"> Roof Repairs </a>
+									<a href="/roof-repairs" class="text-white/70 text-base underline-offset-2 transition-all duration-300 ease-in-out hover:underline decoration-belk-cream-2 decoration-2 hover:underline-offset-4"> Roof Repairs </a>
 								</li>
 								<li>
-									<a href="/flat-roof-repairs" class="text-white/70 text-base underline-offset-2 transition-all duration-300 ease-in-out hover:underline decoration-roofing-cream-2 decoration-2 hover:underline-offset-4"> Flat Roof Systems </a>
+									<a href="/flat-roof-repairs" class="text-white/70 text-base underline-offset-2 transition-all duration-300 ease-in-out hover:underline decoration-belk-cream-2 decoration-2 hover:underline-offset-4"> Flat Roof Systems </a>
 								</li>
 								<li>
-									<a href="/home-renovation" class="text-white/70 text-base underline-offset-2 transition-all duration-300 ease-in-out hover:underline decoration-roofing-cream-2 decoration-2 hover:underline-offset-4"> Home Renovation </a>
+									<a href="/home-renovation" class="text-white/70 text-base underline-offset-2 transition-all duration-300 ease-in-out hover:underline decoration-belk-cream-2 decoration-2 hover:underline-offset-4"> Home Renovation </a>
 								</li>
 								<li>
-									<a href="/construction-projects" class="text-white/70 text-base underline-offset-2 transition-all duration-300 ease-in-out hover:underline decoration-roofing-cream-2 decoration-2 hover:underline-offset-4"> Construction Projects </a>
+									<a href="/construction-projects" class="text-white/70 text-base underline-offset-2 transition-all duration-300 ease-in-out hover:underline decoration-belk-cream-2 decoration-2 hover:underline-offset-4"> Construction Projects </a>
 								</li>
 							</ul>
 						</div>
@@ -42,16 +42,16 @@
 							<h3 class="text-white font-bold text-sm uppercase mb-6 tracking-wider">Quick Links</h3>
 							<ul class="space-y-4">
 								<li>
-									<a href="/about-us" class="text-white/70 text-base underline-offset-2 transition-all duration-300 ease-in-out hover:underline decoration-roofing-cream-2 decoration-2 hover:underline-offset-4"> About </a>
+									<a href="/about-us" class="text-white/70 text-base underline-offset-2 transition-all duration-300 ease-in-out hover:underline decoration-belk-cream-2 decoration-2 hover:underline-offset-4"> About </a>
 								</li>
 								<li>
-									<a href="/financing" class="text-white/70 text-base underline-offset-2 transition-all duration-300 ease-in-out hover:underline decoration-roofing-cream-2 decoration-2 hover:underline-offset-4"> Financing </a>
+									<a href="/financing" class="text-white/70 text-base underline-offset-2 transition-all duration-300 ease-in-out hover:underline decoration-belk-cream-2 decoration-2 hover:underline-offset-4"> Financing </a>
 								</li>
 								<li>
-									<a href="/warranty" class="text-white/70 text-base underline-offset-2 transition-all duration-300 ease-in-out hover:underline decoration-roofing-cream-2 decoration-2 hover:underline-offset-4"> Warranty </a>
+									<a href="/warranty" class="text-white/70 text-base underline-offset-2 transition-all duration-300 ease-in-out hover:underline decoration-belk-cream-2 decoration-2 hover:underline-offset-4"> Warranty </a>
 								</li>
 								<li>
-									<a href="/contact" class="text-white/70 text-base underline-offset-2 transition-all duration-300 ease-in-out hover:underline decoration-roofing-cream-2 decoration-2 hover:underline-offset-4"> Contact </a>
+									<a href="/contact" class="text-white/70 text-base underline-offset-2 transition-all duration-300 ease-in-out hover:underline decoration-belk-cream-2 decoration-2 hover:underline-offset-4"> Contact </a>
 								</li>
 							</ul>
 						</div>

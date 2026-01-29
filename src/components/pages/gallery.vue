@@ -1,6 +1,6 @@
 <template>
 	<div class="w-full">
-		<div class="w-full h-screen max-h-[60vh] bg-cover bg-center bg-roofing-dark-gray">
+		<div class="w-full h-screen max-h-[60vh] bg-cover bg-center bg-belk-dark-gray">
 			<div class="flex flex-col w-full justify-center h-full items-center text-center">
 				<h2 class="text-white text-2xl sm:text-[32px] font-semibold relative z-10 font-lobster italic">Services Gallery</h2>
 				<div class="flex w-full justify-center items-center text-center text-5xl sm:text-6xl font-semibold text-white">Check out our work!</div>
@@ -30,7 +30,7 @@
                           <div class="text-white text-base md:text-lg w-full max-w-[15rem]">
                             <a
                               href="/contact"
-                              class="bg-roofing-red p-3 sm:p-4 rounded-full font-semibold w-full shadow-sm shadow-roofing-gray"
+                              class="bg-belk-red p-3 sm:p-4 rounded-full font-semibold w-full shadow-sm shadow-belk-gray"
                             >
                               Request a Free Quote
                             </a>
@@ -41,7 +41,7 @@
 			</div>
 		</section>
 
-		<section class="bg-roofing-cream md:p-16 px-0">
+		<section class="bg-belk-cream md:p-16 px-0">
 			<div class="w-full">
 				<div class="flex flex-col md:flex-row w-full justify-center p-12">
 					<div class="flex flex-col md:flex-row w-full flex max-w-8xl justify-between gap-y-12 md:gap-y-none md:gap-x-12 text-center overflow-hidden w-full text-[#2c2824]">

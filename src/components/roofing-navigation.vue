@@ -4,7 +4,7 @@
 		<div :class="showMenu ? 'fixed w-full h-full inset-0 bg-black/30 z-10 opacity-100' : 'opacity-0'" class="transition-all duration-300 ease-in-out" />
 
 		<!-- Slide-out Menu -->
-		<div class="select-none sm:translate-y-9 w-full justify-center sm:max-w-[352px] min-h-[735px] transition-all transform-gpu duration-500 bg-gray-900 rounded-b-2xl sm:rounded-2xl shadow-lg shadow-roofing-light-brown sm:shadow-black absolute right-0 z-[60]" :class="showMenu ? 'sm:-translate-x-12' : 'opacity-0 -translate-y-full sm:translate-x-full'" @click.stop>
+		<div class="select-none sm:translate-y-9 w-full justify-center sm:max-w-[352px] min-h-[735px] transition-all transform-gpu duration-500 bg-gray-900 rounded-b-2xl sm:rounded-2xl shadow-lg shadow-belk-light-brown sm:shadow-black absolute right-0 z-[60]" :class="showMenu ? 'sm:-translate-x-12' : 'opacity-0 -translate-y-full sm:translate-x-full'" @click.stop>
 			<button class="absolute top-0 right-0 cursor-pointer m-4" @click="showMenu = false">
 				<img src="/images/jay-lott-iron-cross.svg" alt="" />
 			</button>
@@ -30,7 +30,7 @@
 								<button @click="slide" class="transition-colors text-2xl relative inline-flex font-lobster font-semibold">
 									<div
 										class="flex w-full items-center text-start justify-start gap-x-2"
-										:class="!open ? '' : 'border-roofing-teal flex-row-reverse uppercase text-sm font-sans border-b-2'"
+										:class="!open ? '' : 'border-belk-teal flex-row-reverse uppercase text-sm font-sans border-b-2'"
 									>
 										<div>Services</div>
 
@@ -50,7 +50,7 @@
 								class="relative transition-all duration-700"
 								:class="
 									open
-										? 'h-full max-h-[38vh] overflow-y-scroll pt-3 mt-2 opacity-100 border-t-2 border-roofing-light-gray overscroll-contain py-4'
+										? 'h-full max-h-[38vh] overflow-y-scroll pt-3 mt-2 opacity-100 border-t-2 border-belk-light-gray overscroll-contain py-4'
 										: 'max-h-0 overflow-hidden py-0 mt-0 opacity-0'
 								"
 							>
@@ -92,20 +92,20 @@
 
 				<div :class="open ? 'hidden' : 'space-y-6'">
 					<div class="flex flex-col space-y-2 pt-2 px-6" @click="showMenu = false">
-						<router-link v-for="link in computedLinks" :key="link.name" :to="link.path" class="hover:opacity-70 duration-300 ease-in-out italic font-lobster font-semibold tracking-wide text-2xl text-gray-300 transition-colors" exact-active-class="text-roofing-teal">
+						<router-link v-for="link in computedLinks" :key="link.name" :to="link.path" class="hover:opacity-70 duration-300 ease-in-out italic font-lobster font-semibold tracking-wide text-2xl text-gray-300 transition-colors" exact-active-class="text-belk-teal">
 							{{ link.name }}
 						</router-link>
 					</div>
 
-					<div class="flex w-full justify-center border-t-2 border-roofing-light-gray rounded-full" />
+					<div class="flex w-full justify-center border-t-2 border-belk-light-gray rounded-full" />
 
 					<div class="flex flex-col space-y-4 font-thin text-sm text-start" @click="showMenu = false">
 						<router-link
 							to="/warranty"
-							class="font-semibold pl-6 border-l-4 border-transparent hover:border-l-roofing-gray/50 hover:opacity-70 transition-colors duration-150 ease-in-out"
+							class="font-semibold pl-6 border-l-4 border-transparent hover:border-l-belk-gray/50 hover:opacity-70 transition-colors duration-150 ease-in-out"
 							exact-active-class="
-                border-l-roofing-teal
-                text-roofing-teal
+                border-l-belk-teal
+                text-belk-teal
                 hover:opacity-100
               "
 						>
@@ -113,10 +113,10 @@
 						</router-link>
 						<router-link
 							to="/about"
-							class="font-semibold pl-6 border-l-4 border-transparent hover:border-l-roofing-gray/50 hover:opacity-70 transition-colors duration-150 ease-in-out"
+							class="font-semibold pl-6 border-l-4 border-transparent hover:border-l-belk-gray/50 hover:opacity-70 transition-colors duration-150 ease-in-out"
 							exact-active-class="
-                border-l-roofing-teal
-                text-roofing-teal
+                border-l-belk-teal
+                text-belk-teal
                 hover:opacity-100
               "
 						>
@@ -124,10 +124,10 @@
 						</router-link>
 						<router-link
 							to="/contact"
-							class="font-semibold pl-6 border-l-4 border-transparent hover:border-l-roofing-gray/50 hover:opacity-70 transition-colors duration-150 ease-in-out"
+							class="font-semibold pl-6 border-l-4 border-transparent hover:border-l-belk-gray/50 hover:opacity-70 transition-colors duration-150 ease-in-out"
 							exact-active-class="
-                border-l-roofing-teal
-                text-roofing-teal
+                border-l-belk-teal
+                text-belk-teal
                 hover:opacity-100
               "
 						>
@@ -138,7 +138,7 @@
 			</div>
 
 			<div class="px-4 h-auto items-end bottom-0 absolute w-full bg-gray-900 rounded-b-2xl">
-				<div class="flex flex-col w-full bottom-0 h-auto items-end bg-gradient-to-b from-roofing-light-gray to-transparent rounded-xl space-y-6 px-5 py-3">
+				<div class="flex flex-col w-full bottom-0 h-auto items-end bg-gradient-to-b from-belk-light-gray to-transparent rounded-xl space-y-6 px-5 py-3">
 					<div class="flex flex-col w-full justify-start space-y-3 p-2">
 						<p class="text-start text-sm font-bold uppercase" style="letter-spacing: 1.4px">Get In Touch</p>
 
@@ -158,7 +158,7 @@
 						</a>
 					</div>
 
-					<roofing-button variant="primary" text="Request a Free Quote" href="/contact" class="w-full p-4 border-b border-t-0 border-roofing-light-gray text-base" />
+					<roofing-button variant="primary" text="Request a Free Quote" href="/contact" class="w-full p-4 border-b border-t-0 border-belk-light-gray text-base" />
 				</div>
 			</div>
 		</div>
@@ -178,7 +178,7 @@
 				<div class="bg-gray-900 rounded-full shadow-roofing flex items-center px-1 sm:pl-2 h-[48px] relative">
 					<!-- Nav Links (desktop) -->
 					<div class="hidden lg:flex items-center gap-3 px-6 text-sm">
-						<button @click.stop="serviceImage = !serviceImage" class="relative inline-flex text-gray-300 items-center justify-center h-12 font-semibold hover:opacity-70 transition-opacity before:content-[''] before:absolute before:bottom-1 before:left-0 before:right-0 before:h-1 before:bg-roofing-gray before:rounded-full before:scale-x-0 hover:before:scale-x-100 before:transition-transform before:duration-300 before:origin-center after:content-[''] after:absolute after:bottom-1 after:left-0 after:right-0 after:h-1 after:bg-roofing-teal after:rounded-full after:transition-transform after:duration-300 after:origin-center" :class="serviceImage ? 'after:scale-x-100' : 'after:scale-x-0'">
+						<button @click.stop="serviceImage = !serviceImage" class="relative inline-flex text-gray-300 items-center justify-center h-12 font-semibold hover:opacity-70 transition-opacity before:content-[''] before:absolute before:bottom-1 before:left-0 before:right-0 before:h-1 before:bg-belk-gray before:rounded-full before:scale-x-0 hover:before:scale-x-100 before:transition-transform before:duration-300 before:origin-center after:content-[''] after:absolute after:bottom-1 after:left-0 after:right-0 after:h-1 after:bg-belk-teal after:rounded-full after:transition-transform after:duration-300 after:origin-center" :class="serviceImage ? 'after:scale-x-100' : 'after:scale-x-0'">
 							Services
 							<svg class="w-6 h-6 ml-1" fill="currentColor" viewBox="0 0 24 24">
 								<path d="M7 10l5 5 5-5z" />
@@ -195,11 +195,11 @@
                   after:left-0
                   after:right-0
                   after:h-1
-                  after:bg-roofing-teal
+                  after:bg-belk-teal
                   after:rounded-full
                   after:scale-x-100
                 "
-								class="relative inline-flex items-center justify-center h-12 font-semibold text-gray-300 transition-opacity before:content-[''] before:absolute before:bottom-1 before:left-0 before:right-0 before:h-1 before:bg-roofing-gray before:rounded-full before:scale-x-0 hover:before:scale-x-100 before:transition-transform before:duration-300 before:origin-center after:transition-transform after:duration-300 after:origin-center after:scale-x-0"
+								class="relative inline-flex items-center justify-center h-12 font-semibold text-gray-300 transition-opacity before:content-[''] before:absolute before:bottom-1 before:left-0 before:right-0 before:h-1 before:bg-belk-gray before:rounded-full before:scale-x-0 hover:before:scale-x-100 before:transition-transform before:duration-300 before:origin-center after:transition-transform after:duration-300 after:origin-center after:scale-x-0"
 							>
 								{{ link.name }}
 							</router-link>
@@ -209,7 +209,7 @@
 					<!-- Action Buttons + Hamburger -->
 					<div class="flex items-center py-1 sm:gap-x-1 auto">
 						<roofing-button variant="secondary" text="(737) 251-3394" href="tel:7372513394" class="hidden sm:inline-flex text-sm" />
-						<roofing-button variant="primary" text="Free Quote" href="/contact" class="px-2.5 py-2 sm:px-4 sm:py-2 border-b border-t-0 border-roofing-light-gray text-sm" />
+						<roofing-button variant="primary" text="Free Quote" href="/contact" class="px-2.5 py-2 sm:px-4 sm:py-2 border-b border-t-0 border-belk-light-gray text-sm" />
 						<button class="h-10 px-4 rounded-full hover:bg-gray-100 transition-colors text-gray-300 flex items-center justify-center" @click.stop="showMenu = !showMenu">
 							<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
@@ -223,7 +223,7 @@
 					<!-- Services dropdown (absolute, takes NO space) -->
 					<div class="absolute top-full left-0 pt-3 z-50" @click.stop>
 						<transition @click="(serviceImage, (showMenu = false))" enter-active-class="transition-all duration-700 ease-in-out transform-gpu" enter-from-class="opacity-0 -translate-y-full scale-95" enter-to-class="opacity-100 translate-y-0 scale-100" leave-active-class="transition-all duration-700 ease-in-out transform-gpu" leave-from-class="opacity-100 translate-y-0 scale-100" leave-to-class="opacity-0 -translate-y-full scale-95">
-							<div v-if="serviceImage" class="select-none w-full sm:max-w-[352px] bg-gray-900 sm:rounded-xl shadow-lg shadow-roofing-light-brown sm:shadow-black h-auto z-[60] origin-top will-change-transform" @click.stop>
+							<div v-if="serviceImage" class="select-none w-full sm:max-w-[352px] bg-gray-900 sm:rounded-xl shadow-lg shadow-belk-light-brown sm:shadow-black h-auto z-[60] origin-top will-change-transform" @click.stop>
 								<div class="w-full lg:max-w-xl overflow-x-auto h-auto rounded-2xl">
 									<div class="flex flex-col relative py-8 px-6">
 										<div class="w-full h-full space-y-3">

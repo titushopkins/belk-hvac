@@ -43,19 +43,19 @@
 
         <ul class="space-y-3 list-disc ml-12">
           <li class="flex gap-3 ">
-            <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+            <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
             <span class="font-semibold">Zero-interest financing options</span>
           </li>
           <li class="flex gap-3 ">
-            <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+            <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
             <span class="font-semibold">Low monthly payment plans</span>
           </li>
           <li class="flex gap-3 ">
-            <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+            <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
             <span class="font-semibold">Deferred interest programs</span>
           </li>
           <li class="flex gap-3 ">
-            <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+            <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
             <span class="font-semibold">Flexible loan terms</span>
           </li>
         </ul>
@@ -67,7 +67,7 @@
       </div>
 
       <!-- Fast Approval -->
-      <div class="space-y-6 rounded-2xl border border-roofing-light-gray/60 bg-roofing-light-gray/20 p-6">
+      <div class="space-y-6 rounded-2xl border border-belk-light-gray/60 bg-belk-light-gray/20 p-6">
         <h3 class="text-xl sm:text-2xl font-bold text-white">
           Fast, Easy Approval Process
         </h3>

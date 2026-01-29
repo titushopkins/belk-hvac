@@ -1,5 +1,5 @@
 <template>
-    <section class="bg-roofing-cream py-16 px-0">
+    <section class="bg-belk-cream py-16 px-0">
         <div class="w-full">
             <p class="text-center text-sm font-bold uppercase mb-10" style="letter-spacing: 1.4px;">
                 Recognized by leading organizations

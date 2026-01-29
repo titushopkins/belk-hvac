@@ -2,7 +2,7 @@
 	<div class="rounded-2xl bg-gradient-to-b from-black/10 to-transparent px-6 py-5 text-left text-white space-y-4">
 		<!-- Platform + stars -->
 
-		<div class="bg-roofing-light-gray/10 rounded-xl p-[2px] w-fit flex items-center self-start">
+		<div class="bg-belk-light-gray/10 rounded-xl p-[2px] w-fit flex items-center self-start">
 			<!-- Platform Icon -->
 			<div class="bg-black/10 rounded-full px-[6px] py-[2px] flex items-center">
 				<img :src="platformIcon" alt="" class="w-4 h-4" />

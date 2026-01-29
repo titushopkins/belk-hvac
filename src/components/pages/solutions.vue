@@ -1,5 +1,5 @@
 <template>
-  <section class="relative w-full overflow-hidden bg-roofing-dark-gray py-20 md:py-32">
+  <section class="relative w-full overflow-hidden bg-belk-dark-gray py-20 md:py-32">
     <div class="pointer-events-none absolute -top-10 right-0 opacity-10 select-none">
       <img
         src="/images/icon-camera-large.svg"

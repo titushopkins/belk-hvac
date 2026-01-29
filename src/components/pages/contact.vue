@@ -65,9 +65,9 @@
 
 						<div class="pt-8">
 							<div class="flex w-fit space-x-4 text-sm font-bold text-hp-gray-600 bg-stone-300/40 py-1 sm:py-2 px-2 sm:px-4 rounded-xl">
-								<button @click="store.activeTab = 'quote'" class="px-5 py-3 rounded-xl transition-all text-xs sm:text-sm" :class="store.activeTab === 'quote' ? 'bg-gray-900 font-semibold text-roofing-teal shadow' : 'bg-transparent'">Request a Free Quote</button>
+								<button @click="store.activeTab = 'quote'" class="px-5 py-3 rounded-xl transition-all text-xs sm:text-sm" :class="store.activeTab === 'quote' ? 'bg-gray-900 font-semibold text-belk-teal shadow' : 'bg-transparent'">Request a Free Quote</button>
 
-								<button @click="store.activeTab = 'message'" class="px-5 py-3 rounded-xl transition-all text-xs sm:text-sm" :class="store.activeTab === 'message' ? 'bg-gray-900 font-semibold text-roofing-teal shadow' : 'bg-transparent'">Send a Message</button>
+								<button @click="store.activeTab = 'message'" class="px-5 py-3 rounded-xl transition-all text-xs sm:text-sm" :class="store.activeTab === 'message' ? 'bg-gray-900 font-semibold text-belk-teal shadow' : 'bg-transparent'">Send a Message</button>
 							</div>
 
 							<!-- Form Area -->
@@ -242,7 +242,7 @@ export default {
 }
 
 .input-css {
-	@apply w-full bg-roofing-light-gray px-4 py-3 rounded-lg focus:outline focus:outline-[2px] focus:outline-roofing-teal;
+	@apply w-full bg-belk-light-gray px-4 py-3 rounded-lg focus:outline focus:outline-[2px] focus:outline-belk-teal;
 }
 </style>
 
@@ -257,7 +257,7 @@ export default {
 
 .pac-item:hover,
 .pac-item-selected {
-	@apply bg-roofing-light-gray;
+	@apply bg-belk-light-gray;
 }
 
 .pac-icon {
@@ -269,7 +269,7 @@ export default {
 }
 
 .pac-matched {
-	@apply text-roofing-teal font-semibold;
+	@apply text-belk-teal font-semibold;
 }
 
 .pac-container::after {

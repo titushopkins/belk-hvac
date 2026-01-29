@@ -49,19 +49,19 @@
 
         <ul class="space-y-3 list-disc ml-12">
           <li class="flex gap-3">
-            <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+            <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
             <p class="font-semibold">Energy-efficient, reflective white membrane</p>
           </li>
           <li class="flex gap-3">
-            <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+            <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
             <p class="font-semibold">Heat-welded seams for superior leak protection</p>
           </li>
           <li class="flex gap-3">
-            <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+            <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
             <p class="font-semibold">Strong resistance to punctures and tearing</p>
           </li>
           <li class="flex gap-3">
-            <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+            <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
             <p class="font-semibold">Proven long-term performance on commercial buildings</p>
           </li>
         </ul>
@@ -99,23 +99,23 @@
 
         <ul class="space-y-3 list-disc ml-12">
           <li class="flex gap-3">
-            <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+            <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
             <p class="font-semibold">Extends the life of an existing roof</p>
           </li>
           <li class="flex gap-3">
-            <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+            <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
             <p class="font-semibold">Creates a seamless, waterproof membrane</p>
           </li>
           <li class="flex gap-3">
-            <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+            <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
             <p class="font-semibold">Reduces heat absorption and cooling costs</p>
           </li>
           <li class="flex gap-3">
-            <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+            <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
             <p class="font-semibold">Less disruption to business operations</p>
           </li>
           <li class="flex gap-3">
-            <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+            <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
             <p class="font-semibold">Lower cost compared to full replacement</p>
           </li>
         </ul>
@@ -133,23 +133,23 @@
 
         <ul class="space-y-3 list-disc ml-12">
           <li class="flex gap-3">
-            <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+            <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
             <p class="font-semibold">Mule-Hide certified commercial installer</p>
           </li>
           <li class="flex gap-3">
-            <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+            <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
             <p class="font-semibold">Specialized in TPO roofing systems</p>
           </li>
           <li class="flex gap-3">
-            <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+            <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
             <p class="font-semibold">Experienced with flat and low-slope commercial roofs</p>
           </li>
           <li class="flex gap-3">
-            <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+            <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
             <p class="font-semibold">Honest recommendations: repair, coat, or replace</p>
           </li>
           <li class="flex gap-3">
-            <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+            <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
             <p class="font-semibold">Clear communication and professional project management</p>
           </li>
         </ul>
@@ -188,7 +188,7 @@
           </a>
           <a
             href="tel:+1XXXXXXXXXX"
-            class="inline-flex items-center justify-center rounded-full bg-roofing-light-gray/60 px-8 py-4 text-white font-semibold tracking-wide hover:bg-roofing-light-gray transition"
+            class="inline-flex items-center justify-center rounded-full bg-belk-light-gray/60 px-8 py-4 text-white font-semibold tracking-wide hover:bg-belk-light-gray transition"
           >
             Call Now
           </a>

@@ -1,5 +1,5 @@
 <template>
-	<section class="relative w-full overflow-hidden bg-roofing-teal py-20 md:py-32">
+	<section class="relative w-full overflow-hidden bg-belk-teal py-20 md:py-32">
 		<!-- Big background quote (top-right) -->
 		<div class="pointer-events-none absolute -top-8 right-0 opacity-10 select-none">
 			<img src="/images/icon-quote-large.svg" alt="" class="w-44 h-44 sm:w-96 sm:h-96 lg:w-[32rem] lg:h-[32rem] object-contain opacity-40" />
@@ -26,7 +26,7 @@
 					<form @submit.prevent="submitReview">
 						<div class="mb-4">
 							<label class="block text-sm font-medium text-gray-700 mb-1">Your Name</label>
-							<input v-model="newReview.authorName" type="text" required class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-roofing-teal" />
+							<input v-model="newReview.authorName" type="text" required class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-belk-teal" />
 						</div>
 						<div class="mb-4">
 							<label class="block text-sm font-medium text-gray-700 mb-1">Rating</label>
@@ -36,11 +36,11 @@
 						</div>
 						<div class="mb-4">
 							<label class="block text-sm font-medium text-gray-700 mb-1">Your Review</label>
-							<textarea v-model="newReview.text" required rows="4" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-roofing-teal"></textarea>
+							<textarea v-model="newReview.text" required rows="4" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-belk-teal"></textarea>
 						</div>
 						<div class="flex gap-3 justify-end">
 							<button type="button" @click="showReviewForm = false" class="px-4 py-2 text-gray-600 hover:text-gray-800">Cancel</button>
-							<button type="submit" :disabled="submitting" class="px-4 py-2 bg-roofing-teal text-white rounded-md hover:bg-roofing-teal/90 disabled:opacity-50">
+							<button type="submit" :disabled="submitting" class="px-4 py-2 bg-belk-teal text-white rounded-md hover:bg-belk-teal/90 disabled:opacity-50">
 								{{ submitting ? 'Submitting...' : 'Submit Review' }}
 							</button>
 						</div>

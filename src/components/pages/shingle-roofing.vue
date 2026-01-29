@@ -57,19 +57,19 @@
 
           <ul class="ml-12 space-y-2">
             <li class="flex gap-3">
-              <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+              <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
               <p>Top-tier installation quality backed by the industry’s leading manufacturer</p>
             </li>
             <li class="flex gap-3">
-              <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+              <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
               <p>Better warranty options that other contractors cannot offer</p>
             </li>
             <li class="flex gap-3">
-              <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+              <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
               <p>Peace of mind knowing your roof is installed by one of the most trusted and vetted companies in the country</p>
             </li>
             <li class="flex gap-3">
-              <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+              <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
               <p>Ongoing training and certification, ensuring your roof is built using the latest best practices</p>
             </li>
           </ul>
@@ -93,19 +93,19 @@
 
           <ul class="ml-12 space-y-2">
             <li class="flex gap-3">
-              <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+              <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
               <p>Be properly licensed to perform roofing work in their state</p>
             </li>
             <li class="flex gap-3">
-              <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+              <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
               <p>Maintain $1M+ in liability insurance for homeowner protection</p>
             </li>
             <li class="flex gap-3">
-              <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+              <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
               <p>Demonstrate proven local reputation for quality workmanship and ethical business practices</p>
             </li>
             <li class="flex gap-3">
-              <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+              <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
               <p>Commit to ongoing professional training to stay current with the latest roofing technologies and installation standards</p>
             </li>
           </ul>
@@ -151,19 +151,19 @@
 
           <ul class="ml-12 space-y-2">
             <li class="flex gap-3">
-              <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+              <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
               <p>50 years of non-prorated coverage on material defects</p>
             </li>
             <li class="flex gap-3">
-              <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+              <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
               <p>25 years of workmanship coverage backed by GAF</p>
             </li>
             <li class="flex gap-3">
-              <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+              <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
               <p>A full system warranty, covering all required GAF roofing components</p>
             </li>
             <li class="flex gap-3">
-              <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+              <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
               <p>Eligibility for a random 40-point GAF factory inspection to verify installation quality</p>
             </li>
           </ul>
@@ -203,7 +203,7 @@
 
               <ul class="ml-12 mt-3 space-y-2">
                 <li class="flex gap-3">
-                  <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+                  <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
                   <p>GAF themselves honor the labor and workmanship portion of the warranty.</p>
                 </li>
               </ul>
@@ -258,7 +258,7 @@
           <!-- Step 1 -->
           <div class="rounded-b-2xl p-6 bg-gradient-to-b from-transparent to-white shadow-lg">
             <div class="flex items-start gap-4">
-              <div class="shrink-0 w-10 h-10 rounded-full bg-roofing-teal text-white font-bold flex items-center justify-center">
+              <div class="shrink-0 w-10 h-10 rounded-full bg-belk-teal text-white font-bold flex items-center justify-center">
                 1
               </div>
 
@@ -273,15 +273,15 @@
 
                 <ul class="ml-12 space-y-2">
                   <li class="flex gap-3">
-                    <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+                    <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
                     <p>Landscaping, flowers, shrubs, and garden beds</p>
                   </li>
                   <li class="flex gap-3">
-                    <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+                    <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
                     <p>Windows, siding, garage doors, and patios</p>
                   </li>
                   <li class="flex gap-3">
-                    <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+                    <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
                     <p>Driveways, porches, and walkways</p>
                   </li>
                 </ul>
@@ -296,7 +296,7 @@
           <!-- Step 2 -->
           <div class="rounded-b-2xl p-6 bg-gradient-to-b from-transparent to-white shadow-lg">
             <div class="flex items-start gap-4">
-              <div class="shrink-0 w-10 h-10 rounded-full bg-roofing-teal text-white font-bold flex items-center justify-center">
+              <div class="shrink-0 w-10 h-10 rounded-full bg-belk-teal text-white font-bold flex items-center justify-center">
                 2
               </div>
 
@@ -315,11 +315,11 @@
 
                 <ul class="ml-12 space-y-2">
                   <li class="flex gap-3">
-                    <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+                    <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
                     <p>Inspect the entire roof deck for rot, softness, and water damage</p>
                   </li>
                   <li class="flex gap-3">
-                    <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+                    <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
                     <p>Replace any bad decking so your new roof has a solid, long-lasting foundation</p>
                   </li>
                 </ul>
@@ -334,7 +334,7 @@
           <!-- Step 3 -->
           <div class="rounded-b-2xl p-6 bg-gradient-to-b from-transparent to-white shadow-lg">
             <div class="flex items-start gap-4">
-              <div class="shrink-0 w-10 h-10 rounded-full bg-roofing-teal text-white font-bold flex items-center justify-center">
+              <div class="shrink-0 w-10 h-10 rounded-full bg-belk-teal text-white font-bold flex items-center justify-center">
                 3
               </div>
 
@@ -353,15 +353,15 @@
 
                 <ul class="ml-12 space-y-2">
                   <li class="flex gap-3">
-                    <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+                    <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
                     <p>It is fully waterproof</p>
                   </li>
                   <li class="flex gap-3">
-                    <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+                    <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
                     <p>It self-heals around nail penetrations, maintaining a tight seal</p>
                   </li>
                   <li class="flex gap-3">
-                    <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+                    <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
                     <p>It provides critical protection where leaks are most likely to occur</p>
                   </li>
                 </ul>
@@ -372,7 +372,7 @@
           <!-- Step 4 -->
           <div class="rounded-b-2xl p-6 bg-gradient-to-b from-transparent to-white shadow-lg">
             <div class="flex items-start gap-4">
-              <div class="shrink-0 w-10 h-10 rounded-full bg-roofing-teal text-white font-bold flex items-center justify-center">
+              <div class="shrink-0 w-10 h-10 rounded-full bg-belk-teal text-white font-bold flex items-center justify-center">
                 4
               </div>
 
@@ -387,15 +387,15 @@
 
                 <ul class="ml-12 space-y-2">
                   <li class="flex gap-3">
-                    <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+                    <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
                     <p>Adds a secondary layer of moisture protection</p>
                   </li>
                   <li class="flex gap-3">
-                    <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+                    <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
                     <p>Is tear-resistant and lays flat</p>
                   </li>
                   <li class="flex gap-3">
-                    <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+                    <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
                     <p>Helps ensure the shingles sit smoothly and perform as designed</p>
                   </li>
                 </ul>
@@ -410,7 +410,7 @@
           <!-- Step 5 -->
           <div class="rounded-b-2xl p-6 bg-gradient-to-b from-transparent to-white shadow-lg">
             <div class="flex items-start gap-4">
-              <div class="shrink-0 w-10 h-10 rounded-full bg-roofing-teal text-white font-bold flex items-center justify-center">
+              <div class="shrink-0 w-10 h-10 rounded-full bg-belk-teal text-white font-bold flex items-center justify-center">
                 5
               </div>
 
@@ -433,15 +433,15 @@
 
                 <ul class="ml-12 space-y-2">
                   <li class="flex gap-3">
-                    <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+                    <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
                     <p>Provide a strong adhesive line</p>
                   </li>
                   <li class="flex gap-3">
-                    <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+                    <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
                     <p>Help lock the first course of shingles in place</p>
                   </li>
                   <li class="flex gap-3">
-                    <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+                    <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
                     <p>Improve wind resistance and reduce shingle blow-off</p>
                   </li>
                 </ul>
@@ -456,7 +456,7 @@
           <!-- Step 6 -->
           <div class="rounded-b-2xl p-6 bg-gradient-to-b from-transparent to-white shadow-lg">
             <div class="flex items-start gap-4">
-              <div class="shrink-0 w-10 h-10 rounded-full bg-roofing-teal text-white font-bold flex items-center justify-center">
+              <div class="shrink-0 w-10 h-10 rounded-full bg-belk-teal text-white font-bold flex items-center justify-center">
                 6
               </div>
 
@@ -471,15 +471,15 @@
 
                 <ul class="ml-12 space-y-2">
                   <li class="flex gap-3">
-                    <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+                    <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
                     <p>Proper fastening and nailing pattern</p>
                   </li>
                   <li class="flex gap-3">
-                    <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+                    <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
                     <p>Correct offset and alignment</p>
                   </li>
                   <li class="flex gap-3">
-                    <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+                    <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
                     <p>Clean, straight installation lines</p>
                   </li>
                 </ul>
@@ -494,7 +494,7 @@
           <!-- Step 7 -->
           <div class="rounded-b-2xl p-6 bg-gradient-to-b from-transparent to-white shadow-lg">
             <div class="flex items-start gap-4">
-              <div class="shrink-0 w-10 h-10 rounded-full bg-roofing-teal text-white font-bold flex items-center justify-center">
+              <div class="shrink-0 w-10 h-10 rounded-full bg-belk-teal text-white font-bold flex items-center justify-center">
                 7
               </div>
 
@@ -521,11 +521,11 @@
 
                 <ul class="ml-12 space-y-2">
                   <li class="flex gap-3">
-                    <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+                    <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
                     <p>The rubber seal dries out and cracks in the Texas heat</p>
                   </li>
                   <li class="flex gap-3">
-                    <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+                    <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
                     <p>Once the seal breaks, water can leak into the home</p>
                   </li>
                 </ul>
@@ -536,15 +536,15 @@
 
                 <ul class="ml-12 space-y-2">
                   <li class="flex gap-3">
-                    <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+                    <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
                     <p>Made from UV-resistant materials that won’t dry rot</p>
                   </li>
                   <li class="flex gap-3">
-                    <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+                    <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
                     <p>Designed with a protective hood that shields the seal</p>
                   </li>
                   <li class="flex gap-3">
-                    <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+                    <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
                     <p>Create a tighter, more durable waterproof barrier</p>
                   </li>
                 </ul>
@@ -559,7 +559,7 @@
           <!-- Step 8 -->
           <div class="rounded-b-2xl p-6 bg-gradient-to-b from-transparent to-white shadow-lg">
             <div class="flex items-start gap-4">
-              <div class="shrink-0 w-10 h-10 rounded-full bg-roofing-teal text-white font-bold flex items-center justify-center">
+              <div class="shrink-0 w-10 h-10 rounded-full bg-belk-teal text-white font-bold flex items-center justify-center">
                 8
               </div>
 
@@ -586,15 +586,15 @@
 
                 <ul class="ml-12 space-y-2">
                   <li class="flex gap-3">
-                    <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+                    <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
                     <p>Designed specifically for ridge and hip areas</p>
                   </li>
                   <li class="flex gap-3">
-                    <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+                    <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
                     <p>More durable and better sealing</p>
                   </li>
                   <li class="flex gap-3">
-                    <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+                    <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
                     <p>A cleaner, more finished appearance</p>
                   </li>
                 </ul>
@@ -609,7 +609,7 @@
           <!-- Step 9 -->
           <div class="rounded-b-2xl p-6 bg-gradient-to-b from-transparent to-white shadow-lg">
             <div class="flex items-start gap-4">
-              <div class="shrink-0 w-10 h-10 rounded-full bg-roofing-teal text-white font-bold flex items-center justify-center">
+              <div class="shrink-0 w-10 h-10 rounded-full bg-belk-teal text-white font-bold flex items-center justify-center">
                 9
               </div>
 
@@ -628,11 +628,11 @@
 
                 <ul class="ml-12 space-y-2">
                   <li class="flex gap-3">
-                    <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+                    <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
                     <p>The roof deck is typically cut back 2 inches on each side of the ridge to create a ventilation channel</p>
                   </li>
                   <li class="flex gap-3">
-                    <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+                    <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
                     <p>The ridge caps covering the vent are hand-nailed with ring shank nails for maximum holding power and wind resistance</p>
                   </li>
                 </ul>
@@ -647,7 +647,7 @@
           <!-- Step 10 -->
           <div class="rounded-b-2xl p-6 bg-gradient-to-b from-transparent to-white shadow-lg">
             <div class="flex items-start gap-4">
-              <div class="shrink-0 w-10 h-10 rounded-full bg-roofing-teal text-white font-bold flex items-center justify-center">
+              <div class="shrink-0 w-10 h-10 rounded-full bg-belk-teal text-white font-bold flex items-center justify-center">
                 10
               </div>
 
@@ -662,19 +662,19 @@
 
                 <ul class="ml-12 space-y-2">
                   <li class="flex gap-3">
-                    <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+                    <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
                     <p>We remove the Catch-All system</p>
                   </li>
                   <li class="flex gap-3">
-                    <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+                    <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
                     <p>We magnet-sweep your property for nails</p>
                   </li>
                   <li class="flex gap-3">
-                    <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+                    <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
                     <p>All roofing debris is hauled away</p>
                   </li>
                   <li class="flex gap-3">
-                    <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+                    <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
                     <p>We walk the finished project with you to ensure you are satisfied with your new roof</p>
                   </li>
                 </ul>
@@ -710,19 +710,19 @@
             <p class="font-semibold">Key Benefits:</p>
             <ul class="ml-12 space-y-2">
               <li class="flex gap-3">
-                <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+                <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
                 <p>Architectural (dimensional) design with a subtle shadow effect</p>
               </li>
               <li class="flex gap-3">
-                <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+                <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
                 <p>Good durability and weather resistance</p>
               </li>
               <li class="flex gap-3">
-                <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+                <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
                 <p>Cost-effective option with solid curb appeal</p>
               </li>
               <li class="flex gap-3">
-                <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+                <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
                 <p>Algae-Resistant Warranty: 10-year StainGuard® protection</p>
               </li>
             </ul>
@@ -745,23 +745,23 @@
             <p class="font-semibold">Key Benefits:</p>
             <ul class="ml-12 space-y-2">
               <li class="flex gap-3">
-                <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+                <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
                 <p>LayerLock™ technology for superior fastening strength</p>
               </li>
               <li class="flex gap-3">
-                <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+                <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
                 <p>Industry-leading WindProven™ warranty with no maximum wind speed when installed as a system</p>
               </li>
               <li class="flex gap-3">
-                <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+                <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
                 <p>Thicker, more dimensional look than Natural Shadow</p>
               </li>
               <li class="flex gap-3">
-                <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+                <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
                 <p>Algae-Resistant Warranty: 25-year StainGuard Plus® protection</p>
               </li>
               <li class="flex gap-3">
-                <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+                <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
                 <p>Excellent performance for Texas storms and high winds</p>
               </li>
             </ul>
@@ -784,23 +784,23 @@
             <p class="font-semibold">Key Benefits:</p>
             <ul class="ml-12 space-y-2">
               <li class="flex gap-3">
-                <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+                <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
                 <p>UL 2218 Class 4 impact rating — the highest rating available</p>
               </li>
               <li class="flex gap-3">
-                <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+                <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
                 <p>May qualify for insurance premium discounts (varies by provider)</p>
               </li>
               <li class="flex gap-3">
-                <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+                <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
                 <p>Stronger, thicker construction enhances storm and hail resistance</p>
               </li>
               <li class="flex gap-3">
-                <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+                <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
                 <p>Same beautiful Timberline design but built tougher</p>
               </li>
               <li class="flex gap-3">
-                <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+                <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
                 <p>Algae-Resistant Warranty: 25-year StainGuard Plus® protection</p>
               </li>
             </ul>
@@ -851,7 +851,7 @@
           </a>
           <a
             href="tel:+1XXXXXXXXXX"
-            class="inline-flex items-center justify-center rounded-full bg-roofing-light-gray px-8 py-4 text-white font-semibold tracking-wide hover:bg-roofing-gray/60 transition"
+            class="inline-flex items-center justify-center rounded-full bg-belk-light-gray px-8 py-4 text-white font-semibold tracking-wide hover:bg-belk-gray/60 transition"
           >
             Call Now
           </a>

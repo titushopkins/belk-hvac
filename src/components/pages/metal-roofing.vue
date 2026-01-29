@@ -210,7 +210,7 @@
           <!-- Step 1 -->
           <div class="rounded-b-2xl p-6 bg-gradient-to-b from-transparent to-white shadow-lg">
             <div class="flex items-start gap-4">
-              <div class="shrink-0 w-10 h-10 rounded-full bg-roofing-teal text-white font-bold flex items-center justify-center">
+              <div class="shrink-0 w-10 h-10 rounded-full bg-belk-teal text-white font-bold flex items-center justify-center">
                 1
               </div>
 
@@ -238,7 +238,7 @@
                   </div>
                 </div>
 
-                <!-- <div class="mt-4 rounded-xl border border-roofing-light-gray/60 bg-red-500 p-6 text-sm text-white/90">
+                <!-- <div class="mt-4 rounded-xl border border-belk-light-gray/60 bg-red-500 p-6 text-sm text-white/90">
                   Image placeholder: Roof prep / lathing / underlayment
                 </div> -->
               </div>
@@ -248,7 +248,7 @@
           <!-- Step 2 -->
           <div class="rounded-b-2xl p-6 bg-gradient-to-b from-transparent to-white shadow-lg">
             <div class="flex items-start gap-4">
-              <div class="shrink-0 w-10 h-10 rounded-full bg-roofing-teal text-white font-bold flex items-center justify-center">
+              <div class="shrink-0 w-10 h-10 rounded-full bg-belk-teal text-white font-bold flex items-center justify-center">
                 2
               </div>
 
@@ -265,7 +265,7 @@
                   This same residential trim is used on all three metal roof systems, ensuring durability, and a professional finished edge.
                 </p>
 
-                <!-- <div class="mt-4 rounded-xl border border-roofing-light-gray/60 bg-red-500 p-6 text-sm text-white/90">
+                <!-- <div class="mt-4 rounded-xl border border-belk-light-gray/60 bg-red-500 p-6 text-sm text-white/90">
                   Image placeholder: Eave & rake trim detail
                 </div> -->
               </div>
@@ -275,7 +275,7 @@
           <!-- Step 3 -->
           <div class="rounded-b-2xl p-6 bg-gradient-to-b from-transparent to-white shadow-lg">
             <div class="flex items-start gap-4">
-              <div class="shrink-0 w-10 h-10 rounded-full bg-roofing-teal text-white font-bold flex items-center justify-center">
+              <div class="shrink-0 w-10 h-10 rounded-full bg-belk-teal text-white font-bold flex items-center justify-center">
                 3
               </div>
 
@@ -289,20 +289,20 @@
                 </p>
 
                 <div class="space-y-4">
-                  <div class="rounded-xl border border-roofing-light-gray bg-roofing-light-gray/60 p-5">
+                  <div class="rounded-xl border border-belk-light-gray bg-belk-light-gray/60 p-5">
                     <p class="font-semibold">R-Panel Valleys</p>
                     <p class="font-semibold mt-2">R-Panel valleys receive three layers of protection:</p>
                     <ul class="ml-12 mt-3 space-y-2">
                       <li class="flex gap-3">
-                        <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+                        <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
                         <p>A continuous 1” bed of putty</p>
                       </li>
                       <li class="flex gap-3">
-                        <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+                        <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
                         <p>Expanding foam closures that will shape to the panel profile</p>
                       </li>
                       <li class="flex gap-3">
-                        <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+                        <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
                         <p class="font-semibold">A continuous bead of silicone sealant onto the foam closure and beneath the metal panels.</p>
                       </li>
                     </ul>
@@ -311,7 +311,7 @@
                     </p>
                   </div>
 
-                  <div class="rounded-xl border border-roofing-light-gray bg-roofing-light-gray/60 p-5">
+                  <div class="rounded-xl border border-belk-light-gray bg-belk-light-gray/60 p-5">
                     <p class="font-semibold">Concealed Fastener  and Snap-Lok Valleys</p>
                     <p class="mt-2">
                       After installing the valley flashing for a Concealed Fastener and Snap-Lok valley we install an offset cleat. This panel are then hemmed (bent) around the the cleat, locking them into place with no exposed screws and no exposed cut metal edges, eliminating wind uplift and water intrusion points.
@@ -319,7 +319,7 @@
                   </div>
                 </div>
 
-                <!-- <div class="mt-4 rounded-xl border border-roofing-light-gray/60 bg-red-500 p-6 text-sm text-white/90">
+                <!-- <div class="mt-4 rounded-xl border border-belk-light-gray/60 bg-red-500 p-6 text-sm text-white/90">
                   Image placeholder: Valley detail (R-Panel vs Snap-Lok)
                 </div> -->
               </div>
@@ -329,7 +329,7 @@
           <!-- Step 4 -->
           <div class="rounded-b-2xl p-6 bg-gradient-to-b from-transparent to-white shadow-lg">
             <div class="flex items-start gap-4">
-              <div class="shrink-0 w-10 h-10 rounded-full bg-roofing-teal text-white font-bold flex items-center justify-center">
+              <div class="shrink-0 w-10 h-10 rounded-full bg-belk-teal text-white font-bold flex items-center justify-center">
                 4
               </div>
 
@@ -343,21 +343,21 @@
                 </p>
 
                 <div class="space-y-4">
-                  <div class="rounded-xl border border-roofing-light-gray bg-roofing-light-gray/60 p-5">
+                  <div class="rounded-xl border border-belk-light-gray bg-belk-light-gray/60 p-5">
                     <p class="font-semibold">R-Panel</p>
                     <p class="mt-2">
                       Panels are installed using exposed screws with neoprene washers. We take care not to over-tighten fasteners, which can damage washers and lead to premature leaks.
                     </p>
                   </div>
 
-                  <div class="rounded-xl border border-roofing-light-gray bg-roofing-light-gray/60 p-5">
+                  <div class="rounded-xl border border-belk-light-gray bg-belk-light-gray/60 p-5">
                     <p class="font-semibold">Concealed Fastener Panels</p>
                     <p class="mt-2">
                       CF panels are secured using ultra-low-profile screws fastened through the perforated fastening leg, allowing the next panel to overlap and conceal the fasteners.
                     </p>
                   </div>
 
-                  <div class="rounded-xl border border-roofing-light-gray bg-roofing-light-gray/60 p-5">
+                  <div class="rounded-xl border border-belk-light-gray bg-belk-light-gray/60 p-5">
                     <p class="font-semibold">Mueller Snap-Lok Panels</p>
                     <p class="mt-2">
                       Snap-Lok panels are installed using hidden clips that are screwed to the roof deck. The panels then snap onto the clips, creating a true floating panel system that allows for natural expansion and contraction of the panel during temperature changes
@@ -365,7 +365,7 @@
                   </div>
                 </div>
 
-                <!-- <div class="mt-4 rounded-xl border border-roofing-light-gray/60 bg-red-500 p-6 text-sm text-white/90">
+                <!-- <div class="mt-4 rounded-xl border border-belk-light-gray/60 bg-red-500 p-6 text-sm text-white/90">
                   Image placeholder: Panel install (fasteners / clips / seams)
                 </div> -->
               </div>
@@ -375,7 +375,7 @@
           <!-- Step 5 -->
           <div class="rounded-b-2xl p-6 bg-gradient-to-b from-transparent to-white shadow-lg">
             <div class="flex items-start gap-4">
-              <div class="shrink-0 w-10 h-10 rounded-full bg-roofing-teal text-white font-bold flex items-center justify-center">
+              <div class="shrink-0 w-10 h-10 rounded-full bg-belk-teal text-white font-bold flex items-center justify-center">
                 5
               </div>
 
@@ -390,24 +390,24 @@
 
                 <ul class="ml-12 space-y-2">
                   <li class="flex gap-3">
-                    <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+                    <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
                     <p>R-Panel receives transition flashing sealed with formed foam closures and sealants much like a valley.</p>
                   </li>
                   <li class="flex gap-3">
-                    <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+                    <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
                     <p>
                       Concealed Fastener Panels receive transition flashing that has a Pittsburg hem. This hem allows metal closure to be snapped in and secured with a long screw.
                     </p>
                   </li>
                   <li class="flex gap-3">
-                    <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+                    <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
                     <p>
                       Snap-Lok  transitions uses a “Z” flashing which is secured to the roof using putty. The transition flashing is then secured that the Z flashing using  stainless steel rivets. Again this flashing system will have no exposed screws.
                     </p>
                   </li>
                 </ul>
 
-                <!-- <div class="mt-4 rounded-xl border border-roofing-light-gray/60 bg-red-500 p-6 text-sm text-white/90">
+                <!-- <div class="mt-4 rounded-xl border border-belk-light-gray/60 bg-red-500 p-6 text-sm text-white/90">
                   Image placeholder: Transition flashing examples
                 </div> -->
               </div>
@@ -417,7 +417,7 @@
           <!-- Step 6 -->
           <div class="rounded-b-2xl p-6 bg-gradient-to-b from-transparent to-white shadow-lg">
             <div class="flex items-start gap-4">
-              <div class="shrink-0 w-10 h-10 rounded-full bg-roofing-teal text-white font-bold flex items-center justify-center">
+              <div class="shrink-0 w-10 h-10 rounded-full bg-belk-teal text-white font-bold flex items-center justify-center">
                 6
               </div>
 
@@ -432,20 +432,20 @@
 
                 <ul class="ml-12 space-y-2">
                   <li class="flex gap-3">
-                    <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+                    <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
                     <p>R-Panel systems are sealed using foam closures and fasteners</p>
                   </li>
                   <li class="flex gap-3">
-                    <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+                    <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
                     <p>Concealed fastener systems use mechanically attached wall flashing</p>
                   </li>
                   <li class="flex gap-3">
-                    <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+                    <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
                     <p>Snap-Lok systems are secured to metal closures using stainless steel rivets, maintaining a clean, sealed appearance</p>
                   </li>
                 </ul>
 
-                <!-- <div class="mt-4 rounded-xl border border-roofing-light-gray/60 bg-red-500 p-6 text-sm text-white/90">
+                <!-- <div class="mt-4 rounded-xl border border-belk-light-gray/60 bg-red-500 p-6 text-sm text-white/90">
                   Image placeholder: Sidewall / endwall flashing
                 </div> -->
               </div>
@@ -455,7 +455,7 @@
           <!-- Step 7 -->
           <div class="rounded-b-2xl p-6 bg-gradient-to-b from-transparent to-white shadow-lg">
             <div class="flex items-start gap-4">
-              <div class="shrink-0 w-10 h-10 rounded-full bg-roofing-teal text-white font-bold flex items-center justify-center">
+              <div class="shrink-0 w-10 h-10 rounded-full bg-belk-teal text-white font-bold flex items-center justify-center">
                 7
               </div>
 
@@ -470,16 +470,16 @@
 
                 <ul class="ml-12 space-y-2">
                   <li class="flex gap-3">
-                    <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+                    <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
                     <p>Plumbing vents are protected using high-quality EPDM pipe boots designed for metal roofing</p>
                   </li>
                   <li class="flex gap-3">
-                    <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+                    <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
                     <span>Chimneys and other penetrations are custom-flashed to match the panel system and roof slope</span>
                   </li>
                 </ul>
 
-                <!-- <div class="mt-4 rounded-xl border border-roofing-light-gray/60 bg-red-500 p-6 text-sm text-white/90">
+                <!-- <div class="mt-4 rounded-xl border border-belk-light-gray/60 bg-red-500 p-6 text-sm text-white/90">
                   Image placeholder: EPDM boots / chimney flashing
                 </div> -->
               </div>
@@ -489,7 +489,7 @@
           <!-- Step 8 -->
           <div class="rounded-b-2xl p-6 bg-gradient-to-b from-transparent to-white shadow-lg">
             <div class="flex items-start gap-4">
-              <div class="shrink-0 w-10 h-10 rounded-full bg-roofing-teal text-white font-bold flex items-center justify-center">
+              <div class="shrink-0 w-10 h-10 rounded-full bg-belk-teal text-white font-bold flex items-center justify-center">
                 8
               </div>
 
@@ -503,54 +503,54 @@
                 </p>
 
                 <div class="space-y-4">
-                  <div class="rounded-xl border border-roofing-light-gray bg-roofing-light-gray/60 p-5">
+                  <div class="rounded-xl border border-belk-light-gray bg-belk-light-gray/60 p-5">
                     <p class="font-semibold">R-Panel</p>
                     <ul class="ml-12 mt-3 space-y-2">
                       <li class="flex gap-3">
-                        <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+                        <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
                         <span>Formed foam closures installed at all hips and ridges</span>
                       </li>
                       <li class="flex gap-3">
-                        <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+                        <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
                         <span>Ridge and hip metal is mechanically fastened using screws.</span>
                       </li>
                     </ul>
                   </div>
 
-                  <div class="rounded-xl border border-roofing-light-gray bg-roofing-light-gray/60 p-5">
+                  <div class="rounded-xl border border-belk-light-gray bg-belk-light-gray/60 p-5">
                     <p class="font-semibold">Concealed Fastener Panels</p>
                     <ul class="ml-12 mt-3 space-y-2">
                       <li class="flex gap-3">
-                        <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+                        <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
                         <p>Hip and Ridge flashing is installed with a Pittsburg Hem.</p>
                       </li>
                       <li class="flex gap-3">
-                        <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+                        <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
                         <span>Formed metal closures are snapped into flashing</span>
                       </li>
                       <li class="flex gap-3">
-                        <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+                        <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
                         <span>Both hips and ridges are attached with low profile screws</span>
                       </li>
                     </ul>
                   </div>
 
-                  <div class="rounded-xl border border-roofing-light-gray bg-roofing-light-gray/60 p-5">
+                  <div class="rounded-xl border border-belk-light-gray bg-belk-light-gray/60 p-5">
                     <p class="font-semibold">Snap-Lok Standing Seam</p>
                     <ul class="ml-12 mt-3 space-y-2">
                       <li class="flex gap-3">
-                        <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+                        <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
                         <p>Metal “Z” flashing is installed at hips and ridges</p>
                       </li>
                       <li class="flex gap-3">
-                        <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+                        <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
                         <p>Flashing is attached using stainless steel rivets, leaving no exposed screws or edges</p>
                       </li>
                     </ul>
                   </div>
                 </div>
 
-                <!-- <div class="mt-4 rounded-xl border border-roofing-light-gray/60 bg-red-500 p-6 text-sm text-white/90">
+                <!-- <div class="mt-4 rounded-xl border border-belk-light-gray/60 bg-red-500 p-6 text-sm text-white/90">
                   Image placeholder: Ridge / hip detail (closures / rivets)
                 </div> -->
               </div>
@@ -560,7 +560,7 @@
           <!-- Step 9 -->
           <div class="rounded-b-2xl p-6 bg-gradient-to-b from-transparent to-white shadow-lg">
             <div class="flex items-start gap-4">
-              <div class="shrink-0 w-10 h-10 rounded-full bg-roofing-teal text-white font-bold flex items-center justify-center">
+              <div class="shrink-0 w-10 h-10 rounded-full bg-belk-teal text-white font-bold flex items-center justify-center">
                 9
               </div>
 
@@ -573,7 +573,7 @@
                   Once installation is complete, we perform a full cleanup of the job site and conduct a final walkthrough with the homeowner. We inspect all flashing, transitions, penetrations, and fastening details to ensure everything meets our standards—and yours.
                 </p>
 
-                <!-- <div class="mt-4 rounded-xl border border-roofing-light-gray/60 bg-red-500 p-6 text-sm text-white/90">
+                <!-- <div class="mt-4 rounded-xl border border-belk-light-gray/60 bg-red-500 p-6 text-sm text-white/90">
                   Image placeholder: Cleanup + final walkthrough
                 </div> -->
               </div>
@@ -610,7 +610,7 @@
           </a>
           <a
             href="tel:+1XXXXXXXXXX"
-            class="inline-flex items-center justify-center rounded-full bg-roofing-light-gray px-8 py-4 text-white font-semibold tracking-wide hover:bg-roofing-gray/60 transition"
+            class="inline-flex items-center justify-center rounded-full bg-belk-light-gray px-8 py-4 text-white font-semibold tracking-wide hover:bg-belk-gray/60 transition"
           >
             Call Now
           </a>

@@ -6,7 +6,7 @@
 			class="transition-all duration-300 ease-in-out"
 		/>
 		<div
-			class="select-none  w-full justify-center sm:max-w-[352px] transition-all transform-gpu duration-700 bg-gray-900 sm:rounded-xl shadow-lg shadow-roofing-light-brown sm:shadow-black h-[440px] relative z-[60]"
+			class="select-none  w-full justify-center sm:max-w-[352px] transition-all transform-gpu duration-700 bg-gray-900 sm:rounded-xl shadow-lg shadow-belk-light-brown sm:shadow-black h-[440px] relative z-[60]"
 			:class="serviceImage ? '' : 'opacity-0 -translate-y-full'"
 			@click.stop
 		>

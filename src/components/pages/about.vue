@@ -57,7 +57,7 @@
               <div class="text-white text-base md:text-lg w-full max-w-[15rem]">
                 <a
                   href="/contact"
-                  class="bg-roofing-red p-3 sm:p-4 rounded-full font-semibold w-full shadow-sm shadow-roofing-gray"
+                  class="bg-belk-red p-3 sm:p-4 rounded-full font-semibold w-full shadow-sm shadow-belk-gray"
                 >
                   Request a Free Quote
                 </a>
@@ -129,19 +129,19 @@
 
               <ul class="space-y-3 list-disc ml-12">
                 <li class="flex gap-3 text-white/80">
-                  <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+                  <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
                   <span class="font-semibold">The same honesty, quality, and faith-driven values that built Jay Lott Roofing’s reputation</span>
                 </li>
                 <li class="flex gap-3 text-white/80">
-                  <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+                  <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
                   <span class="font-semibold">More resources, better processes, and expanded capabilities to serve you efficiently</span>
                 </li>
                 <li class="flex gap-3 text-white/80">
-                  <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+                  <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
                   <span>Leadership involvement from both Jay Lott and Justin Schlichter</span>
                 </li>
                 <li class="flex gap-3 text-white/80">
-                  <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+                  <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
                   <span class="font-semibold">Work that is still personally inspected and held to a higher standard</span>
                 </li>
               </ul>
@@ -156,7 +156,7 @@
     </section>
 
     <!-- Partner Logos Section -->
-    <section class="bg-roofing-cream md:p-16 px-0">
+    <section class="bg-belk-cream md:p-16 px-0">
       <div class="w-full">
         <!-- <p class="text-center text-sm font-bold uppercase mb-10" style="letter-spacing: 1.4px;">
           Recognized by leading organizations

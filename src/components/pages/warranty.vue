@@ -32,15 +32,15 @@
 
         <ul class="space-y-3 list-disc ml-12">
           <li class="flex gap-3">
-            <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+            <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
             <p><span class="font-semibold">We guarantee our installation craftsmanship</span></p>
           </li>
           <li class="flex gap-3">
-            <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+            <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
             <p><span class="font-semibold">If an installation-related issue arises, we make it right</span></p>
           </li>
           <li class="flex gap-3">
-            <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+            <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
             <p><span class="font-semibold">No runaround, no excuses—just accountability</span></p>
           </li>
         </ul>
@@ -69,15 +69,15 @@
 
         <ul class="space-y-3 list-disc ml-12">
           <li class="flex gap-3">
-            <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+            <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
             <p><span class="font-semibold">50-year non-prorated material coverage</span> (on qualifying GAF shingles)</p>
           </li>
           <li class="flex gap-3">
-            <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+            <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
             <p><span class="font-semibold">25-year workmanship coverage</span> backed directly by GAF</p>
           </li>
           <li class="flex gap-3">
-            <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+            <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
             <p><span class="font-semibold">Coverage for materials AND labor</span>—not just shingles</p>
           </li>
         </ul>
@@ -105,15 +105,15 @@
 
         <ul class="space-y-3 list-disc ml-12">
           <li class="flex gap-3">
-            <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+            <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
             <p><span class="font-semibold">Up to a 45-year paint finish warranty</span> (depending on product selection)</p>
           </li>
           <li class="flex gap-3">
-            <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+            <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
             <p><span class="font-semibold">Protection against cracking, peeling, chipping, and excessive fading</span></p>
           </li>
           <li class="flex gap-3">
-            <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+            <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
             <p><span class="font-semibold">Engineered coatings designed to withstand harsh Texas heat and weather</span></p>
           </li>
         </ul>
@@ -141,15 +141,15 @@
 
         <ul class="space-y-3 list-disc ml-12">
           <li class="flex gap-3">
-            <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+            <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
             <p><span class="font-semibold">Proven craftsmanship</span></p>
           </li>
           <li class="flex gap-3">
-            <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+            <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
             <p><span class="font-semibold">Manufacturer-backed protection</span></p>
           </li>
           <li class="flex gap-3">
-            <span class="mt-2 h-2 w-2 rounded-full bg-roofing-teal shrink-0"></span>
+            <span class="mt-2 h-2 w-2 rounded-full bg-belk-teal shrink-0"></span>
             <p><span class="font-semibold">A company that answers the phone and stands behind its work</span></p>
           </li>
         </ul>
