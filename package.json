@@ -6,9 +6,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "mango": "mango",
-
-    "deploy": "yarn build && rm -rf docs && mkdir -p docs && cp -R dist/* docs/ && ( [ -f CNAME ] && cp CNAME docs/CNAME || true ) && touch docs/.nojekyll && git add docs docs/CNAME",
-
+    "deploy": "yarn build && rm -rf docs && mkdir -p docs && cp -R dist/* docs/ && ( [ -f CNAME ] && cp CNAME docs/CNAME || true ) && touch docs/.nojekyll && cp docs/index.html docs/404.html && git add docs docs/CNAME docs/404.html",
     "ship": "git pull && yarn install && yarn deploy && (git diff --cached --quiet || git commit -m \"Deploy site\") && git push"
   },
   "resolutions": {
