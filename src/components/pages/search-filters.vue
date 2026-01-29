@@ -51,7 +51,7 @@
 
                             <div class="flex w-full justify-end items-end bottom-0">
                               <img
-                                src="/images/belk-cartoon.svg"
+                                src="/images/belk-cartoon-edit.svg"
                                 alt=""
                                 class="w-auto h-full max-h-80 sm:max-h-[400px] rounded-tl-[80px]"
                               />

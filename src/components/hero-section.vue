@@ -81,12 +81,12 @@
         <!-- Right image -->
         <div class="flex w-full justify-end items-end max-h-[600px] absolute md:relative bottom-0">
           <img
-            src="/images/belk-cartoon.svg"
+            src="/images/belk-cartoon-edit.svg"
             alt=""
             class="w-auto translate-x-16 h-[400px] xs:h-[500px] min-w-[150px] md:hidden rounded-tl-[80px]"
           />
           <img
-            src="/images/belk-cartoon-full.svg"
+            src="/images/belk-cartoon-full-edit.svg"
             alt=""
             class="w-auto h-20 xs:h-[500px] xl:h-[600px] min-w-[400px] xl:min-w-[590px] hidden md:block rounded-tl-[80px]"
           />
