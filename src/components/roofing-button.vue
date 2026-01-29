@@ -49,10 +49,10 @@ export default {
         primary:
           'bg-belk-red text-white border-t-2 border-belk-orange hover:bg-red-700 p-4',
         secondary:
-          'bg-belk-light-gray text-roofing-gray hover:bg-gray-300 px-4 py-2',
+          'bg-belk-light-gray text-belk-gray hover:bg-gray-300 px-4 py-2',
         ghost: 'hover:bg-gray-100',
         tertiary:
-          'bg-roofing-gray/30 text-belk-light-gray hover:bg-roofing-gray/80 px-4 py-2',
+          'bg-belk-gray/30 text-belk-light-gray hover:bg-belk-gray/80 px-4 py-2',
       }
 
       return `${base} ${variants[this.variant]}`

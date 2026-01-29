@@ -117,7 +117,7 @@ export default {
 <!-- Header -->
 <tr>
 <td style="background-color: #1a1a1a; padding: 32px 40px; text-align: center;">
-<h1 style="margin: 0; font-size: 28px; font-weight: 700; color: #ffffff; letter-spacing: -0.5px;">Jay Lott Roofing</h1>
+<h1 style="margin: 0; font-size: 28px; font-weight: 700; color: #ffffff; letter-spacing: -0.5px;">Belk Heating & Cooling</h1>
 <p style="margin: 8px 0 0; font-size: 14px; color: #a3a3a3;">${isQuote ? 'New Quote Request' : 'New Contact Message'}</p>
 </td>
 </tr>
@@ -178,7 +178,7 @@ ${
 <!-- Footer -->
 <tr>
 <td style="background-color: #fafafa; padding: 20px 40px; text-align: center; border-top: 1px solid #e5e5e5;">
-<p style="margin: 0; font-size: 12px; color: #737373;">Sent from Jay Lott Roofing website</p>
+<p style="margin: 0; font-size: 12px; color: #737373;">Sent from Belk Heating & Cooling website</p>
 </td>
 </tr>
 
@@ -191,9 +191,9 @@ ${
 			`
 
 			await sendEmail({
-				to: 'office@et-roofing.com',
+				to: 'belkheatingandcooling@gmail.com',
 				from: 'jay_lott_inquiries@hppth.com',
-				subject: `${isQuote ? 'Quote Request' : 'Contact Message'} from ${name} - Jay Lott Roofing`,
+				subject: `${isQuote ? 'Quote Request' : 'Contact Message'} from ${name} - Belk Heating & Cooling`,
 				body: html,
 			})
 

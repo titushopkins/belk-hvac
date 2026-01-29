@@ -168,7 +168,7 @@
 			<nav @scroll="handleScroll" v-show="!hidden" :class="showMenu ? 'opacity-70' : 'opacity-100'" class="flex w-full px-6 sm:px-12 py-6 items-center gap-2 text-white z-50 absolute">
 				<!-- Logo -->
 				<router-link class="w-60 shrink-0 flex items-center" to="/">
-					<img src="/images/belk-official-full-logo.svg" alt="Jay Lott Roofing Inc." class="w-full h-auto" />
+					<img src="/images/belk-official-full-logo.svg" alt="Belk Heating & Cooling LLC," class="w-full h-auto" />
 				</router-link>
 
 				<!-- Spacer -->

@@ -8,7 +8,7 @@
 				<div class="flex flex flex-col sm:flex-row w-full justify-between gap-20">
 					<!-- Logo Column -->
 					<div id="logo" class="flex sm:block justify-center flex-1">
-						<img src="/images/belk-official-full-logo.svg" alt="Jay Lott Roofing Inc." class="w-52 h-auto" />
+						<img src="/images/belk-official-full-logo.svg" alt="Belk Heating & Cooling LLC," class="w-52 h-auto" />
 					</div>
 
 					<div id="services" class="flex flex-nowrap shrink-0 justify-between gap-8">

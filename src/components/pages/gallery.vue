@@ -14,32 +14,44 @@
 		</section>
 
 		<section class="px-0 w-full">
-			<div class="w-full">
-				<div class="flex flex-col md:flex-row w-full justify-center px-8 py-12 sm:p-12">
-					<div class="flex flex-col w-full gap-y-8">
-						<div class="text-3xl font-semibold">Find out why your neighbors trust us</div>
-						<div class="text-base leading-6 space-y-4">
-						  <div>Deep East Texas Roofing & Construction, LLC is owned by Justin Schlichter, who holds his Professional Home Inspector License from the State of Texas (TREC#21950).</div>
-						  <div>He has a history in construction, including former employment as Project Manager by a custom home builder in the Houston area. In 2015, Justin moved to East Texas and established Deep East Texas Roofing & Construction, LLC which has grown rapidly. As a Christian, Justin's goal in his work is Ecclesiastes 9:10a: "Whatsoever thy hand findeth to do, do it with thy might..."</div>
-						  <div>Deep East Texas Roofing & Construction has been servicing the greater Lufkin area for over five years now.</div>
-						</div>
-						<div class="flex flex-col sm:flex-row w-full justify-between items-start gap-6 sm:items-center p-6 bg-gray-100 rounded-xl">
-                          <div class="text-xl md:text-2xl font-semibold">
-                            Contact us now to make arrangements for roofing services!
-                          </div>
-                          <div class="text-white text-base md:text-lg w-full max-w-[15rem]">
-                            <a
-                              href="/contact"
-                              class="bg-belk-red p-3 sm:p-4 rounded-full font-semibold w-full shadow-sm shadow-belk-gray"
-                            >
-                              Request a Free Quote
-                            </a>
-                          </div>
-                        </div>
-					</div>
-				</div>
-			</div>
-		</section>
+          <div class="w-full">
+            <div class="flex flex-col md:flex-row w-full justify-center px-8 py-12 sm:p-12">
+              <div class="flex flex-col w-full gap-y-8">
+                <div class="text-3xl font-semibold">Find out why your neighbors trust Belk Heating & Cooling LLC</div>
+
+                <div class="text-base leading-6 space-y-4">
+                  <div>
+                    Belk Heating & Cooling is built on experience, integrity, and a commitment to keeping Texas homes comfortable year-round.
+                  </div>
+
+                  <div>
+                    Our team brings years of hands-on experience in heating and air conditioning systems, from fast, reliable repairs to full system installations. We believe in doing every job with excellence, honesty, and care for the families we serve.
+                  </div>
+
+                  <div>
+                    Belk Heating & Cooling has proudly served local communities for years, providing dependable HVAC services homeowners can rely on in every season.
+                  </div>
+                </div>
+
+                <div class="flex flex-col sm:flex-row w-full justify-between items-start gap-6 sm:items-center p-6 bg-gray-100 rounded-xl">
+                  <div class="text-xl md:text-2xl font-semibold">
+                    Contact us now to schedule your HVAC service!
+                  </div>
+
+                  <div class="text-white text-base md:text-lg w-full max-w-[15rem]">
+                    <a
+                      href="/contact"
+                      class="bg-belk-red p-3 sm:p-4 rounded-full font-semibold w-full shadow-sm shadow-belk-gray"
+                    >
+                      Request a Free Quote
+                    </a>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </section>
 
 		<section class="bg-belk-cream md:p-16 px-0">
 			<div class="w-full">

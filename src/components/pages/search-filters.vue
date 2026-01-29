@@ -29,7 +29,7 @@
                         >
                           <div class="flex w-full gap-2 pt-4">
                             <div class="pl-4 space-y-4">
-                              <h3 class="text-3xl font-semibold text-gray-300">Need better comfort in your home?</h3>
+                              <h3 class="text-3xl font-semibold text-gray-300">Need better <span class="font-lobster font-bold">comfort</span> in your home?</h3>
                               <p class="text-sm text-white pb-4">
                                 Contact us now to schedule professional heating & cooling service!
                               </p>

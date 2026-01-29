@@ -12,7 +12,14 @@
                 </div>
                 <div class="flex flex-wrap items-center gap-x-4 gap-y-2">
                   <p class="text-sm/6 text-gray-100">
-                    <strong class="font-semibold">Belk HVAC & PLumbing</strong><svg viewBox="0 0 2 2" aria-hidden="true" class="mx-2 inline size-0.5 fill-current"><circle r="1" cx="1" cy="1" /></svg>Plumbing Services Coming to Belk Heating & Cooling Feb 2026
+                    <strong class="font-semibold font-lobster text-gray-300">Belk HVAC & PLumbing LLC</strong><svg viewBox="0 0 2 2" aria-hidden="true" class="mx-2 inline size-0.5 fill-current"><circle r="1" cx="1" cy="1" /></svg>
+                    <span class="font-bold bg-gradient-to-r from-belk-teal via-cyan-400 to-belk-teal bg-clip-text text-transparent">
+                      Plumbing Services
+                    </span>
+                    Coming to Belk Heating & Cooling
+                    <span class="font-bold bg-gradient-to-r from-belk-teal via-cyan-400 to-belk-teal bg-clip-text text-transparent">
+                      February 2026
+                    </span>
                   </p>
                   <!-- <a href="#" class="flex-none rounded-full bg-white/10 px-3.5 py-1 text-sm font-semibold text-white shadow-xs inset-ring-white/20 hover:bg-white/15 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Register now <span aria-hidden="true">&rarr;</span></a> -->
                 </div>
