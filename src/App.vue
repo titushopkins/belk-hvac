@@ -75,9 +75,6 @@
             <span class="font-bold bg-gradient-to-r from-belk-teal via-cyan-400 to-belk-teal bg-clip-text text-transparent">
               (Limited Spots)
             </span>
-            <span v-if="!canClosePressure" class="ml-2 text-gray-200/90">
-              — You can close this in <span class="font-bold">{{ pressureCloseCountdown }}</span>s
-            </span>
           </p>
         </div>
 
@@ -87,10 +84,26 @@
             :disabled="!canClosePressure"
             type="button"
             class="-m-3 p-3 focus-visible:-outline-offset-4"
-            :class="!canClosePressure ? 'opacity-40 cursor-not-allowed' : ''"
+            :class="!canClosePressure ? 'cursor-not-allowed' : ''"
             aria-label="Close pressure washing banner"
           >
-            <svg viewBox="0 0 20 20" fill="currentColor" data-slot="icon" aria-hidden="true" class="size-5 text-gray-100">
+            <!-- Countdown number sits where the X normally is -->
+            <span
+              v-if="!canClosePressure"
+              class="inline-flex size-5 items-center justify-center text-sm font-extrabold text-gray-100"
+            >
+              {{ pressureCloseCountdown }}
+            </span>
+
+            <!-- Real X appears after countdown completes -->
+            <svg
+              v-else
+              viewBox="0 0 20 20"
+              fill="currentColor"
+              data-slot="icon"
+              aria-hidden="true"
+              class="size-5 text-gray-100"
+            >
               <path
                 d="M6.28 5.22a.75.75 0 0 0-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 1 0 1.06 1.06L10 11.06l3.72 3.72a.75.75 0 1 0 1.06-1.06L11.06 10l3.72-3.72a.75.75 0 0 0-1.06-1.06L10 8.94 6.28 5.22Z"
               />
@@ -139,13 +152,11 @@ export default {
   },
   methods: {
     closePlumbingBanner() {
-      // close plumbing, immediately show pressure washing banner
       this.bannerStage = 'pressure'
       this.startPressureCloseLock()
     },
 
     startPressureCloseLock() {
-      // reset lock state every time pressure banner is shown
       this.canClosePressure = false
       this.pressureCloseCountdown = 5
 
