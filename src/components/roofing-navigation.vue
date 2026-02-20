@@ -138,7 +138,7 @@
 			</div>
 
 			<div class="px-4 h-auto items-end bottom-0 absolute w-full bg-belk-dark-blue rounded-b-2xl">
-				<div class="flex flex-col w-full bottom-0 h-auto items-end bg-gradient-to-b from-belk-light-gray to-transparent rounded-xl space-y-6 px-5 py-3">
+				<div class="flex flex-col w-full bottom-0 h-auto items-end bg-gradient-to-b from-gray-700 to-transparent rounded-xl space-y-6 px-5 py-3 text-gray-200">
 					<div class="flex flex-col w-full justify-start space-y-3 p-2">
 						<p class="text-start text-sm font-bold uppercase" style="letter-spacing: 1.4px">Get In Touch</p>
 
