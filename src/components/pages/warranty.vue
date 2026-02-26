@@ -5,7 +5,7 @@
       <div class="absolute inset-0 bg-black/50 backdrop-blur" />
       <div class="relative z-10 flex flex-col w-full h-full items-center justify-center text-center px-4">
         <h2 class="text-white text-2xl sm:text-[32px] font-semibold font-lobster italic">
-          10 Years Of Protection Test
+          10 Years Of Protection
         </h2>
 
         <div class="text-white text-5xl sm:text-6xl font-semibold pt-4">
