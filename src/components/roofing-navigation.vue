@@ -158,7 +158,7 @@
 						</a>
 					</div>
 
-					<roofing-button variant="primary" text="Request a Free Quote" href="/contact" class="w-full p-4 border-b border-t-0 border-belk-light-gray text-base" />
+					<roofing-button variant="primary" text="Request a Free Quote" href="/contact" class="w-full sm:p-4 border-b border-t-0 border-belk-light-gray text-base" />
 				</div>
 			</div>
 		</div>
@@ -167,7 +167,7 @@
 		<div class="flex w-full justify-center">
 			<nav @scroll="handleScroll" v-show="!hidden" :class="showMenu ? 'opacity-70' : 'opacity-100'" class="flex w-full px-6 sm:px-12 py-6 items-center gap-2 text-white z-50 absolute">
 				<!-- Logo -->
-				<router-link class="w-60 shrink-0 flex items-center" to="/">
+				<router-link class="w-40 sm:w-60 shrink-0 flex items-center" to="/">
 					<img src="/images/belk-official-full-logo.svg" alt="Belk Heating & Cooling LLC," class="w-full h-auto" />
 				</router-link>
 

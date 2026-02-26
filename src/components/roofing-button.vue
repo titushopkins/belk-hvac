@@ -47,7 +47,7 @@ export default {
 
       const variants = {
         primary:
-          'bg-belk-red text-white border-t-2 border-belk-orange hover:bg-red-700 p-4',
+          'bg-belk-red text-white border-t-2 border-belk-orange hover:bg-red-700 p-2 sm:p-4',
         secondary:
           'bg-belk-light-gray text-belk-gray hover:bg-gray-300 px-4 py-2',
         ghost: 'hover:bg-gray-100',

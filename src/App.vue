@@ -3,10 +3,10 @@
     <div
       class="relative from-white to-slate-50 bg-gradient-to-b dark:from-black dark:to-gray-700 dark:selection:bg-gray-300 dark:text-gray-300 w-full min-h-screen"
     >
-      <!-- BANNER 1: PLUMBING -->
+      <!-- BANNER 1: PLUMBING (kept in file, but hidden for now) -->
       <div
         v-if="bannerStage === 'plumbing'"
-        class="relative isolate flex items-center gap-x-6 overflow-hidden bg-gradient-to-r from-belk-dark-blue via-50% via-belk-dark-gray to-belk-dark-blue px-6 py-2.5 after:pointer-events-none after:absolute after:inset-x-0 after:bottom-0 after:h-px after:bg-white/10 sm:px-3.5 sm:before:flex-1"
+        class="hidden relative z-[9999] isolate flex items-center gap-x-6 overflow-hidden bg-gradient-to-r from-belk-dark-blue via-50% via-belk-dark-gray to-belk-dark-blue px-6 py-2.5 after:pointer-events-none after:absolute after:inset-x-0 after:bottom-0 after:h-px after:bg-white/10 sm:px-3.5 sm:before:flex-1"
       >
         <div aria-hidden="true" class="absolute top-1/2 left-[max(-7rem,calc(50%-52rem))] -z-10 -translate-y-1/2 transform-gpu blur-2xl">
           <div
@@ -35,21 +35,27 @@
           </p>
         </div>
 
-        <div class="flex flex-1 justify-end">
-          <button @click="closePlumbingBanner" type="button" class="-m-3 p-3 focus-visible:-outline-offset-4">
+        <div class="flex flex-1 items-center justify-end relative z-[10000] pointer-events-none">
+          <button
+            type="button"
+            class="p-3 pointer-events-auto"
+            @click.stop="closePlumbingBanner"
+            @touchend.stop.prevent="closePlumbingBanner"
+            aria-label="Close plumbing banner"
+          >
             <svg viewBox="0 0 20 20" fill="currentColor" data-slot="icon" aria-hidden="true" class="size-5 text-gray-100">
               <path
-                d="M6.28 5.22a.75.75 0 0 0-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 1 0 1.06 1.06L10 11.06l3.72 3.72a.75.75 0 1 0 1.06-1.06L11.06 10l3.72-3.72a.75.75 0 0 0-1.06-1.06L10 8.94 6.28 5.22Z"
+                d="M6.28 5.22a.75.75 0 0 0-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 1 0 1.06 1.06L10 11.06l3.72 3.72a.75.75 0 0 0 1.06-1.06L11.06 10l3.72-3.72a.75.75 0 0 0-1.06-1.06L10 8.94 6.28 5.22Z"
               />
             </svg>
           </button>
         </div>
       </div>
 
-      <!-- BANNER 2: PRESSURE WASHING (appears after plumbing closes; locked for 5s) -->
+      <!-- BANNER 2: WARRANTY (shows first for now; locked for 5s) -->
       <div
-        v-if="bannerStage === 'pressure'"
-        class="relative isolate flex items-center gap-x-6 overflow-hidden bg-gradient-to-r from-belk-dark-blue via-50% via-belk-dark-gray to-belk-dark-blue px-6 py-2.5 after:pointer-events-none after:absolute after:inset-x-0 after:bottom-0 after:h-px after:bg-white/10 sm:px-3.5 sm:before:flex-1"
+        v-if="bannerStage === 'warranty'"
+        class="relative z-[9999] isolate flex items-center gap-x-6 overflow-hidden bg-gradient-to-r from-belk-dark-blue via-50% via-belk-dark-gray to-belk-dark-blue px-6 py-2.5 after:pointer-events-none after:absolute after:inset-x-0 after:bottom-0 after:h-px after:bg-white/10 sm:px-3.5 sm:before:flex-1"
       >
         <div aria-hidden="true" class="absolute top-1/2 left-[max(-7rem,calc(50%-52rem))] -z-10 -translate-y-1/2 transform-gpu blur-2xl">
           <div
@@ -69,33 +75,34 @@
             <strong class="font-semibold font-lobster text-gray-300">Belk Heating & Cooling</strong>
             <svg viewBox="0 0 2 2" aria-hidden="true" class="mx-2 inline size-0.5 fill-current"><circle r="1" cx="1" cy="1" /></svg>
             <span class="font-bold bg-gradient-to-r from-belk-teal via-cyan-400 to-belk-teal bg-clip-text text-transparent">
-              Pressure Washing
+              Need Warranty?
             </span>
-            Now Offered — Driveways, Siding, Fences, & More
-            <span class="font-bold bg-gradient-to-r from-belk-teal via-cyan-400 to-belk-teal bg-clip-text text-transparent">
-              (Limited Spots)
-            </span>
+            Now Offering 10 YR - Parts, Labor, and Refrigeration Warranty!
           </p>
+
+         <RouterLink
+           to="/warranty"
+           @click="forceCloseWarranty"
+           class="font-bold bg-gradient-to-r from-belk-teal via-cyan-400 to-belk-teal text-white rounded-xl px-3 py-2"
+         >
+           View Now
+         </RouterLink>
         </div>
 
-        <div class="flex flex-1 justify-end">
+        <div class="flex flex-1 items-center justify-end relative z-[10000] pointer-events-none">
           <button
-            @click="closePressureBanner"
-            :disabled="!canClosePressure"
+            @click.stop="closeWarrantyBanner"
+            @touchend.stop.prevent="closeWarrantyBanner"
+            :disabled="!canCloseWarranty"
             type="button"
-            class="-m-3 p-3 focus-visible:-outline-offset-4"
-            :class="!canClosePressure ? 'cursor-not-allowed' : ''"
-            aria-label="Close pressure washing banner"
+            class="p-3 pointer-events-auto focus-visible:-outline-offset-4"
+            :class="!canCloseWarranty ? 'cursor-not-allowed' : ''"
+            aria-label="Close warranty banner"
           >
-            <!-- Countdown number sits where the X normally is -->
-            <span
-              v-if="!canClosePressure"
-              class="inline-flex size-5 items-center justify-center text-sm font-extrabold text-gray-100"
-            >
-              {{ pressureCloseCountdown }}
+            <span v-if="!canCloseWarranty" class="inline-flex size-5 items-center justify-center text-sm font-extrabold text-gray-100">
+              {{ warrantyCloseCountdown }}
             </span>
 
-            <!-- Real X appears after countdown completes -->
             <svg
               v-else
               viewBox="0 0 20 20"
@@ -105,7 +112,7 @@
               class="size-5 text-gray-100"
             >
               <path
-                d="M6.28 5.22a.75.75 0 0 0-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 1 0 1.06 1.06L10 11.06l3.72 3.72a.75.75 0 1 0 1.06-1.06L11.06 10l3.72-3.72a.75.75 0 0 0-1.06-1.06L10 8.94 6.28 5.22Z"
+                d="M6.28 5.22a.75.75 0 0 0-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 1 0 1.06 1.06L10 11.06l3.72 3.72a.75.75 0 0 0 1.06-1.06L11.06 10l3.72-3.72a.75.75 0 0 0-1.06-1.06L10 8.94 6.28 5.22Z"
               />
             </svg>
           </button>
@@ -138,43 +145,62 @@ export default {
     return {
       navHidden: false,
 
-      // banner flow
-      bannerStage: 'plumbing', // 'plumbing' -> 'pressure' -> null
+      // For now: start on warranty so it shows immediately
+      bannerStage: 'warranty', // 'plumbing' -> 'warranty' -> null
 
-      // pressure close lock
-      canClosePressure: false,
-      pressureCloseCountdown: 5,
-      _pressureInterval: null,
+      // warranty close lock (5s)
+      canCloseWarranty: false,
+      warrantyCloseCountdown: 5,
+      _warrantyInterval: null,
     }
   },
+  mounted() {
+    // Start the 5 second lock immediately since warranty is the first banner for now
+    this.startWarrantyCloseLock()
+  },
   beforeUnmount() {
-    if (this._pressureInterval) clearInterval(this._pressureInterval)
+    if (this._warrantyInterval) clearInterval(this._warrantyInterval)
   },
   methods: {
+    forceCloseWarranty() {
+      // Clear countdown immediately
+      if (this._warrantyInterval) {
+        clearInterval(this._warrantyInterval)
+        this._warrantyInterval = null
+      }
+
+      this.bannerStage = null
+    },
+    // Plumbing close kept (even though plumbing is hidden for now)
     closePlumbingBanner() {
-      this.bannerStage = 'pressure'
-      this.startPressureCloseLock()
+      this.showWarrantyBanner()
     },
 
-    startPressureCloseLock() {
-      this.canClosePressure = false
-      this.pressureCloseCountdown = 5
+    showWarrantyBanner() {
+      this.canCloseWarranty = false
+      this.bannerStage = 'warranty'
+      this.startWarrantyCloseLock()
+    },
 
-      if (this._pressureInterval) clearInterval(this._pressureInterval)
+    startWarrantyCloseLock() {
+      this.canCloseWarranty = false
+      this.warrantyCloseCountdown = 5
 
-      this._pressureInterval = setInterval(() => {
-        this.pressureCloseCountdown -= 1
+      if (this._warrantyInterval) clearInterval(this._warrantyInterval)
 
-        if (this.pressureCloseCountdown <= 0) {
-          this.canClosePressure = true
-          clearInterval(this._pressureInterval)
-          this._pressureInterval = null
+      this._warrantyInterval = setInterval(() => {
+        this.warrantyCloseCountdown -= 1
+
+        if (this.warrantyCloseCountdown <= 0) {
+          this.canCloseWarranty = true
+          clearInterval(this._warrantyInterval)
+          this._warrantyInterval = null
         }
       }, 1000)
     },
 
-    closePressureBanner() {
-      if (!this.canClosePressure) return
+    closeWarrantyBanner() {
+      if (!this.canCloseWarranty) return
       this.bannerStage = null
     },
   },
