@@ -41,14 +41,7 @@
 								<li>
 									<a href="/construction-projects" class="text-white/70 text-base underline-offset-2 transition-all duration-300 ease-in-out hover:underline decoration-belk-cream-2 decoration-2 hover:underline-offset-4"> Construction Projects </a>
 								</li> -->
-							</ul>
-						</div>
-
-						<!-- Quick Links Column -->
-						<div class="w-auto">
-							<h3 class="text-white font-bold text-sm uppercase mb-6 tracking-wider">Quick Links</h3>
-							<ul class="space-y-4">
-								<li>
+                                <li>
 									<a href="/about-us" class="text-white/70 text-base underline-offset-2 transition-all duration-300 ease-in-out hover:underline decoration-belk-cream-2 decoration-2 hover:underline-offset-4"> About </a>
 								</li>
 								<!-- <li>
@@ -70,19 +63,19 @@
 								<li class="text-white/70 text-base">
 									<a class="flex gap-x-2 items-center" href="tel:+7372513394">
 										<img class="w-6 h-6" src="/images/jay-lott-phone.svg" />
-										(737) 251-3394
+										Call US
 									</a>
 								</li>
 								<li class="text-white/70 text-base">
 									<a class="flex gap-x-2 items-center" href="/service-areas" rel="noopener noreferrer">
 										<img class="w-6 h-6" src="/images/jay-lott-map.svg" />
-										Services Burnet & Surrounding Areas
+										Central Texas
 									</a>
 								</li>
 								<li class="text-white/70 text-base">
 									<a class="flex gap-x-2 items-center" href="mailto:belkheatingandcooling@gmail.com">
 										<img class="w-6 h-6" src="/images/jay-lott-email.svg" />
-										belkheatingandcooling@gmail.com
+										Email Us
 									</a>
 								</li>
 							</ul>

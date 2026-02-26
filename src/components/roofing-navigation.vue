@@ -93,14 +93,27 @@
 				<div :class="open ? 'hidden' : 'space-y-6'">
 					<div class="flex flex-col space-y-2 pt-2 px-6" @click="showMenu = false">
 						<router-link v-for="link in computedLinks" :key="link.name" :to="link.path" class="hover:opacity-70 duration-300 ease-in-out italic font-lobster font-semibold tracking-wide text-2xl text-gray-300 transition-colors" exact-active-class="text-belk-teal">
-							{{ link.name }}
+							<span class="flex items-center gap-3">
+  <!-- NEW Badge on the LEFT (only for Warranty) -->
+  <span
+    v-if="link.name === 'Warranty'"
+    class="inline-flex items-center justify-center text-[11px] leading-none px-2 py-[3px] -translate-y-5 -translate-x-3 absolute
+    rounded-xl font-extrabold uppercase tracking-wider
+    bg-gradient-to-r from-belk-teal via-50% via-white/60 to-belk-teal
+    text-white shadow-md"
+  >
+    New
+  </span>
+
+  <span>{{ link.name }}</span>
+</span>
 						</router-link>
 					</div>
 
 					<div class="flex w-full justify-center border-t-2 border-belk-light-gray rounded-full" />
 
 					<div class="flex flex-col space-y-4 font-thin text-sm text-start" @click="showMenu = false">
-						<router-link
+						<!-- <router-link
 							to="/warranty"
 							class="font-semibold pl-6 border-l-4 border-transparent hover:border-l-belk-gray/50 hover:opacity-70 transition-colors duration-150 ease-in-out"
 							exact-active-class="
@@ -110,7 +123,7 @@
               "
 						>
 							Warranty
-						</router-link>
+						</router-link> -->
 						<router-link
 							to="/about"
 							class="font-semibold pl-6 border-l-4 border-transparent hover:border-l-belk-gray/50 hover:opacity-70 transition-colors duration-150 ease-in-out"
@@ -186,24 +199,40 @@
 						</button> -->
 
 						<template v-for="link in computedLinks" :key="link.name">
-							<router-link
-								:to="link.path"
-								exact-active-class="
-                  after:content-['']
-                  after:absolute
-                  after:bottom-1
-                  after:left-0
-                  after:right-0
-                  after:h-1
-                  after:bg-belk-teal
-                  after:rounded-full
-                  after:scale-x-100
-                "
-								class="relative inline-flex items-center justify-center h-12 font-semibold text-gray-300 transition-opacity before:content-[''] before:absolute before:bottom-1 before:left-0 before:right-0 before:h-1 before:bg-belk-gray before:rounded-full before:scale-x-0 hover:before:scale-x-100 before:transition-transform before:duration-300 before:origin-center after:transition-transform after:duration-300 after:origin-center after:scale-x-0"
-							>
-								{{ link.name }}
-							</router-link>
-						</template>
+  <router-link
+    :to="link.path"
+    exact-active-class="
+      after:content-['']
+      after:absolute
+      after:bottom-1
+      after:left-0
+      after:right-0
+      after:h-1
+      after:bg-belk-teal
+      after:rounded-full
+      after:scale-x-100
+    "
+    class="relative inline-flex items-center justify-center h-12 font-semibold text-gray-300 transition-opacity
+      before:content-[''] before:absolute before:bottom-1 before:left-0 before:right-0 before:h-1 before:bg-belk-gray before:rounded-full
+      before:scale-x-0 hover:before:scale-x-100 before:transition-transform before:duration-300 before:origin-center
+      after:transition-transform after:duration-300 after:origin-center after:scale-x-0"
+  >
+    <span class="relative flex items-center gap-2">
+  <!-- NEW Badge on the LEFT (only for Warranty) -->
+  <span
+    v-if="link.name === 'Warranty'"
+    class="inline-flex items-center justify-center text-[10px] leading-none p-1
+    rounded-full font-extrabold uppercase tracking-wider
+    bg-gradient-to-r from-belk-teal via-50% via-white/60 to-belk-teal
+    text-white shadow-md"
+  >
+    New
+  </span>
+
+  <span>{{ link.name }}</span>
+</span>
+  </router-link>
+</template>
 					</div>
 
 					<!-- Action Buttons + Hamburger -->
@@ -271,8 +300,8 @@ export default {
 			showMenu: false,
 			showLoginModal: false,
 			links: [
+				{ name: 'Warranty', path: '/warranty' },
 				{ name: 'Service Areas', path: '/service-areas' },
-				{ name: 'About', path: '/About' },
 				{ name: 'Gallery', path: '/gallery' },
 				// { name: 'Financing', path: '/financing' },
 			],
