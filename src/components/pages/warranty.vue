@@ -1,7 +1,7 @@
 <template>
   <main class="w-full bg-gray-900">
     <!-- HERO -->
-    <div class="relative w-full h-screen max-h-[60vh] bg-[url('/images/belk-6.png')] bg-cover bg-center">
+    <div class="relative w-full h-screen max-h-[60vh] bg-[url('/images/belk-logo-bg.png')] bg-cover bg-center">
       <div class="absolute inset-0 bg-black/50 backdrop-blur" />
       <div class="relative z-10 flex flex-col w-full h-full items-center justify-center text-center px-4">
         <h2 class="text-white text-2xl sm:text-[32px] font-semibold font-lobster italic">
@@ -26,7 +26,7 @@
           <div class="max-w-sm md:max-w-lg w-full">
             <img
               class="w-full rounded-xl shadow-2xl shadow-white/20"
-              src="/images/belk-warranty-image.png"
+              src="/images/belk-10yr-warranty.png"
               alt="Belk Heating & Cooling 10 Year Warranty"
             />
           </div>
@@ -313,7 +313,27 @@
               @click="submitLead"
             >
               <span v-if="!isSubmitting">Submit Request</span>
-              <span v-else>Submitting...</span>
+              <span v-else class="flex items-center justify-center gap-x-2">
+                <svg class="h-5 w-5 animate-spin text-white" viewBox="0 0 24 24">
+                  <!-- faint full circle -->
+                  <circle
+                    class="opacity-25"
+                    cx="12"
+                    cy="12"
+                    r="10"
+                    stroke="currentColor"
+                    stroke-width="4"
+                    fill="none"
+                  />
+                  <!-- bright arc -->
+                  <path
+                    class="opacity-90"
+                    fill="currentColor"
+                    d="M4 12a8 8 0 018-8v4a4 4 0 00-4 4H4z"
+                  />
+                </svg>
+                <span>Submitting...</span>
+              </span>
             </button>
 
             <p class="text-xs text-gray-400">
@@ -349,9 +369,11 @@
 
         <h3 class="mt-4 text-xl font-extrabold text-white">We’ll be in touch!</h3>
         <p class="mt-2 text-gray-300">
-          Thanks — we received your request. A Belk Heating &amp; Cooling team member will reach out shortly to confirm your plan and next steps.
+          Thanks — we received your request. <span class="font-semibold">A Belk Heating &amp; Cooling</span> team member will reach out shortly to confirm your plan and next steps.
         </p>
-
+        <p class="mt-2 text-gray-300">
+            If you do not see the email in your inbox be sure to check your spam/junk folder.
+        </p>
         <button
           type="button"
           class="mt-6 w-full rounded-xl px-4 py-3 font-extrabold text-white bg-gradient-to-r from-belk-teal via-cyan-400 to-belk-teal"
