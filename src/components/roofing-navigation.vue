@@ -98,7 +98,7 @@
   <span>{{ link.name }}</span>
    <span
     v-if="link.name === 'Warranty'"
-    class="inline-flex items-center justify-center text-[11px] leading-none px-2 py-[3px] translate-y-1
+    class="inline-flex items-center justify-center text-[11px] leading-none px-2 py-1 translate-y-1
     rounded-xl font-extrabold uppercase tracking-wider
     bg-gradient-to-r from-belk-teal via-50% via-white/60 to-belk-teal
     text-white shadow-md"
