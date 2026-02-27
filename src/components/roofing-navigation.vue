@@ -93,19 +93,18 @@
 				<div :class="open ? 'hidden' : 'space-y-6'">
 					<div class="flex flex-col space-y-2 pt-2 px-6" @click="showMenu = false">
 						<router-link v-for="link in computedLinks" :key="link.name" :to="link.path" class="hover:opacity-70 duration-300 ease-in-out italic font-lobster font-semibold tracking-wide text-2xl text-gray-300 transition-colors" exact-active-class="text-belk-teal">
-							<span class="flex items-center gap-3">
-  <!-- NEW Badge on the LEFT (only for Warranty) -->
-  <span
+							<span class="flex items-center gap-2">
+  <!-- NEW Badge on the RIGHT (only for Warranty) -->
+  <span>{{ link.name }}</span>
+   <span
     v-if="link.name === 'Warranty'"
-    class="inline-flex items-center justify-center text-[11px] leading-none px-2 py-[3px] -translate-y-5 -translate-x-3 absolute
+    class="inline-flex items-center justify-center text-[11px] leading-none px-2 py-[3px] translate-y-1
     rounded-xl font-extrabold uppercase tracking-wider
     bg-gradient-to-r from-belk-teal via-50% via-white/60 to-belk-teal
     text-white shadow-md"
   >
     New
   </span>
-
-  <span>{{ link.name }}</span>
 </span>
 						</router-link>
 					</div>
