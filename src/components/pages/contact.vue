@@ -55,7 +55,7 @@
 					</div>
 
 					<!-- FORM -->
-					<div class="w-full md:w-3/5 lg:max-w-xl bg-gray-800 rounded-2xl p-2 sm:p-6 shadow-xl shadow md:-translate-y-16">
+					<div class="w-full md:w-3/5 lg:max-w-xl bg-gray-800 rounded-2xl p-4 sm:p-6 md:shadow-xl md:shadow-white/20 md:-translate-y-16">
 						<div class="flex flex-col w-full justify-start space-y-4">
 							<div class="text-start font-semibold text-2xl text-white tracking-wide">Contact Us</div>
 							<div class="text-sm leading-6 text-white/80">
