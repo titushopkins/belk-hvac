@@ -86,7 +86,7 @@
 							<!-- Form Area -->
 							<div class="relative h-auto rounded-xl py-6" id="contact-section">
 								<div class="w-full">
-									<form @submit.prevent="sendRequest" class="space-y-4 px-2">
+									<form @submit.prevent="sendRequest" class="space-y-4">
 										<div class="flex flex-col gap-y-1">
 											<div class="input-title">Name</div>
 											<input v-model="name" type="text" class="placeholder:text-sm placeholder:text-white/40 input-css" />
