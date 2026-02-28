@@ -124,7 +124,12 @@
 										</transition>
 
 										<div class="flex flex-col gap-y-1">
-											<div class="input-title">Message</div>
+											<div class="input-title">
+                                                Message
+                                              <span v-if="store.activeTab === 'quote'" class="text-gray-500">
+                                                (Job Description)
+                                              </span>
+                                            </div>
 											<textarea v-model="quote" rows="8" class="placeholder:text-sm placeholder:text-white/40 input-css" />
 										</div>
 
