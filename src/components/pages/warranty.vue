@@ -72,22 +72,39 @@
             </div>
           </div>
 
+
           <div class="mt-6 grid grid-cols-2 gap-3">
-            <div class="rounded-xl border border-gray-700 bg-black/30 p-4">
-              <div class="text-sm text-gray-300 font-semibold">6 months</div>
-              <div class="text-2xl font-extrabold text-white">${{ formatMoney(2400 / 6) }}/mo</div>
+            <div class="rounded-xl border border-gray-700 bg-black/30 p-4 overflow-hidden">
+
+             <div class="grid grid-cols-1 xs:inline-grid xs:grid-flow-col xs:auto-cols-max items-center xs:gap-x-1 whitespace-nowrap">
+                <div class="text-base xs:text-sm text-gray-300 font-semibold">6 months</div>
+                <div class="text-xs text-gray-500 font-semibold">0% Interest</div>
+              </div>
+              <div class="text-xl sm:text-2xl font-extrabold text-white">${{ formatMoney(2400 / 6) }}/mo</div>
             </div>
-            <div class="rounded-xl border border-gray-700 bg-black/30 p-4">
-              <div class="text-sm text-gray-300 font-semibold">18 months</div>
-              <div class="text-2xl font-extrabold text-white">${{ formatMoney(2400 / 18) }}/mo</div>
+            <div class="rounded-xl border border-gray-700 bg-black/30 p-4 overflow-hidden">
+
+             <div class="grid grid-cols-1 xs:inline-grid xs:grid-flow-col xs:auto-cols-max items-center xs:gap-x-1 whitespace-nowrap">
+                <div class="text-base xs:text-sm text-gray-300 font-semibold">18 months</div>
+                <div class="text-xs text-gray-500 font-semibold">0% Interest</div>
+              </div>
+              <div class="text-xl sm:text-2xl font-extrabold text-white">${{ formatMoney(2400 / 18) }}/mo</div>
             </div>
-            <div class="rounded-xl border border-gray-700 bg-black/30 p-4">
-              <div class="text-sm text-gray-300 font-semibold">24 months</div>
-              <div class="text-2xl font-extrabold text-white">${{ formatMoney(2400 / 24) }}/mo</div>
+            <div class="rounded-xl border border-gray-700 bg-black/30 p-4 overflow-hidden">
+
+             <div class="grid grid-cols-1 xs:inline-grid xs:grid-flow-col xs:auto-cols-max items-center xs:gap-x-1 whitespace-nowrap">
+                <div class="text-base xs:text-sm text-gray-300 font-semibold">24 months</div>
+                <div class="text-xs text-gray-500 font-semibold">0% Interest</div>
+              </div>
+              <div class="text-xl sm:text-2xl font-extrabold text-white">${{ formatMoney(2400 / 24) }}/mo</div>
             </div>
-            <div class="rounded-xl border border-gray-700 bg-black/30 p-4">
-              <div class="text-sm text-gray-300 font-semibold">36 months</div>
-              <div class="text-2xl font-extrabold text-white">${{ formatMoney(2400 / 36) }}/mo</div>
+            <div class="rounded-xl border border-gray-700 bg-black/30 p-4 overflow-hidden">
+
+             <div class="grid grid-cols-1 xs:inline-grid xs:grid-flow-col xs:auto-cols-max items-center xs:gap-x-1 whitespace-nowrap">
+                <div class="text-base xs:text-sm text-gray-300 font-semibold">36 months</div>
+                <div class="text-xs text-gray-500 font-semibold">0% Interest</div>
+              </div>
+              <div class="text-xl sm:text-2xl font-extrabold text-white">${{ formatMoney(2400 / 36) }}/mo</div>
             </div>
           </div>
 
@@ -136,22 +153,39 @@
             </div>
           </div>
 
+
           <div class="mt-6 grid grid-cols-2 gap-3">
-            <div class="rounded-xl border border-gray-700 bg-black/30 p-4">
-              <div class="text-sm text-gray-300 font-semibold">6 months</div>
-              <div class="text-2xl font-extrabold text-white">${{ formatMoney(2700 / 6) }}/mo</div>
+            <div class="rounded-xl border border-gray-700 bg-black/30 p-4 overflow-hidden">
+
+             <div class="grid grid-cols-1 xs:inline-grid xs:grid-flow-col xs:auto-cols-max items-center xs:gap-x-1 whitespace-nowrap">
+                <div class="text-base xs:text-sm text-gray-300 font-semibold">6 months</div>
+                <div class="text-xs text-gray-500 font-semibold">0% Interest</div>
+              </div>
+              <div class="text-xl sm:text-2xl font-extrabold text-white">${{ formatMoney(2700 / 6) }}/mo</div>
             </div>
-            <div class="rounded-xl border border-gray-700 bg-black/30 p-4">
-              <div class="text-sm text-gray-300 font-semibold">18 months</div>
-              <div class="text-2xl font-extrabold text-white">${{ formatMoney(2700 / 18) }}/mo</div>
+            <div class="rounded-xl border border-gray-700 bg-black/30 p-4 overflow-hidden">
+
+             <div class="grid grid-cols-1 xs:inline-grid xs:grid-flow-col xs:auto-cols-max items-center xs:gap-x-1 whitespace-nowrap">
+                <div class="text-base xs:text-sm text-gray-300 font-semibold">18 months</div>
+                <div class="text-xs text-gray-500 font-semibold">0% Interest</div>
+              </div>
+              <div class="text-xl sm:text-2xl font-extrabold text-white">${{ formatMoney(2700 / 18) }}/mo</div>
             </div>
-            <div class="rounded-xl border border-gray-700 bg-black/30 p-4">
-              <div class="text-sm text-gray-300 font-semibold">24 months</div>
-              <div class="text-2xl font-extrabold text-white">${{ formatMoney(2700 / 24) }}/mo</div>
+            <div class="rounded-xl border border-gray-700 bg-black/30 p-4 overflow-hidden">
+
+             <div class="grid grid-cols-1 xs:inline-grid xs:grid-flow-col xs:auto-cols-max items-center xs:gap-x-1 whitespace-nowrap">
+                <div class="text-base xs:text-sm text-gray-300 font-semibold">24 months</div>
+                <div class="text-xs text-gray-500 font-semibold">0% Interest</div>
+              </div>
+              <div class="text-xl sm:text-2xl font-extrabold text-white">${{ formatMoney(2700 / 24) }}/mo</div>
             </div>
-            <div class="rounded-xl border border-gray-700 bg-black/30 p-4">
-              <div class="text-sm text-gray-300 font-semibold">36 months</div>
-              <div class="text-2xl font-extrabold text-white">${{ formatMoney(2700 / 36) }}/mo</div>
+            <div class="rounded-xl border border-gray-700 bg-black/30 p-4 overflow-hidden">
+
+             <div class="grid grid-cols-1 xs:inline-grid xs:grid-flow-col xs:auto-cols-max items-center xs:gap-x-1 whitespace-nowrap">
+                <div class="text-base xs:text-sm text-gray-300 font-semibold">36 months</div>
+                <div class="text-xs text-gray-500 font-semibold">0% Interest</div>
+              </div>
+              <div class="text-xl sm:text-2xl font-extrabold text-white">${{ formatMoney(2700 / 36) }}/mo</div>
             </div>
           </div>
 
